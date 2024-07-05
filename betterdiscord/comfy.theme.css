@@ -1,13 +1,13 @@
 /**
-* @name Comfy
+* @name Comfy (metro's ver)
 * @author Nyria#3863
-* @description Stay comfy while talking to your friends
+* @description Stay comfy while talking to your friends, edited by @metro420yt
 * @invite rtBQX5D3bD
 * @version 2.4
 * @donate https://ko-fi.com/nyria
 */
 
-@import "https://comfy-themes.github.io/Discord/betterdiscord/main.css";
+@import "https://raw.githubusercontent.com/Metro420yt/Discord-comfy/master/betterdiscord/main.css";
 
 /* ═══════『 ⚠️・Important tips 』═══════
 *
@@ -20,13 +20,13 @@
 */
 
 /* ═══════『 🚫 ・ No scrollbars 』- Comment the line below if you want the scrollbar back */
-@import "https://comfy-themes.github.io/Discord/betterdiscord/no-scrollbar.css";
+@import "https://raw.githubusercontent.com/Metro420yt/Discord-comfy/master/betterdiscord/no-scrollbar.css";
 
 /* ═══════『 🎵 ・ Better SpotifyControls seek bar 』- Comment the line below if you don't want this spotify bar */
-@import "https://comfy-themes.github.io/Discord/betterdiscord/better-spotify.css";
+@import "https://raw.githubusercontent.com/Metro420yt/Discord-comfy/master/betterdiscord/better-spotify.css";
 
 /* ═══════『 🎵 ・ Vencord Spotify Plugin 』- Comment the line below if you don't want this spotify bar FOR VENCORD */
-@import "https://comfy-themes.github.io/Discord/betterdiscord/vencord-spotify.css";
+@import "https://raw.githubusercontent.com/Metro420yt/Discord-comfy/master/betterdiscord/vencord-spotify.css";
 
 :root {
   /* ═══════『 💨 ・ Animations 』- If you don't want a high CPU usage, comment the line below */

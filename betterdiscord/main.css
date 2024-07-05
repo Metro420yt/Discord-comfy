@@ -9,7 +9,7 @@
   z-index: 2;
   margin: 0;
   padding: 0;
-  min-width: unset;
+  min-width: unset !important;
 }
 :root .panels_a4d4d9 > .container_b2ca13 > .avatarWrapper_b2ca13 > .avatar_b2ca13 {
   width: 40px !important;
@@ -895,7 +895,7 @@
   position: absolute;
   height: 25px;
   z-index: 1;
-  width: 284px;
+  width: 100%;
   top: -25px;
   left: 0;
   background: var(--background-secondary);
@@ -930,7 +930,7 @@
   position: absolute;
   height: 25px;
   z-index: 2;
-  width: 284px;
+  width: 100%;
   top: -24px;
   left: 0;
   background: #7289da;
@@ -956,7 +956,7 @@
   content: "";
   position: absolute;
   height: 25px;
-  width: 284px;
+  width: 100%;
   top: -24px;
   left: 0;
   z-index: 3;
@@ -1974,7 +1974,7 @@
   position: absolute;
   height: 25px;
   z-index: 2;
-  width: 284px;
+  width: 100%;
   top: -24px;
   left: 0;
   background: #7289da;
@@ -2000,7 +2000,7 @@
   content: "";
   position: absolute;
   height: 25px;
-  width: 284px;
+  width: 100%;
   top: -24px;
   left: 0;
   z-index: 3;
