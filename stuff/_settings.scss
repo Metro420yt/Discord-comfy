@@ -7,7 +7,7 @@
   }
   .contentColumn_c25c6d,
   .customColumn_c25c6d,
-  .sidebarScrollable_e9196a + .content_e9196a,
+  .sidebarScrollable_ff90b2 + .content_ff90b2,
   .customScroller_c25c6d > div {
     max-width: 95%;
   }
@@ -191,7 +191,7 @@
     flex-direction: row-reverse;
     justify-content: flex-end;
 
-    .textBadge_f05120.baseShapeRound_c1de89 {
+    .textBadge_f05120.baseShapeRound_df8943 {
       margin-right: 7px;
     }
   }
@@ -229,7 +229,7 @@
 
   // Billing
   .paymentRow_f66684,
-  .pageActions_cb56ee,
+  .pageActions_d6a4eb,
   .codeRedemptionRedirect_cb70f4 {
     background: var(--background-secondary-alt);
   }
@@ -285,7 +285,7 @@
   .bannerUpsellContainer-31E9J5 {
     background-color: var(--background-secondary);
   }
-  .flexChild_bba380[style="flex: 1 1 50%;"] {
+  .flexChild_dc333f[style="flex: 1 1 50%;"] {
     flex: 1 !important;
   }
 
@@ -538,7 +538,7 @@
   }
 
   // Widget
-  .copyInput_f549fd {
+  .copyInput_d7e343 {
     border: none;
   }
 
@@ -586,10 +586,10 @@
     background: var(--background-secondary);
   }
   .tierHeaderContent_da77bd,
-  .tierInProgress_a4fd01 {
+  .tierInProgress_bfac79 {
     background: var(--background-secondary-alt);
   }
-  .background_a4fd01 {
+  .background_bfac79 {
     color: var(--background-secondary-alt);
   }
   .subscribers_da77bd .subscriberMask_da77bd {

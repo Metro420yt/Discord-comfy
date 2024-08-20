@@ -138,10 +138,10 @@
         margin-top: 25px;
         z-index: 1;
 
-        .text_aa267a,
-        .textRow_d5089b,
+        .text_ec2fa7,
+        .textRow_c1d9fd,
         .anchor_af404b,
-        .activityName_d5089b {
+        .activityName_c1d9fd {
           color: white;
         }
 
@@ -153,7 +153,7 @@
         }
 
         // Waves are back :D
-        .headerTextNormal_d5089b::before {
+        .headerTextNormal_c1d9fd::before {
           content: "";
           position: absolute;
           height: 25px;
@@ -209,7 +209,7 @@
         }
 
         // Spotify
-        .timeBarUserPopoutV2_d5089b {
+        .timeBarUserPopoutV2_c1d9fd {
           &::before {
             content: "";
             position: absolute;
@@ -247,12 +247,12 @@
             }
           }
 
-          .barInner_aa267a {
+          .barInner_ec2fa7 {
             background-color: white;
           }
         }
 
-        .platformIcon_d5089b {
+        .platformIcon_c1d9fd {
           display: none;
         }
       }
@@ -416,20 +416,20 @@
     }
 
     // -- Activities --
-    .activityProfileV2_d5089b {
+    .activityProfileV2_c1d9fd {
       padding: 16px;
       margin: 12px;
       border-radius: 5px;
       overflow: hidden;
       z-index: 1;
 
-      .headerText_d5089b,
-      .activityName_d5089b,
+      .headerText_c1d9fd,
+      .activityName_c1d9fd,
       .null,
-      .details_d5089b,
-      .name_d5089b,
-      .nameNormal_d5089b,
-      .nameWrap_d5089b {
+      .details_c1d9fd,
+      .name_c1d9fd,
+      .nameNormal_c1d9fd,
+      .nameWrap_c1d9fd {
         color: white;
       }
 
@@ -441,8 +441,8 @@
       }
 
       // Playing
-      .contentImagesProfileV2_d5089b::after,
-      .contentGameImageProfile_d5089b::after {
+      .contentImagesProfileV2_c1d9fd::after,
+      .contentGameImageProfile_c1d9fd::after {
         content: "";
         position: absolute;
         width: 100%;
@@ -454,7 +454,7 @@
       }
 
       // Spotify
-      .timeBarProfileV2_d5089b::after {
+      .timeBarProfileV2_c1d9fd::after {
         content: "";
         position: absolute;
         width: 100%;
@@ -464,7 +464,7 @@
         top: 0;
         background: #1db954;
       }
-      .platformIcon_d5089b {
+      .platformIcon_c1d9fd {
         display: none !important;
       }
     }

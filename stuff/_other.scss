@@ -201,7 +201,7 @@
   // Popups
   .root_f9a4c9,
   .footer_f9a4c9,
-  .modal_ec75c1 {
+  .modal_c97cbd {
     box-shadow: none;
   }
 
@@ -219,7 +219,7 @@
   .cardPrimaryOutline-1ofwVz,
   .codeRedemptionRedirect_cb70f4,
   .previewOverlay-2reuWf,
-  .markup_d6076c code {
+  .markup_f8f345 code {
     border: none;
   }
 
@@ -383,8 +383,8 @@
 
   // Avatars radius
   .wrapper_c51b4e foreignObject,
-  .callAvatarMask_a5cd29 foreignObject,
-  .avatarContainer_c47562 foreignObject,
+  .callAvatarMask_db83a2 foreignObject,
+  .avatarContainer_d03bba foreignObject,
   .avatarMasked__0b3c8 {
     mask: none;
     -webkit-mask: none;
@@ -393,21 +393,21 @@
   .wrapper_c51b4e,
   .avatar_c51b4e,
   .profile_d6fbe8 .avatarUploaderInner-yEhTv5,
-  .voiceAvatar_a5cd29,
-  .avatar_ec86aa,
-  .border_a5cd29,
-  .avatar_cdc675,
-  .clickableAvatar_c47562,
-  .emptyUser_c47562,
-  .avatar_c47562,
-  .wrapper_a5cd29.ringingIncoming_a5cd29::after,
-  .wrapper_a5cd29.ringingOutgoing_a5cd29::after,
-  .replyAvatar_ec86aa,
+  .voiceAvatar_db83a2,
+  .avatar_f9f2ca,
+  .border_db83a2,
+  .avatar_d80634,
+  .clickableAvatar_d03bba,
+  .emptyUser_d03bba,
+  .avatar_d03bba,
+  .wrapper_db83a2.ringingIncoming_db83a2::after,
+  .wrapper_db83a2.ringingOutgoing_db83a2::after,
+  .replyAvatar_f9f2ca,
   .avatarSpeaking_c51b4e,
   .avatar-2EVtgZ,
-  .avatarContainerMasked_c47562,
+  .avatarContainerMasked_d03bba,
   .appAvatar-2_lufo,
-  .embedAuthorIcon_ad0b71 {
+  .embedAuthorIcon_b0068a {
     border-radius: var(--avatar-radius);
   }
 
@@ -424,11 +424,11 @@
   .wrapper_c5f96a foreignObject,
   .folderIconWrapper_bc7085,
   .expandedFolderBackground_bc7085,
-  .flexChild_bba380 .avatarUploaderInner_f0a9ff {
+  .flexChild_dc333f .avatarUploaderInner_f0a9ff {
     border-radius: var(--server-radius);
   }
 
-  .iconInactive_f11207 {
+  .iconInactive_a64689 {
     border-radius: calc(var(--server-radius) - 4px);
   }
 
@@ -544,7 +544,7 @@
     }
   }
 
-  .gameVerifiedIcon-3t4jtr .flowerStar_ff7d90 > path {
+  .gameVerifiedIcon-3t4jtr .flowerStar_c91f7d > path {
     fill: var(--brand-experiment);
   }
 
