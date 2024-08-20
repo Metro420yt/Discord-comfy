@@ -1,0 +1,25 @@
+name: Compile Sass
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+    - stuff/**
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile
+        uses: gha-utilities/sass-build@v0.6.0
+        with:
+          source: ./app.scss
+          destination: ./betterdiscord/main.css
+          outputStyle: expanded
+      - uses: EndBug/add-and-commit@v9
+        with:
+          default_author: github_actions
+          message: 'chore: build sass'
+          fetch: true
