@@ -117,7 +117,7 @@
     }
 
     // Body
-    .userPopoutOverlayBackground_c69a7b {
+    .userPopoutInner_c69a7b {
       .scroller_d2b491 {
         padding-right: 12px !important;
       }
@@ -133,7 +133,7 @@
       }
 
       // -- Activities --
-      .activity_e36233 {
+      .body_b07019>.activity_cd74cc {
         padding: 16px;
         margin-top: 25px;
         z-index: 1;
@@ -209,7 +209,7 @@
         }
 
         // Spotify
-        .timeBarUserPopoutV2_c1d9fd {
+        .barInner_ec2fa7 {
           &::before {
             content: "";
             position: absolute;
