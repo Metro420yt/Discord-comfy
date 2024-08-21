@@ -9,7 +9,7 @@
   z-index: 2;
   margin: 0;
   padding: 0;
-  min-width: unset !important;
+  min-width: unset;
 }
 :root .panels_a4d4d9 > .container_b2ca13 > .avatarWrapper_b2ca13 > .avatar_b2ca13 {
   width: 40px !important;
@@ -81,12 +81,9 @@
 }
 :root .spamBanner_c1da2c {
   position: relative;
-  flex-direction: column;
-  left: 56px;
+  margin-left: 64px;
   bottom: 8px;
-  width: 330px;
-  height: fit-content;
-  row-gap: 30px;
+  padding: 8px;
 }
 :root .spamBanner_c1da2c .bannerTextContainer_c1da2c {
   min-width: 0;
@@ -403,6 +400,7 @@
 :root .panels_a4d4d9 > .container_b2ca13 > .flex_dc333f > .button_adca65 {
   color: var(--user-buttons-color);
   margin: var(--user-buttons-spacing) auto 0 auto;
+  width: 100%;
 }
 :root .inner-1ilYF7 > .modal_c97cbd > .header_f9a4c9,
 :root .modal_c97cbd,
@@ -863,34 +861,34 @@
   z-index: 1;
   background-color: transparent;
 }
-:root .userPopoutOuter_c69a7b .userPopoutOverlayBackground_c69a7b .scroller_d2b491 {
+:root .userPopoutOuter_c69a7b .userPopoutInner_c69a7b .scroller_d2b491 {
   padding-right: 12px !important;
 }
-:root .userPopoutOuter_c69a7b .userPopoutOverlayBackground_c69a7b .section_d7a21f {
+:root .userPopoutOuter_c69a7b .userPopoutInner_c69a7b .section_d7a21f {
   padding-top: 0;
   padding-bottom: 12px;
 }
-:root .userPopoutOuter_c69a7b .userPopoutOverlayBackground_c69a7b .divider_ae36e5 {
+:root .userPopoutOuter_c69a7b .userPopoutInner_c69a7b .divider_ae36e5 {
   display: none;
 }
-:root .userPopoutOuter_c69a7b .userPopoutOverlayBackground_c69a7b .activity_e36233 {
+:root .userPopoutOuter_c69a7b .userPopoutInner_c69a7b .body_b07019 > .activity_cd74cc {
   padding: 16px;
   margin-top: 25px;
   z-index: 1;
 }
-:root .userPopoutOuter_c69a7b .userPopoutOverlayBackground_c69a7b .activity_e36233 .text_ec2fa7,
-:root .userPopoutOuter_c69a7b .userPopoutOverlayBackground_c69a7b .activity_e36233 .textRow_c1d9fd,
-:root .userPopoutOuter_c69a7b .userPopoutOverlayBackground_c69a7b .activity_e36233 .anchor_af404b,
-:root .userPopoutOuter_c69a7b .userPopoutOverlayBackground_c69a7b .activity_e36233 .activityName_c1d9fd {
+:root .userPopoutOuter_c69a7b .userPopoutInner_c69a7b .body_b07019 > .activity_cd74cc .text_ec2fa7,
+:root .userPopoutOuter_c69a7b .userPopoutInner_c69a7b .body_b07019 > .activity_cd74cc .textRow_c1d9fd,
+:root .userPopoutOuter_c69a7b .userPopoutInner_c69a7b .body_b07019 > .activity_cd74cc .anchor_af404b,
+:root .userPopoutOuter_c69a7b .userPopoutInner_c69a7b .body_b07019 > .activity_cd74cc .activityName_c1d9fd {
   color: white;
 }
-:root .userPopoutOuter_c69a7b .userPopoutOverlayBackground_c69a7b .activity_e36233 .buttonColor_e36233 {
+:root .userPopoutOuter_c69a7b .userPopoutInner_c69a7b .body_b07019 > .activity_cd74cc .buttonColor_e36233 {
   border: none;
   background-color: var(--listening-test);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1294117647);
   color: #fff;
 }
-:root .userPopoutOuter_c69a7b .userPopoutOverlayBackground_c69a7b .activity_e36233 .headerTextNormal_c1d9fd::before {
+:root .userPopoutOuter_c69a7b .userPopoutInner_c69a7b .body_b07019 > .activity_cd74cc .headerTextNormal_c1d9fd::before {
   content: "";
   position: absolute;
   height: 25px;
@@ -913,7 +911,7 @@
     -webkit-mask-position-x: 0;
   }
 }
-:root .userPopoutOuter_c69a7b .userPopoutOverlayBackground_c69a7b .activity_e36233::before {
+:root .userPopoutOuter_c69a7b .userPopoutInner_c69a7b .body_b07019 > .activity_cd74cc::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -925,7 +923,7 @@
   background: var(--playing);
   border-radius: 0 0 10px 10px;
 }
-:root .userPopoutOuter_c69a7b .userPopoutOverlayBackground_c69a7b .activity_e36233::after {
+:root .userPopoutOuter_c69a7b .userPopoutInner_c69a7b .body_b07019 > .activity_cd74cc::after {
   content: "";
   position: absolute;
   height: 25px;
@@ -940,7 +938,7 @@
   animation-delay: 0s;
   opacity: 1;
 }
-:root .userPopoutOuter_c69a7b .userPopoutOverlayBackground_c69a7b .activity_e36233 .timeBarUserPopoutV2_c1d9fd::before {
+:root .userPopoutOuter_c69a7b .userPopoutInner_c69a7b .body_b07019 > .activity_cd74cc .barInner_ec2fa7::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -952,7 +950,7 @@
   background: var(--listening);
   border-radius: 0 0 10px 10px;
 }
-:root .userPopoutOuter_c69a7b .userPopoutOverlayBackground_c69a7b .activity_e36233 .timeBarUserPopoutV2_c1d9fd::after {
+:root .userPopoutOuter_c69a7b .userPopoutInner_c69a7b .body_b07019 > .activity_cd74cc .barInner_ec2fa7::after {
   content: "";
   position: absolute;
   height: 25px;
@@ -974,30 +972,30 @@
     -webkit-mask-position-x: 284px;
   }
 }
-:root .userPopoutOuter_c69a7b .userPopoutOverlayBackground_c69a7b .activity_e36233 .timeBarUserPopoutV2_c1d9fd .barInner_ec2fa7 {
+:root .userPopoutOuter_c69a7b .userPopoutInner_c69a7b .body_b07019 > .activity_cd74cc .barInner_ec2fa7 .barInner_ec2fa7 {
   background-color: white;
 }
-:root .userPopoutOuter_c69a7b .userPopoutOverlayBackground_c69a7b .activity_e36233 .platformIcon_c1d9fd {
+:root .userPopoutOuter_c69a7b .userPopoutInner_c69a7b .body_b07019 > .activity_cd74cc .platformIcon_c1d9fd {
   display: none;
 }
-:root .userPopoutOuter_c69a7b .userPopoutOverlayBackground_c69a7b .role_e4010c {
+:root .userPopoutOuter_c69a7b .userPopoutInner_c69a7b .role_e4010c {
   position: relative;
   overflow: hidden;
   border: none;
   z-index: 1;
 }
-:root .userPopoutOuter_c69a7b .userPopoutOverlayBackground_c69a7b .role_e4010c:not(.addButton_e4010c) {
+:root .userPopoutOuter_c69a7b .userPopoutInner_c69a7b .role_e4010c:not(.addButton_e4010c) {
   pointer-events: none;
 }
-:root .userPopoutOuter_c69a7b .userPopoutOverlayBackground_c69a7b .role_e4010c .roleRemoveButton_f9575e {
+:root .userPopoutOuter_c69a7b .userPopoutInner_c69a7b .role_e4010c .roleRemoveButton_f9575e {
   position: static;
 }
-:root .userPopoutOuter_c69a7b .userPopoutOverlayBackground_c69a7b .role_e4010c .roleRemoveButton_f9575e .roleCircle_a26d7b {
+:root .userPopoutOuter_c69a7b .userPopoutInner_c69a7b .role_e4010c .roleRemoveButton_f9575e .roleCircle_a26d7b {
   width: var(--role-circle) !important;
   height: var(--role-circle) !important;
   pointer-events: auto;
 }
-:root .userPopoutOuter_c69a7b .userPopoutOverlayBackground_c69a7b .role_e4010c .roleRemoveButton_f9575e .roleCircle_a26d7b::before {
+:root .userPopoutOuter_c69a7b .userPopoutInner_c69a7b .role_e4010c .roleRemoveButton_f9575e .roleCircle_a26d7b::before {
   position: absolute;
   content: "";
   top: 0;
@@ -1010,10 +1008,10 @@
   pointer-events: none;
   transition: background 200ms;
 }
-:root .userPopoutOuter_c69a7b .userPopoutOverlayBackground_c69a7b .role_e4010c .roleRemoveButton_f9575e .roleCircle_a26d7b:hover {
+:root .userPopoutOuter_c69a7b .userPopoutInner_c69a7b .role_e4010c .roleRemoveButton_f9575e .roleCircle_a26d7b:hover {
   background: #fd5959 !important;
 }
-:root .userPopoutOuter_c69a7b .userPopoutOverlayBackground_c69a7b .role_e4010c .roleRemoveButton_f9575e .roleRemoveIcon_e4010c {
+:root .userPopoutOuter_c69a7b .userPopoutInner_c69a7b .role_e4010c .roleRemoveButton_f9575e .roleRemoveIcon_e4010c {
   display: none;
 }
 :root .container_ac201b {
