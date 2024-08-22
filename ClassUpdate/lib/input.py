@@ -29,7 +29,10 @@ def get_config(config_filename):
         raise FileNotFoundError("Config file not found.")
     raw_config.read(config_filename)
 
-    profile = sys.argv[1] or "DEFAULT"
+    profile =  "DEFAULT"
+    if (len(sys.argv) > 1):
+        profile = sys.argv[1]
+
     if not "-y" in sys.argv and input(f"Use {q(profile)} profile? [Y/n]\t").lower() == "n":
         profile = input("Config profile name:\t\t")
         profile = try_user(raw_config, profile)
