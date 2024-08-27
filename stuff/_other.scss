@@ -533,8 +533,10 @@
   }
 
   // Revert some Discord internal changes
-  --brand-experiment: #7289da;
-  --brand-experiment-560: #5b70be;
+  & {
+    --brand-experiment: #7289da;
+    --brand-experiment-560: #5b70be;
+  }
 
   .lookFilled-yCfaCM.colorGrey-2iAG-B,
   .lookFilled-yCfaCM.colorBrandNew-2-gGsS {
