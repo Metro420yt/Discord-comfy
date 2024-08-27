@@ -70,7 +70,7 @@
     }
 
     // Username
-    .userPopoutOverlayBackground_c69a7b {
+    .fullSizeOverlayBackground_c69a7b {
       position: static;
       overflow: visible;
       margin: 16px;
@@ -97,7 +97,7 @@
       }
     }
     .profileBadges_f89da9:empty
-      + .userPopoutOverlayBackground_c69a7b
+      + .fullSizeOverlayBackground_c69a7b
       .nickname_c9ccf6 {
       top: 20px;
     }
@@ -348,7 +348,7 @@
   }
 
   // -- User modal --
-  .userProfileModalOuter_c69a7b {
+  .fullSizeOuter_c69a7b {
     .userProfileModalInner_c69a7b {
       overflow: hidden;
 
@@ -357,10 +357,10 @@
       }
     }
 
-    .topSection-13QKHs {
+    header {
       margin-bottom: 0;
 
-      .bannerSVGWrapper_b32cc2 {
+      .mask_c3e427 {
         min-height: 160px !important;
 
         &[viewBox="0 0 600 106"] {
@@ -375,21 +375,10 @@
           border-radius: 0;
         }
       }
+    }
 
-      .avatar-3QF_VA {
-        top: -143px;
-      }
-
-      .headerTop-1PNKck {
-        flex-direction: column;
-        top: -95px;
-        left: 165px;
-
-        .badgeList-2aoHPw {
-          padding: 0 0 15px 0;
-          background-color: transparent;
-        }
-      }
+    .tags_c32acf > .container_e5a42d {
+      background-color: transparent;
     }
 
     .userProfileModalOverlayBackground_c69a7b {
@@ -471,10 +460,8 @@
 
     // Connections
     .connectedAccountContainer_f3eb60 {
-      border: solid #000000;
       border-width: 1.2px 1.2px 3px 1.2px;
       border-radius: 4px;
-      width: 296px;
       transition: 100ms;
 
       &:active {
@@ -502,6 +489,17 @@
 
     .pencilContainer_c3e427 {
       display: none;
+    }
+  }
+  .userProfileOuterUnthemed_c69a7b {
+    .fullSizeOverlayBackground_c69a7b {
+      background-color: var(--background-secondary);
+    }
+    .userProfileModalInner_c69a7b {
+      background-color: var(--background-secondary-alt);
+    }
+    &.userPopoutOuter_c69a7b > .userProfileInner_c69a7b {
+      background-color: var(--background-tretiary);
     }
   }
 
@@ -662,7 +660,7 @@
   .accountButtonInner_e2a436[aria-label="Instagram"]:hover,
   .connectionIcon_e2a436[alt="Instagram"],
   .connectedAccountIcon_f3eb60[aria-label="Instagram"] {
-    background-color: #E1306C3f;
+    background-color: #e1306c3f;
   }
 
   .accountBtnInner_ec99f9[aria-label="Roblox"],
@@ -686,6 +684,6 @@
   .accountButtonInner_e2a436[aria-label="Bungie.net"]:hover,
   .connectionIcon_e2a436[alt="Bungie.net"],
   .connectedAccountIcon_f3eb60[aria-label="Bungie.net"] {
-    background-color: #00A3E353;
+    background-color: #00a3e353;
   }
 }
