@@ -48,17 +48,22 @@
   .content_a4d4d9 > :nth-child(2):not(.chat_a7d72e),
   .callContainer_ed4410,
   .gatedContent_def860,
-  .chat_a7d72e > .content_a7d72e > .container_a6d69a > .list_a6d69a[data-list-id^='forum-channel-list'],
+  .chat_a7d72e
+    > .content_a7d72e
+    > .container_a6d69a
+    > .list_a6d69a[data-list-id^="forum-channel-list"],
   .chat_a7d72e > .content_a7d72e > .pageContainer_a9a262,
   .forumOrHome_ff5f90 + .content_a7d72e > .container__93316,
   .container_f1fd9c,
   .background_e85cee,
-  .page_d20375
-  {
+  .page_d20375 {
     z-index: 2;
   }
 
-  .chat_a7d72e > .content_a7d72e > .container_a6d69a > .list_a6d69a[data-list-id^='forum-channel-list'] {
+  .chat_a7d72e
+    > .content_a7d72e
+    > .container_a6d69a
+    > .list_a6d69a[data-list-id^="forum-channel-list"] {
     background-color: var(--background-primary);
   }
 

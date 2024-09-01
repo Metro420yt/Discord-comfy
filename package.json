@@ -12,8 +12,8 @@
     "build": "replugged build theme",
     "watch": "replugged build theme --watch",
     "bundle": "replugged bundle theme",
-    "lint": "prettier ./src --check",
-    "lint:fix": "prettier ./src --write"
+    "lint": "prettier ./stuff --check --config .prettierrc",
+    "lint:fix": "prettier ./stuff --write --config .prettierrc"
   },
   "author": "Nyria",
   "license": "WTFPL",
