@@ -61,9 +61,8 @@
     box-shadow: none;
   }
 
-  // User profile
+  // User profile (modal)
   .userProfileOuter_c69a7b {
-
     // Banner
     .bannerSVGWrapper_b32cc2 {
       overflow: visible;
@@ -173,7 +172,7 @@
     }
 
     // Body
-    .listScroller_e4be58 {
+    .scroller_fb646f {
       padding: 12px;
       display: flex;
       flex-direction: column;
@@ -184,7 +183,7 @@
       }
 
       // -- Activities --
-      .userProfileActivity_fc39e7 {
+      .section_ba4d80:first-child > .card_ae1fa2 {
         padding: 16px;
         margin-top: 25px;
         z-index: 1;
@@ -197,6 +196,14 @@
           color: white;
         }
 
+        .platformIcon_ae1fa2 {
+          background-color: var(--header-primary);
+        }
+
+        .contextMenu_ae1fa2 > svg > path {
+          fill: var(--header-primary);
+        }
+
         .buttonColor_e36233 {
           border: none;
           background-color: var(--listening-test);
@@ -205,7 +212,7 @@
         }
 
         // Waves are back :D
-        .headerTextNormal_c1d9fd::before {
+        .header_ae1fa2::before {
           content: "";
           position: absolute;
           height: 25px;
@@ -261,7 +268,7 @@
         }
 
         // Spotify
-        .barInner_ec2fa7 {
+        .bar_b5cd55 {
           &::before {
             content: "";
             position: absolute;
