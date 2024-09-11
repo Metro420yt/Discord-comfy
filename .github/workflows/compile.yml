@@ -5,8 +5,6 @@ on:
   push:
     paths:
     - stuff/**
-  repository_dispatch:
-    types: [complie]
 
 jobs:
   compile:
