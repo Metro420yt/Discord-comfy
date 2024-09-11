@@ -7,7 +7,7 @@
     "pnpm": ">=8.0.0"
   },
   "scripts": {
-    "class": "cd ./ClassUpdate && python ./replace.py LOCAL -y",
+    "classUpdate": "cd ./ClassUpdate && python ./replace.py LOCAL -y",
     "sass": "sass ./app.scss ./betterdiscord/main.css --no-source-map",
     "build": "replugged build theme",
     "watch": "replugged build theme --watch",
@@ -18,10 +18,8 @@
   "author": "Nyria",
   "license": "WTFPL",
   "devDependencies": {
-    "@parcel/config-default": "^2.8.3",
-    "@parcel/core": "^2.8.3",
-    "@types/node": "^18.15.11",
-    "prettier": "^2.8.7",
-    "replugged": "^4.7.9"
+    "prettier": "~3.3.3",
+    "replugged": "~4.8.1",
+    "sass": "~1.78.0"
   }
 }
