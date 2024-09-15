@@ -1173,13 +1173,11 @@
   display: none;
 }
 :root .userProfileOuterUnthemed_c69a7b .fullSizeOverlayBackground_c69a7b {
-  background-color: var(--background-secondary);
+  background-color: var(--background-tertiary);
 }
+:root .userProfileOuterUnthemed_c69a7b.userPopoutOuter_c69a7b > .userProfileInner_c69a7b,
 :root .userProfileOuterUnthemed_c69a7b .userProfileModalInner_c69a7b {
-  background-color: var(--background-secondary-alt);
-}
-:root .userProfileOuterUnthemed_c69a7b.userPopoutOuter_c69a7b > .userProfileInner_c69a7b {
-  background-color: var(--background-tretiary);
+  background-color: var(--background-primary);
 }
 :root .accountBtnInner_ec99f9[aria-label="Battle.net"],
 :root .accountButtonInner_e2a436[aria-label="Battle.net"],
@@ -2389,6 +2387,9 @@
 :root .appAvatar-2_lufo,
 :root .embedAuthorIcon_b0068a {
   border-radius: var(--avatar-radius);
+}
+:root .mask_d5fdb1 > mask > circle {
+  display: none;
 }
 :root .wrapper_c5f96a foreignObject {
   mask: none;
