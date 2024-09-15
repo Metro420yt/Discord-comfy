@@ -1,18 +1,17 @@
 <details>
-<summary id="fork-info">Fork Info</summary>
+<summary><h3>Want to use this fork as an alternative?</h3></summary>
 
-### want to use this fork as an alternate?
-
+### Using url
 replace the theme url with this url<br>
 `https://raw.githubusercontent.com/Metro420yt/Discord-comfy/master/betterdiscord/comfy.theme.css`<br><br>
 
-or if you have it installed locally<br>
+### Installed Locally
 replace `https://comfy-themes.github.io/Discord/betterdiscord/main.css`<br>
 
 with `https://raw.githubusercontent.com/Metro420yt/Discord-comfy/master/betterdiscord/main.css`<br>
-or `https://raw.yuji.app/discord/comfy/main.css`
-
+or `https://raw.yuji.app/discord/comfy/main.css` (personal dev build)
 </details>
+
 
 ---
 <br>
