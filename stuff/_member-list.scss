@@ -501,13 +501,11 @@
   }
   .userProfileOuterUnthemed_c69a7b {
     .fullSizeOverlayBackground_c69a7b {
-      background-color: var(--background-secondary);
+      background-color: var(--background-tertiary);
     }
+    &.userPopoutOuter_c69a7b > .userProfileInner_c69a7b,
     .userProfileModalInner_c69a7b {
-      background-color: var(--background-secondary-alt);
-    }
-    &.userPopoutOuter_c69a7b > .userProfileInner_c69a7b {
-      background-color: var(--background-tretiary);
+      background-color: var(--background-primary);
     }
   }
 
