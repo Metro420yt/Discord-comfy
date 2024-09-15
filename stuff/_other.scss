@@ -413,6 +413,11 @@
     border-radius: var(--avatar-radius);
   }
 
+  // thing behind avatar
+  .mask_d5fdb1 > mask > circle {
+    display: none;
+  }
+
   // Server radius
   .wrapper_c5f96a foreignObject {
     mask: none;
