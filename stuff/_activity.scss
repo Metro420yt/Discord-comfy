@@ -11,8 +11,8 @@
   .body_ad5fac .card_ae1fa2, //client user profile
   .section_ba4d80:first-child > .card_ae1fa2 // full profile
   {
-    padding: 16px;
-    margin-top: 25px;
+    padding-top: 12px;
+    margin-top: 12px;
     z-index: 1;
 
     .text_ec2fa7,
@@ -41,6 +41,15 @@
       background-color: #ffffff21;
       box-shadow: 0 4px 15px #00000021;
       color: #fff;
+    }
+
+    .header_ae1fa2 > * {
+      top: 0;
+      position: absolute;
+
+      &.headerTags_ae1fa2 {
+        right: 8px;
+      }
     }
 
     // Waves are back :D
