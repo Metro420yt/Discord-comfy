@@ -2130,7 +2130,7 @@
   fill: var(--online);
 }
 :root .pointerEvents_c51b4e[fill="#f0b232"] {
-  fill: var(--idle);
+  fill: var(--idle, var(--iddle));
 }
 :root .pointerEvents_c51b4e[fill="#f23f43"] {
   fill: var(--dnd);
