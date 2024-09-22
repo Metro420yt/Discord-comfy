@@ -253,6 +253,7 @@
       background-color: inherit;
       border-radius: 100%;
       z-index: -1;
+      // prettier-ignore
       animation: var(--disable-animations), 2s pulse infinite;
       will-change: transform;
     }
@@ -278,6 +279,7 @@
       background-color: inherit;
       border-radius: 100%;
       z-index: 1;
+      // prettier-ignore
       animation: var(--disable-animations), pulse 2s infinite;
       will-change: transform;
     }

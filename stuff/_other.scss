@@ -157,7 +157,7 @@
       fill: var(--online);
     }
     &[fill="#f0b232"] {
-      fill: var(--idle);
+      fill: var(--idle, var(--iddle)); //backwards compatibility
     }
     &[fill="#f23f43"] {
       fill: var(--dnd);
