@@ -106,6 +106,15 @@
       animation: animate 6s linear infinite;
       animation-delay: 0s;
       opacity: 1;
+
+      @keyframes animate {
+        0% {
+          -webkit-mask-position-x: 0;
+        }
+        100% {
+          -webkit-mask-position-x: 284px;
+        }
+      }
     }
 
     // Spotify
@@ -136,15 +145,36 @@
         -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="284" height="25" viewBox="0 0 284 25"><path d="M283.999 15.2776C228.798 15.2776 211.243 -0.0317305 140.048 -0.000164877C69.0475 -0.000164877 51.2975 15.2776 8.58307e-06 15.2776V24.9998H284C284 24.9998 283.999 18.9392 283.999 15.2776Z"/></svg>');
         animation: animate 6s linear infinite;
         animation-delay: 0s;
+      }
+    }
 
-        @keyframes animate {
-          0% {
-            -webkit-mask-position-x: 0;
-          }
-          100% {
-            -webkit-mask-position-x: 284px;
-          }
-        }
+    &:has([src*="/previews-ttv/"]) {
+      &::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        left: 0;
+        top: 0;
+        background: #6441a5;
+        background: var(--streaming);
+        border-radius: 0 0 10px 10px;
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        height: 25px;
+        width: 100%;
+        top: -24px;
+        left: 0;
+        z-index: 3;
+        background: #6441a5;
+        background: var(--streaming);
+        -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="284" height="25" viewBox="0 0 284 25"><path d="M283.999 15.2776C228.798 15.2776 211.243 -0.0317305 140.048 -0.000164877C69.0475 -0.000164877 51.2975 15.2776 8.58307e-06 15.2776V24.9998H284C284 24.9998 283.999 18.9392 283.999 15.2776Z"/></svg>');
+        animation: animate 6s linear infinite;
+        animation-delay: 0s;
       }
     }
   }
