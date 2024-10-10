@@ -9,7 +9,6 @@ replace the theme url with this url<br>
 replace `https://comfy-themes.github.io/Discord/betterdiscord/main.css`<br>
 
 with `https://raw.githubusercontent.com/Metro420yt/Discord-comfy/master/betterdiscord/main.css`<br>
-or `https://raw.yuji.app/discord/comfy/main.css` (personal dev build)
 </details>
 
 
