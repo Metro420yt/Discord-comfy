@@ -61,7 +61,7 @@
     box-shadow: none;
   }
 
-  // User profile (modal)
+  // full User profile (modal)
   .userProfileOuter_c69a7b {
     // Banner
     .bannerSVGWrapper_b32cc2 {
@@ -176,10 +176,13 @@
       padding: 12px;
       display: flex;
       flex-direction: column;
-      row-gap: 8px;
 
       .scroller_d2b491 {
         padding-right: 12px !important;
+      }
+
+      .section_ba4d80 {
+        gap: 16px;
       }
     }
   }
