@@ -148,6 +148,7 @@
       }
     }
 
+    //twitch
     &:has([src*="/previews-ttv/"]) {
       &::before {
         content: "";
