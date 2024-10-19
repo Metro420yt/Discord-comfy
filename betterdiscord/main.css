@@ -1027,6 +1027,9 @@
 :root .userProfileOuterUnthemed_c69a7b .userProfileModalInner_c69a7b {
   background-color: var(--background-primary);
 }
+:root .tabBar_ecc04c {
+  margin-bottom: 4px;
+}
 :root .accountBtnInner_ec99f9[aria-label="Battle.net"],
 :root .accountButtonInner_e2a436[aria-label="Battle.net"],
 :root .accountButtonInner_e2a436[aria-label="Battle.net"]:hover,
@@ -2500,6 +2503,12 @@
 
 .theme-dark {
   --card-secondary-bg: var(--background-secondary);
+  --theme-base-color: var(--background-tertiary);
+  --theme-base-color-amount: 100%;
+  --bg-base-primary: var(--background-primary);
+  --bg-base-secondary: var(--background-secondary);
+  --bg-base-tertiary: var(--background-tertiary);
+  --bg-surface-raised: var(--background-tertiary);
 }
 
 :root #GameActivityToggleBtn .st0 {
