@@ -4,9 +4,9 @@
 
     .children_fc4f04::after {
       background: linear-gradient(
-                      90deg,
-                      rgba(54, 57, 63, 0) 0,
-                      var(--background-secondary)
+        90deg,
+        rgba(54, 57, 63, 0) 0,
+        var(--background-secondary)
       );
     }
 
@@ -76,16 +76,16 @@
 
       &::after {
         background: linear-gradient(
-                        90deg,
-                        rgba(54, 57, 63, 0),
-                        var(--background-secondary-alt) 80%
+          90deg,
+          rgba(54, 57, 63, 0),
+          var(--background-secondary-alt) 80%
         );
       }
       &.selected-rZcOL- {
         background: linear-gradient(
-                        90deg,
-                        rgba(54, 57, 63, 0),
-                        var(--background-secondary) 80%
+          90deg,
+          rgba(54, 57, 63, 0),
+          var(--background-secondary) 80%
         );
       }
     }
