@@ -79,11 +79,6 @@
       }
     }
 
-    // goofy status thing
-    .statusBubble_d22603 {
-      background-color: var(--background-tertiary);
-    }
-
     // Body
     .body_b8cc6d {
       position: static;
@@ -101,6 +96,13 @@
         overflow: hidden;
         display: block;
         pointer-events: none;
+        background-color: #0000003f;
+        border-radius: 8px;
+        padding: 2px;
+
+        .usernameRow_c32acf h1 {
+          color: var(--header-primary);
+        }
       }
 
       // Roles

@@ -1,0 +1,46 @@
+:root {
+  .userPopoutOuter_c69a7b {
+    & {
+      overflow: unset !important;
+    }
+
+    //profile actions
+    .wrapper_cb78f1 {
+      top: -16px;
+      // background-color: var(--profile-gradient-primary-color);
+      border-radius: 8px;
+      margin: 1px 6px;
+      transform: scale(0.9);
+      right: 6px;
+    }
+
+    div > button {
+      border-radius: 8px !important;
+      background-color: var(--profile-gradient-primary-color);
+    }
+
+    //status parent
+    .header_b8cc6d > :has(.statusBubbleOuter_d0a252) {
+      height: 0;
+    }
+
+    // status
+    .statusBubbleOuter_d0a252 {
+      top: -24px;
+
+      &::before {
+        top: -8px !important;
+        left: 4px !important;
+      }
+      &::after {
+        top: -16px !important;
+        left: -8px !important;
+      }
+
+      .statusBubble_d22603 {
+        background-color: var(--background-tertiary);
+        top: -24px;
+      }
+    }
+  }
+}
