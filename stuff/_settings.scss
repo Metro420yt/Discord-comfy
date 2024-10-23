@@ -193,7 +193,9 @@
   }
 
   // Family center
-  #activity-tab .max-width_d00e26, #activity-tab .max-width_a2e886, #requests-tab .container_f70f48 {
+  #activity-tab .max-width_d00e26,
+  #activity-tab .max-width_a2e886,
+  #requests-tab .container_f70f48 {
     max-width: unset;
   }
 
@@ -218,6 +220,10 @@
     border-radius: 5px;
     padding: 4px;
   }
+  .accountButtonInner_e2a436 {
+    border: none;
+  }
+
   .accountButtonInner_e2a436 {
     border: none;
   }
@@ -251,7 +257,13 @@
   .gemIndicatorContainer_b03ca0 {
     background-color: var(--background-tertiary);
   }
-  .boostContainer_dba803, .card_d1fdce {
+  .boostContainer_dba803,
+  .card_d1fdce {
+    background-color: var(--background-secondary);
+  }
+
+  .boostContainer_dba803,
+  .card_d1fdce {
     background-color: var(--background-secondary);
   }
 

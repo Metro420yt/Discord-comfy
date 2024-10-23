@@ -1,16 +1,11 @@
 :root {
-  .activityProfileV2_c1d9fd {
-    margin: 12px;
-    border-radius: 5px;
-    overflow: hidden;
-  }
-
   //   .activityProfileV2_c1d9fd, //wtf is this class
   .body_b8cc6d .activity_b8cc6d, //member list popout
   .body_a972fe .card_ae1fa2, //dm profile sidebar
   .body_ad5fac .card_ae1fa2, //client user profile
   .section_ba4d80:first-child > .card_ae1fa2 // full profile
   {
+    border-radius: 5px;
     padding-top: 12px;
     margin-top: 12px;
     z-index: 1;
@@ -35,12 +30,12 @@
       fill: var(--header-primary);
     }
 
-    .buttonColor_e36233,
-    .button_c6eb7b {
+    .button_dd4f85 {
       border: none;
-      background-color: #ffffff21;
+      background-color: rgba(255, 255, 255, 0.2);
       box-shadow: 0 4px 15px #00000021;
       color: #fff;
+      border-radius: 8px;
     }
 
     .header_ae1fa2 > * {
@@ -53,7 +48,7 @@
     }
 
     // Waves are back :D
-    .header_ae1fa2::before {
+    .headerTextNormal_c1d9fd::before {
       content: "";
       position: absolute;
       height: 25px;
