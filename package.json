@@ -7,19 +7,17 @@
     "pnpm": ">=8.0.0"
   },
   "scripts": {
-    "classUpdate": "cd ./ClassUpdate && python ./replace.py LOCAL -y",
-    "sass": "sass ./app.scss ./betterdiscord/main.css --no-source-map",
-    "build": "replugged build theme",
-    "watch": "replugged build theme --watch",
-    "bundle": "replugged bundle theme",
+    "class": "cd ./ClassUpdate && python ./replace.py LOCAL -y",
+    "dev": "nodemon -w \"./stuff\" -e scss -x \"sass ./app.scss \"%appdata%/Vencord/themes/_tmp/main.css\" --no-source-map\"",
+    "build": "sass ./app.scss ./betterdiscord/main.css --no-source-map --style=compressed",
     "lint": "prettier **/*.scss --check",
     "lint:fix": "prettier **/*.scss --write"
   },
   "author": "Nyria",
   "license": "WTFPL",
   "devDependencies": {
+    "nodemon": "~3.1.4",
     "prettier": "~3.3.3",
-    "replugged": "~4.8.1",
     "sass": "~1.78.0"
   }
 }
