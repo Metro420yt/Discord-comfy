@@ -17,6 +17,11 @@
     width: 285px;
   }
 
+  // Search bar
+  .searchBar_e7c031 {
+    border-radius: 5px 0 0 5px;
+  }
+
   .sidebar_c25c6d > div > .item_a0,
   #bd-settings-sidebar .ui-tab-bar-item {
     padding: 8px 0 8px 10px;
@@ -33,6 +38,10 @@
   // My account
   .accountProfileCard_b69b77 {
     background-color: var(--background-secondary);
+
+    .mask_d5fdb1 > mask {
+      display: none;
+    }
 
     .userInfo_b69b77 {
       position: relative;
@@ -73,9 +82,12 @@
   // User Profile
   .preview_bad983 {
     // Banner
-    .bannerSVGWrapper_b32cc2 {
+    .mask_d5fdb1 {
       overflow: visible;
-      min-height: 120px !important;
+
+      mask {
+        display: none;
+      }
 
       foreignObject {
         mask: unset;
@@ -180,6 +192,11 @@
     }
   }
 
+  // Family center
+  #activity-tab .max-width_d00e26, #activity-tab .max-width_a2e886, #requests-tab .container_f70f48 {
+    max-width: unset;
+  }
+
   // Authorized apps
   .cardPrimaryOutline-1ofwVz {
     background-color: var(--background-secondary);
@@ -200,6 +217,9 @@
   .connectionIcon_e2a436 {
     border-radius: 5px;
     padding: 4px;
+  }
+  .accountButtonInner_e2a436 {
+    border: none;
   }
 
   // Nitro
@@ -222,9 +242,17 @@
     text-align: center;
   }
 
+  // Subscriptions
+  .banner_b12c98 {
+    max-width: unset;
+  }
+
   // Boost
   .gemIndicatorContainer_b03ca0 {
     background-color: var(--background-tertiary);
+  }
+  .boostContainer_dba803, .card_d1fdce {
+    background-color: var(--background-secondary);
   }
 
   // Billing
@@ -271,11 +299,11 @@
   }
 
   // Voice & Video
-  .progress_e5cdf3 {
+  .progress_a1107d {
     background: var(--background-primary);
   }
 
-  .notches_e5cdf3 {
+  .notches_a1107d {
     color: var(--background-secondary) !important;
   }
 

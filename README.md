@@ -43,12 +43,6 @@ with `https://raw.githubusercontent.com/Metro420yt/Discord-comfy/master/betterdi
 </div>
 
 <div align="left">
-    <img align="left" src="https://i.imgur.com/pfS7jdg.png" alt="Replugged" width="45" height="45">
-    <b><p align="left">Replugged</b>
-    <br/>Click <a href="https://replugged.dev/install?identifier=nyria.comfy">here</a> and confirm the install in the client</p>
-</div>
-
-<div align="left">
     <img align="left" src="https://i.imgur.com/fXYKU5q.png" alt="Vencord" width="45" height="45">
     <b><p align="left">Vencord</b>
     <br/>Copy <code>https://comfy-themes.github.io/Discord/betterdiscord/comfy.theme.css</code> into the box in Settings > Themes > Online Themes tab
@@ -66,11 +60,9 @@ with `https://raw.githubusercontent.com/Metro420yt/Discord-comfy/master/betterdi
 
 <div align="left">
     <img align="left" src="https://i.imgur.com/fXYKU5q.png" alt="Vencord" width="45" height="45">
-    <b><p align="left">Vencord & Replugged</b>
-    <br/>Watch this epic tutorial</p>
+    <b><p align="left">Vencord</b>
+    <br/>You need to have the theme in local, not online, then same steps as BetterDiscord</p>
 </div>
-
-https://user-images.githubusercontent.com/65369563/231574735-89da88ef-2cf1-4aa5-a157-3a66ce8d274b.mp4
 
 ## 🫰 Credits
 
