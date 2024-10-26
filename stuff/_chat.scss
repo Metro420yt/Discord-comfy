@@ -75,7 +75,7 @@
       z-index: unset;
     }
 
-    .channelTextArea_a7d72e .scrollableContainer_d0696b::after,
+    .channelTextArea_a7d72e .scrollableContainer_bdf0de::after,
     .wrapper_faf5ab::after {
       position: absolute;
       content: "";
@@ -270,8 +270,8 @@
   }
 
   // Chat buttons
-  .attachButton_d0696b .attachButtonPlus_f298d4,
-  .attachButton_d0696b:hover .attachButtonPlus_f298d4 {
+  .attachButton_bdf0de .attachButtonPlus_f298d4,
+  .attachButton_bdf0de:hover .attachButtonPlus_f298d4 {
     fill: var(--chat-buttons);
   }
   .buttonWrapper_f9af59,
