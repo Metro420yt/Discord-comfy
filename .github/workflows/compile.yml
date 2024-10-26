@@ -5,6 +5,10 @@ on:
   push:
     paths:
     - stuff/**
+  workflow_run:
+    workflows: ["Update Classes"]
+    types:
+      - completed
 
 jobs:
   compile:
