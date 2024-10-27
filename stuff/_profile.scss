@@ -7,16 +7,18 @@
     //profile actions
     .wrapper_cb78f1 {
       top: -16px;
-      // background-color: var(--profile-gradient-primary-color);
       border-radius: 8px;
       margin: 1px 6px;
       transform: scale(0.9);
       right: 6px;
+
+      button {
+        background-color: var(--profile-gradient-primary-color);
+      }
     }
 
     div > button {
       border-radius: 8px !important;
-      background-color: var(--profile-gradient-primary-color);
     }
 
     //status parent
