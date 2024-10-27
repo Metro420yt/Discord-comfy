@@ -308,6 +308,16 @@
   }
 }
 
+.mask_c51b4e rect[fill="black"],
+.mask_c51b4e circle[fill="black"] {
+  display: none;
+}
+.mask_c51b4e .cursorDefault_c51b4e rect,
+.mask_c51b4e .pointerEvents_c51b4e {
+  rx: calc(1px + var(--status-radius));
+  ry: calc(1px + var(--status-radius));
+}
+
 //full profile tabs
 .tabBar_ecc04c {
   margin-bottom: 4px;
