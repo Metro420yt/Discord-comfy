@@ -55,7 +55,7 @@
 :root .chat_a7d72e .form_a7d72e .wrapper_faf5ab {
   z-index: unset;
 }
-:root .chat_a7d72e .form_a7d72e .channelTextArea_a7d72e .scrollableContainer_d0696b::after,
+:root .chat_a7d72e .form_a7d72e .channelTextArea_a7d72e .scrollableContainer_bdf0de::after,
 :root .chat_a7d72e .form_a7d72e .wrapper_faf5ab::after {
   position: absolute;
   content: "";
@@ -206,8 +206,8 @@
 :root .stickerInspected_a708c4 .inspectedIndicator_a708c4 {
   background-color: rgba(110, 133, 211, 0.1294117647);
 }
-:root .attachButton_d0696b .attachButtonPlus_f298d4,
-:root .attachButton_d0696b:hover .attachButtonPlus_f298d4 {
+:root .attachButton_bdf0de .attachButtonPlus_f298d4,
+:root .attachButton_bdf0de:hover .attachButtonPlus_f298d4 {
   fill: var(--chat-buttons);
 }
 :root .buttonWrapper_f9af59,
@@ -307,9 +307,11 @@
   transform: scale(0.9);
   right: 6px;
 }
+:root .userPopoutOuter_c69a7b .wrapper_cb78f1 button {
+  background-color: var(--profile-gradient-primary-color);
+}
 :root .userPopoutOuter_c69a7b div > button {
   border-radius: 8px !important;
-  background-color: var(--profile-gradient-primary-color);
 }
 :root .userPopoutOuter_c69a7b .header_b8cc6d > :has(.statusBubbleOuter_d0a252) {
   height: 0;
@@ -981,7 +983,7 @@
 :root .fullSizeOuter_c69a7b .userProfileModalInner_c69a7b::before {
   border-radius: 8px;
 }
-:root .fullSizeOuter_c69a7b header {
+:root .fullSizeOuter_c69a7b > * > header {
   position: absolute;
   width: 100%;
 }
@@ -1058,6 +1060,17 @@
 .userProfileOuterUnthemed_c69a7b.userPopoutOuter_c69a7b > .userProfileInner_c69a7b,
 .userProfileOuterUnthemed_c69a7b .userProfileModalInner_c69a7b {
   background-color: var(--background-primary);
+}
+
+.mask_c51b4e rect[fill=black],
+.mask_c51b4e circle[fill=black] {
+  display: none;
+}
+
+.mask_c51b4e .cursorDefault_c51b4e rect,
+.mask_c51b4e .pointerEvents_c51b4e {
+  rx: calc(1px + var(--status-radius));
+  ry: calc(1px + var(--status-radius));
 }
 
 .tabBar_ecc04c {
@@ -2480,7 +2493,7 @@
   padding-left: 0;
 }
 :root .layerContainer-2v_Sit .scroller-3nFW5p > .content_eed6a8,
-:root .layerContainer-2v_Sit .scroller-3nFW5p .buttons_d0696b,
+:root .layerContainer-2v_Sit .scroller-3nFW5p .buttons_bdf0de,
 :root .layerContainer-2v_Sit .scroller-3nFW5p .messagesPopout_ac90a2 {
   padding-right: 10px !important;
 }
