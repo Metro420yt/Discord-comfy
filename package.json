@@ -7,9 +7,9 @@
     "pnpm": ">=8.0.0"
   },
   "scripts": {
-    "class": "cd ./ClassUpdate && python ./replace.py LOCAL -y",
+    "class": "python ./ClassUpdate/replace.py -x=scss -y",
     "dev": "nodemon -w \"./stuff\" -e scss -x \"sass ./app.scss \"%appdata%/Vencord/themes/_tmp/main.css\" --no-source-map\"",
-    "build": "sass ./app.scss ./betterdiscord/main.css --no-source-map --style=compressed",
+    "build": "sass ./app.scss ./betterdiscord/main.css --no-source-map --style expanded",
     "lint": "prettier **/*.scss --check",
     "lint:fix": "prettier **/*.scss --write"
   },
