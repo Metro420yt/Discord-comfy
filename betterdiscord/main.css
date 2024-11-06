@@ -986,6 +986,7 @@
 :root .outer_c69a7b.fullSize_c69a7b > * > header {
   position: absolute;
   width: 100%;
+  z-index: 1;
 }
 :root .outer_c69a7b.fullSize_c69a7b .headerInner_b9fccc {
   width: calc(100% - 8px);
