@@ -2,7 +2,7 @@
 
 :root {
   // -- Member popout --
-  .userPopoutOuter_c69a7b {
+  .biteSize_c69a7b.outer_c69a7b {
     max-height: unset !important;
 
     .menus_ad5fac {
@@ -14,7 +14,7 @@
       padding: 4px 12px !important;
     }
 
-    .userPopoutInner_c69a7b {
+    .biteSize_c69a7b.inner_c69a7b {
       max-height: unset !important;
     }
 
@@ -196,9 +196,9 @@
   }
 
   // -- User popout --
-  .fullSizeOuter_c69a7b {
+  .outer_c69a7b.fullSize_c69a7b {
     width: 700px;
-    .userProfileModalInner_c69a7b {
+    .inner_c69a7b.fullSize_c69a7b {
       overflow: hidden;
 
       &::before {
@@ -282,8 +282,8 @@
       bottom: 12px;
       margin-left: 60px;
     }
-    // &.userPopoutOuter_c69a7b > .userProfileInner_c69a7b,
-    // .userProfileModalInner_c69a7b {
+    // &.biteSize_c69a7b.outer_c69a7b > .userProfileInner_c69a7b,
+    // .inner_c69a7b.fullSize_c69a7b {
     //   background-color: var(--background-primary);
     // }
   }
@@ -298,12 +298,13 @@
     display: none;
   }
 }
-.userProfileOuterUnthemed_c69a7b {
-  .fullSizeOverlayBackground_c69a7b {
+//user profile (unthemed)
+.fullSize_c69a7b.outer_c69a7b:not(.custom-profile-theme) {
+  .overlay_c69a7b {
     background-color: var(--background-tertiary);
   }
-  &.userPopoutOuter_c69a7b > .userProfileInner_c69a7b,
-  .userProfileModalInner_c69a7b {
+  &.biteSize_c69a7b.inner_c69a7b,
+  .fullSize_c69a7b.inner_c69a7b {
     background-color: var(--background-primary);
   }
 }
