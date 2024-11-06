@@ -209,6 +209,7 @@
     & > * > header {
       position: absolute;
       width: 100%;
+      z-index: 1;
     }
 
     .headerInner_b9fccc {
