@@ -313,21 +313,21 @@
 :root .biteSize_c69a7b.outer_c69a7b div > button {
   border-radius: 8px !important;
 }
-:root .biteSize_c69a7b.outer_c69a7b .header_b8cc6d > :has(.statusBubbleOuter_d0a252) {
+:root .biteSize_c69a7b.outer_c69a7b .header_b8cc6d > :has(.statusBubbleOuter_af9888) {
   height: 0;
 }
-:root .biteSize_c69a7b.outer_c69a7b .statusBubbleOuter_d0a252 {
+:root .biteSize_c69a7b.outer_c69a7b .statusBubbleOuter_af9888 {
   top: -24px;
 }
-:root .biteSize_c69a7b.outer_c69a7b .statusBubbleOuter_d0a252::before {
+:root .biteSize_c69a7b.outer_c69a7b .statusBubbleOuter_af9888::before {
   top: -8px !important;
   left: 4px !important;
 }
-:root .biteSize_c69a7b.outer_c69a7b .statusBubbleOuter_d0a252::after {
+:root .biteSize_c69a7b.outer_c69a7b .statusBubbleOuter_af9888::after {
   top: -16px !important;
   left: -8px !important;
 }
-:root .biteSize_c69a7b.outer_c69a7b .statusBubbleOuter_d0a252 .statusBubble_d22603 {
+:root .biteSize_c69a7b.outer_c69a7b .statusBubbleOuter_af9888 .statusBubble_a82ccc {
   background-color: var(--background-tertiary);
   top: -24px;
 }

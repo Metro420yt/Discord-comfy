@@ -22,12 +22,12 @@
     }
 
     //status parent
-    .header_b8cc6d > :has(.statusBubbleOuter_d0a252) {
+    .header_b8cc6d > :has(.statusBubbleOuter_af9888) {
       height: 0;
     }
 
     // status
-    .statusBubbleOuter_d0a252 {
+    .statusBubbleOuter_af9888 {
       top: -24px;
 
       &::before {
@@ -39,7 +39,7 @@
         left: -8px !important;
       }
 
-      .statusBubble_d22603 {
+      .statusBubble_a82ccc {
         background-color: var(--background-tertiary);
         top: -24px;
       }
