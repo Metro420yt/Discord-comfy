@@ -428,10 +428,14 @@
   padding: 10px !important;
 }
 :root .panels_a4d4d9 {
+  width: inherit;
   position: fixed;
   bottom: 0;
   left: 0;
   z-index: 2;
+}
+:root .panels_a4d4d9 > .wrapper_adcaac {
+  left: 72px;
 }
 :root .panels_a4d4d9 > .container_b2ca13 {
   height: 0;
