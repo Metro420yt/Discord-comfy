@@ -121,28 +121,36 @@
 
   // User buttons
   .panels_a4d4d9 {
+    width: inherit;
     position: fixed;
     bottom: 0;
     left: 0;
     z-index: 2;
-  }
 
-  .panels_a4d4d9 > .container_b2ca13 {
-    height: 0;
+    & > .wrapper_adcaac {
+      left: 72px;
+    }
 
-    & > .flex_dc333f {
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      width: 72px;
-      padding: 20px 0 10px 0;
-      flex-direction: column;
-      background: linear-gradient(transparent, var(--background-tertiary) 15%);
+    & > .container_b2ca13 {
+      height: 0;
 
-      & > .button_adca65 {
-        color: var(--user-buttons-color);
-        margin: var(--user-buttons-spacing) auto 0 auto;
-        width: 100%;
+      & > .flex_dc333f {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 72px;
+        padding: 20px 0 10px 0;
+        flex-direction: column;
+        background: linear-gradient(
+          transparent,
+          var(--background-tertiary) 15%
+        );
+
+        & > .button_adca65 {
+          color: var(--user-buttons-color);
+          margin: var(--user-buttons-spacing) auto 0 auto;
+          width: 100%;
+        }
       }
     }
   }
