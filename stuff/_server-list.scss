@@ -122,12 +122,9 @@
   // User buttons
   .panels_a4d4d9 {
     z-index: 2;
-    position: fixed;
-    bottom: 0;
-    width: inherit;
 
     & > .container_b2ca13 {
-      left: -72px;
+      container-type: unset;
       height: 0;
 
       & > .flex_dc333f {
