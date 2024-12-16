@@ -429,12 +429,9 @@
 }
 :root .panels_a4d4d9 {
   z-index: 2;
-  position: fixed;
-  bottom: 0;
-  width: inherit;
 }
 :root .panels_a4d4d9 > .container_b2ca13 {
-  left: -72px;
+  container-type: unset;
   height: 0;
 }
 :root .panels_a4d4d9 > .container_b2ca13 > .flex_dc333f {
