@@ -1,0 +1,38 @@
+$connections: (
+  "Battle.net": #1da0f248,
+  "Twitch": #601bd852,
+  "YouTube": #d9252b49,
+  "Twitter": #0098e43f,
+  "X": #000000,
+  "Steam": #00000034,
+  "Reddit": #fe44013d,
+  "Facebook": #2e328485,
+  "Spotify": #1ed75f34,
+  "Xbox": #5dc21e36,
+  "League of Legends": #cea14638,
+  "GitHub": #24292e62,
+  "Skype": #0076d74b,
+  "Epic Games": #2f2f2f59,
+  "Riot Games": #eb1c2d38,
+  "PayPal": #009fe33b,
+  "TikTok": #64bfc546,
+  "eBay": #c500003b,
+  "PlayStation Network": #0051ae53,
+  "Instagram": #af01b640,
+  "Roblox": #b6bfcc40,
+  "Crunchyroll": #f375214d,
+  "Bungie.net": #00a3e353,
+  "Amazon Music": #0dbff553,
+  "Bluesky": #0a519a54,
+);
+
+:root {
+  @each $conn, $color in $connections {
+    .connectionIcon_e2a436[alt="#{$conn}"],
+    .accountBtnInner_ec99f9[aria-label="#{$conn}"],
+    .accountButtonInner_e2a436[aria-label="#{$conn}"],
+    .connectedAccountIcon_ab12c6[aria-label="#{$conn}"] {
+      background-color: $color;
+    }
+  }
+}
