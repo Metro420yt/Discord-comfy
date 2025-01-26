@@ -156,6 +156,12 @@
           color: var(--user-buttons-color);
           margin: var(--user-buttons-spacing) auto 0 auto;
           width: 100%;
+
+          &[aria-checked="false"] .lottieIcon_f73ef7,
+          &:not([role="switch"]) .lottieIcon_f73ef7 // settings icon
+          {
+            --__lottieIconColor: var(--user-buttons-color) !important;
+          }
         }
       }
     }
