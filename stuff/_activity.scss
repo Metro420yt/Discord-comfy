@@ -1,10 +1,18 @@
+$activities: (
+  // spotify
+  ".bar__8e51c": var(--listening, #1db954),
+  // twitch
+  '[src*="/previews-ttv/"]': var(--streaming, #6441a5),
+  // playstation
+  '.platformIcon__39ec2[style*="/assets/8fca7fcefaac64787658.svg"]': #0070d1,
+  // crunchyroll
+  '.platformIcon__39ec2[style*="/assets/24ff5d6c720b110d2792.svg"]': #f37521,
+  // xbox
+  '.platformIcon__39ec2[style*="/assets/615f68d5bcf31afdd2ce.svg"]': #107c10
+);
+
 :root {
-  //   .activityProfileV2_c1d9fd, //wtf is this class
-  .body__5be3e .activity__5be3e, //member list popout
-  .body__747b1 .card__39ec2, //dm profile sidebar
-  .body_af7fb7 .card__39ec2, //client user profile
-  .section_bf424d:first-child > .card__39ec2 // full profile
-  {
+  .card__39ec2 {
     border-radius: 5px;
     padding-top: 12px;
     margin-top: 12px;
@@ -114,40 +122,14 @@
       }
     }
 
-    // Spotify
-    &:has(.bar__8e51c) {
-      &::before {
-        background: #1db954;
-        background: var(--listening);
-      }
-      &::after {
-        background: #1db653;
-        background: var(--listening);
-      }
-    }
-
-    //twitch
-    &:has([src*="/previews-ttv/"]) {
-      &::before,
-      &::after {
-        background: #6441a5;
-        background: var(--streaming);
-      }
-    }
-
-    //playstation
-    &:has(.platformIcon__39ec2[style*="/assets/8fca7fcefaac64787658.svg"]) {
-      &::before,
-      &::after {
-        background: #0070d1;
-      }
-    }
-
-    //crunchyroll
-    &:has(.platformIcon__39ec2[style*="/assets/24ff5d6c720b110d2792.svg"]) {
-      &::before,
-      &::after {
-        background: #f37521;
+    @each $selector, $color in $activities {
+      &:has(#{$selector}) {
+        &::before {
+          background: $color;
+        }
+        &::after {
+          background: $color;
+        }
       }
     }
   }
