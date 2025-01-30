@@ -3,12 +3,12 @@
 
 ### Using url
 replace the theme url with this url<br>
-`https://raw.githubusercontent.com/Metro420yt/Discord-comfy/master/betterdiscord/comfy.theme.css`<br><br>
+`https://metro420yt.github.io/Discord-comfy/comfy.theme.css`<br><br>
 
 ### Installed Locally
-replace `https://comfy-themes.github.io/Discord/betterdiscord/main.css`<br>
+replace `https://metro420yt.github.io/Discord-comfy/main.css`<br>
 
-with `https://raw.githubusercontent.com/Metro420yt/Discord-comfy/master/betterdiscord/main.css`<br>
+with `https://metro420yt.github.io/Discord-comfy/main.css`<br>
 </details>
 
 

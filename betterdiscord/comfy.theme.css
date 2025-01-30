@@ -6,7 +6,7 @@
 * @website https://github.com/Metro420yt/Discord-comfy
 */
 
-@import "https://raw.githubusercontent.com/Metro420yt/Discord-comfy/master/betterdiscord/main.css";
+@import "https://metro420yt.github.io/Discord-comfy/main.css";
 
 /* ═══════『 ⚠️・Important tips 』═══════
 *
@@ -19,13 +19,13 @@
 */
 
 /* ═══════『 🚫 ・ No scrollbars 』- Comment the line below if you want the scrollbar back */
-@import "https://raw.githubusercontent.com/Metro420yt/Discord-comfy/master/betterdiscord/no-scrollbar.css";
+@import "https://metro420yt.github.io/Discord-comfy/no-scrollbar.css";
 
 /* ═══════『 🎵 ・ Better SpotifyControls seek bar 』- Comment the line below if you don't want this spotify bar */
-@import "https://raw.githubusercontent.com/Metro420yt/Discord-comfy/master/betterdiscord/better-spotify.css";
+@import "https://metro420yt.github.io/Discord-comfy/better-spotify.css";
 
 /* ═══════『 🎵 ・ Vencord Spotify Plugin 』- Comment the line below if you don't want this spotify bar FOR VENCORD */
-@import "https://raw.githubusercontent.com/Metro420yt/Discord-comfy/master/betterdiscord/vencord-spotify.css";
+@import "https://metro420yt.github.io/Discord-comfy/vencord-spotify.css";
 
 :root {
   /* ═══════『 💨 ・ Animations 』- If you don't want a high CPU usage, comment the line below */
