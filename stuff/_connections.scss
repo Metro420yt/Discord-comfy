@@ -28,10 +28,10 @@ $connections: (
 
 :root {
   @each $conn, $color in $connections {
-    .connectionIcon_e2a436[alt="#{$conn}"],
-    .accountBtnInner_ec99f9[aria-label="#{$conn}"],
-    .accountButtonInner_e2a436[aria-label="#{$conn}"],
-    .connectedAccountIcon_ab12c6[aria-label="#{$conn}"] {
+    .connectionIcon_c7f964[alt="#{$conn}"],
+    .accountBtnInner__750de[aria-label="#{$conn}"],
+    .accountButtonInner_c7f964[aria-label="#{$conn}"],
+    .connectedAccountIcon_e6abe8[aria-label="#{$conn}"] {
       background-color: $color;
     }
   }

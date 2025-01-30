@@ -1,39 +1,39 @@
 :root {
   //   .activityProfileV2_c1d9fd, //wtf is this class
-  .body_b8cc6d .activity_b8cc6d, //member list popout
-  .body_a972fe .card_ae1fa2, //dm profile sidebar
-  .body_ad5fac .card_ae1fa2, //client user profile
-  .section_ba4d80:first-child > .card_ae1fa2 // full profile
+  .body__5be3e .activity__5be3e, //member list popout
+  .body__747b1 .card__39ec2, //dm profile sidebar
+  .body_af7fb7 .card__39ec2, //client user profile
+  .section_bf424d:first-child > .card__39ec2 // full profile
   {
     border-radius: 5px;
     padding-top: 12px;
     margin-top: 12px;
     z-index: 1;
 
-    .text_ec2fa7,
-    .textRow_c1d9fd,
-    .anchor_af404b,
-    .headerText_c1d9fd,
-    .activityName_c1d9fd,
-    .details_c1d9fd,
-    .name_c1d9fd,
-    .nameNormal_c1d9fd,
-    .nameWrap_c1d9fd,
+    .text_c8b06d,
+    .textRow__2ef49,
+    .anchor_edefb8,
+    .headerText__2ef49,
+    .activityName__2ef49,
+    .details__2ef49,
+    .name__2ef49,
+    .nameNormal__2ef49,
+    .nameWrap__2ef49,
     [style^="color: var(--text-"] {
       color: var(--header-primary) !important;
     }
 
-    .contextMenu_ae1fa2 > svg > path, //3 dots
-    .badgeContainer_d60c6d:not(:has(.timestamp_c5d1c1)) > svg > path {
+    .contextMenu__39ec2 > svg > path, //3 dots
+    .badgeContainer__635ed:not(:has(.timestamp__230d2)) > svg > path {
       //icons other than time played (hopefully)
       fill: var(--header-primary);
     }
 
-    .platformIcon_ae1fa2 {
+    .platformIcon__39ec2 {
       background-color: var(--header-primary);
     }
 
-    .button_dd4f85 {
+    .button__201d5 {
       border: none;
       background-color: rgba(255, 255, 255, 0.2);
       box-shadow: 0 4px 15px #00000021;
@@ -41,7 +41,7 @@
       border-radius: 8px;
     }
 
-    .header_ae1fa2 > * {
+    .header__39ec2 > * {
       top: 0;
       position: absolute;
 
@@ -51,7 +51,7 @@
     }
 
     // Waves are back :D
-    .header_ae1fa2::before {
+    .header__39ec2::before {
       content: "";
       position: absolute;
       height: 25px;
@@ -115,7 +115,7 @@
     }
 
     // Spotify
-    &:has(.bar_b5cd55) {
+    &:has(.bar__8e51c) {
       &::before {
         background: #1db954;
         background: var(--listening);
@@ -136,7 +136,7 @@
     }
 
     //playstation
-    &:has(.platformIcon_ae1fa2[style*="/assets/8fca7fcefaac64787658.svg"]) {
+    &:has(.platformIcon__39ec2[style*="/assets/8fca7fcefaac64787658.svg"]) {
       &::before,
       &::after {
         background: #0070d1;
@@ -144,7 +144,7 @@
     }
 
     //crunchyroll
-    &:has(.platformIcon_ae1fa2[style*="/assets/24ff5d6c720b110d2792.svg"]) {
+    &:has(.platformIcon__39ec2[style*="/assets/24ff5d6c720b110d2792.svg"]) {
       &::before,
       &::after {
         background: #f37521;

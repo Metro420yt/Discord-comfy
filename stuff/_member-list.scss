@@ -2,24 +2,24 @@
 
 :root {
   // -- Member popout --
-  .biteSize_c69a7b.outer_c69a7b {
+  .biteSize_c0bea0.outer_c0bea0 {
     max-height: unset !important;
 
-    .menus_ad5fac {
+    .menus_af7fb7 {
       gap: 8px;
     }
 
-    .body_ad5fac {
+    .body_af7fb7 {
       overflow: unset !important;
       padding: 4px 12px !important;
     }
 
-    .biteSize_c69a7b.inner_c69a7b {
+    .biteSize_c0bea0.inner_c0bea0 {
       max-height: unset !important;
     }
 
     // Banner
-    .mask_d5fdb1 {
+    .mask__68edb {
       overflow: visible;
       min-height: 120px !important;
 
@@ -27,7 +27,7 @@
         mask: unset;
       }
 
-      .banner_d5fdb1 {
+      .banner__68edb {
         -webkit-mask-image: linear-gradient(#000000a7, #000000a7);
         height: 120px !important;
       }
@@ -42,7 +42,7 @@
     }
 
     // Avatar
-    .avatar_f94206 {
+    .avatar__75742 {
       top: 20px !important;
       left: 16px;
 
@@ -70,18 +70,18 @@
         }
       }
 
-      .overlay_f94206:after {
+      .overlay__75742:after {
         border-radius: var(--avatar-radius);
       }
     }
 
     // Body
-    .body_b8cc6d {
+    .body__5be3e {
       position: static;
       overflow: visible;
 
       // Username
-      .container_c32acf {
+      .container__63ed3 {
         position: absolute;
         top: 20px;
         left: 115px;
@@ -96,26 +96,26 @@
         border-radius: 8px;
         padding: 2px;
 
-        .usernameRow_c32acf h1 {
+        .usernameRow__63ed3 h1 {
           color: var(--header-primary);
         }
       }
 
       // Roles
-      .role_f9575e {
+      .role_dfa8b6 {
         position: relative;
         overflow: hidden;
         border: none;
         z-index: 1;
 
-        &:not(.addButton_e4010c) {
+        &:not(.addButton__48c1c) {
           pointer-events: none;
         }
 
-        .roleRemoveButton_f9575e {
+        .roleRemoveButton_dfa8b6 {
           position: static;
 
-          .roleCircle_a26d7b {
+          .roleCircle__4f569 {
             width: var(--role-circle) !important;
             height: var(--role-circle) !important;
             pointer-events: auto;
@@ -139,7 +139,7 @@
             }
           }
 
-          .roleRemoveIcon_e4010c {
+          .roleRemoveIcon__48c1c {
             display: none;
           }
         }
@@ -148,28 +148,28 @@
   }
 
   // Roles selector
-  .container_ac201b {
+  .container__3dde2 {
     position: relative;
     z-index: 1005;
     border: none;
     padding: 0;
     background-color: #191f2e;
 
-    .container_c18ec9 {
+    .container_a45028 {
       border-radius: 5px 5px 0 0;
     }
 
-    .list_eef3ef {
+    .list__97e86 {
       margin: 0;
       padding: 0;
 
-      .item_eef3ef {
+      .item__97e86 {
         margin: 5px;
         position: relative;
         overflow: hidden;
         border-radius: 0;
 
-        .popoutRoleCircle_f50ea3 {
+        .popoutRoleCircle_b77a0c {
           width: 0;
           border: none;
           margin: 0;
@@ -192,9 +192,9 @@
   }
 
   // -- User popout --
-  .outer_c69a7b.fullSize_c69a7b {
+  .outer_c0bea0.fullSize_c0bea0 {
     width: 700px;
-    .inner_c69a7b.fullSize_c69a7b {
+    .inner_c0bea0.fullSize_c0bea0 {
       overflow: hidden;
 
       &::before {
@@ -208,22 +208,22 @@
       z-index: 1;
     }
 
-    .headerInner_b9fccc {
+    .headerInner__24502 {
       width: calc(100% - 8px);
       box-sizing: border-box;
     }
 
-    .avatar_f94206 {
+    .avatar__75742 {
       top: -143px;
     }
   }
 
-  .body_b9fccc {
+  .body__24502 {
     position: relative;
     top: 150px;
     height: calc(100% - 185px);
 
-    .container_c32acf {
+    .container__63ed3 {
       position: relative;
       top: 0px;
       left: 150px;
@@ -232,13 +232,13 @@
       font-weight: 600;
     }
 
-    .overlay_b9fccc {
+    .overlay__24502 {
       margin-top: 80px;
     }
   }
 
   // Connections
-  .connectedAccountContainer_ab12c6 {
+  .connectedAccountContainer_e6abe8 {
     position: relative;
     padding: 0;
     outline: 2px solid rgba(0, 0, 0, 0.25);
@@ -248,45 +248,45 @@
     transition: outline-color 100ms;
     overflow: hidden;
 
-    .connectedAccount_ab12c6 {
+    .connectedAccount_e6abe8 {
       height: 100%;
 
-      .connectedAccountIcon_ab12c6 {
+      .connectedAccountIcon_e6abe8 {
         padding: 12px;
         border-radius: 0;
         height: 100%;
       }
 
-      .connectedAccountNameContainer_ab12c6 {
+      .connectedAccountNameContainer_e6abe8 {
         padding: 12px 12px 12px 4px;
       }
     }
 
-    &.connectedAccountContainerWithMetadata_ab12c6 .connectedAccount_ab12c6 {
+    &.connectedAccountContainerWithMetadata_e6abe8 .connectedAccount_e6abe8 {
       align-items: flex-start;
       padding-bottom: 20px;
 
-      .connectedAccountIcon_ab12c6 {
+      .connectedAccountIcon_e6abe8 {
         padding: 12px;
         width: 48px;
         box-sizing: border-box;
       }
     }
 
-    .connectedAccountChildren_ab12c6 {
+    .connectedAccountChildren_e6abe8 {
       position: absolute;
       left: 0;
       bottom: 12px;
       margin-left: 60px;
     }
-    // &.biteSize_c69a7b.outer_c69a7b > .userProfileInner_c69a7b,
-    // .inner_c69a7b.fullSize_c69a7b {
+    // &.biteSize_c0bea0.outer_c0bea0 > .userProfileInner_c69a7b,
+    // .inner_c0bea0.fullSize_c0bea0 {
     //   background-color: var(--background-primary);
     // }
   }
 
   // Mutuals
-  .listRow_d2d6cb {
+  .listRow__9d78f {
     margin: 0;
     padding: 8px 12px;
   }
@@ -296,28 +296,28 @@
   }
 
   //user profile (unthemed)
-  .fullSize_c69a7b.outer_c69a7b:not(.custom-profile-theme) {
-    .overlay_c69a7b {
+  .fullSize_c0bea0.outer_c0bea0:not(.custom-profile-theme) {
+    .overlay_c0bea0 {
       background-color: var(--background-tertiary);
     }
-    &.biteSize_c69a7b.inner_c69a7b,
-    .fullSize_c69a7b.inner_c69a7b {
+    &.biteSize_c0bea0.inner_c0bea0,
+    .fullSize_c0bea0.inner_c0bea0 {
       background-color: var(--background-primary);
     }
   }
 
-  .mask_c51b4e rect[fill="black"],
-  .mask_c51b4e circle[fill="black"] {
+  .mask__44b0c rect[fill="black"],
+  .mask__44b0c circle[fill="black"] {
     display: none;
   }
-  .mask_c51b4e .cursorDefault_c51b4e rect,
-  .mask_c51b4e .pointerEvents_c51b4e {
+  .mask__44b0c .cursorDefault__44b0c rect,
+  .mask__44b0c .pointerEvents__44b0c {
     rx: calc(1px + var(--status-radius));
     ry: calc(1px + var(--status-radius));
   }
 
   //full profile tabs
-  .tabBar_ecc04c {
+  .tabBar_d1d9f3 {
     margin-bottom: 4px;
   }
 }

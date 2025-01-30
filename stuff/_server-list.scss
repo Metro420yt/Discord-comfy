@@ -3,22 +3,22 @@
   //height*count + bottom padding
   --buttons-height: calc((34.5px * var(--button-count)) + 10px);
 
-  &:has(.container_b2ca13 > .flex_dc333f > *:nth-child(4)) {
+  &:has(.container__37e49 > .flex__7c0ba > *:nth-child(4)) {
     --button-count: 4;
   }
 
   // Server list
-  .guilds_a4d4d9 .scroller_fea3ef {
+  .guilds_c48ade .scroller_ef3116 {
     contain: none !important;
     height: calc(100vh - var(--buttons-height));
     padding-bottom: 40px;
   }
 
   // Folder
-  .expandedFolderBackground_bc7085 {
+  .expandedFolderBackground__48112 {
     border-radius: var(--server-radius);
   }
-  .folder_bc7085 {
+  .folder__48112 {
     background-color: transparent;
   }
 
@@ -32,7 +32,7 @@
     }
   }
 
-  .footer_d71945 {
+  .footer__214dc {
     display: none; // hides discover button
   }
 
@@ -89,11 +89,11 @@
     margin-left: 0;
   }
 
-  .header_d33b18 {
+  .header_a7218d {
     margin: -32px -32px 0 -32px;
     border-radius: 0;
 
-    .headerImage_d33b18 {
+    .headerImage_a7218d {
       border-radius: 0;
       -webkit-mask: linear-gradient(black, transparent);
     }
@@ -101,46 +101,46 @@
 
   // Create a server modal
   .theme-light {
-    .root_f9a4c9,
-    .footer_f9a4c9 {
+    .root__49fc1,
+    .footer__49fc1 {
       box-shadow: none;
     }
-    .lookFilled_dd4f85.colorPrimary_dd4f85 {
+    .lookFilled__201d5.colorPrimary__201d5 {
       background-color: var(--brand-experiment);
     }
-    .contents_dd4f85 {
+    .contents__201d5 {
       color: #fff;
     }
 
-    .templatesList_fc9dae,
-    .optionsList_f5507e {
+    .templatesList_c04f35,
+    .optionsList__78f69 {
       padding: 0 !important;
       border-radius: 0;
 
-      .container_a47d49 {
+      .container_eb2cd2 {
         border: none;
         border-radius: 0;
       }
 
-      .optionHeader_fc9dae {
+      .optionHeader_c04f35 {
         text-align: center;
         margin: 12px 0;
       }
     }
-    .createGuild_c1ee6b {
+    .createGuild_b917ac {
       padding: 10px !important;
     }
   }
 
   // User buttons
-  .panels_a4d4d9 {
+  .panels_c48ade {
     z-index: 2;
 
-    & > .container_b2ca13 {
+    & > .container__37e49 {
       container-type: unset;
       height: 0;
 
-      & > .flex_dc333f {
+      & > .flex__7c0ba {
         position: fixed;
         bottom: 0;
         left: 0;
@@ -152,13 +152,13 @@
           var(--background-tertiary) 15%
         );
 
-        & > .button_adca65 {
+        & > .button__67645 {
           color: var(--user-buttons-color);
           margin: var(--user-buttons-spacing) auto 0 auto;
           width: 100%;
 
-          &[aria-checked="false"] .lottieIcon_f73ef7,
-          &:not([role="switch"]) .lottieIcon_f73ef7 // settings icon
+          &[aria-checked="false"] .lottieIcon__5eb9b,
+          &:not([role="switch"]) .lottieIcon__5eb9b // settings icon
           {
             --__lottieIconColor: var(--user-buttons-color) !important;
           }
@@ -168,25 +168,25 @@
   }
 
   // Notifications settings
-  .inner-1ilYF7 > .modal_c97cbd > .header_f9a4c9,
-  .modal_c97cbd,
-  .inner-1ilYF7 > .modal_c97cbd > .scrollerBase_eed6a8 {
+  .inner-1ilYF7 > .modal__7f8f5 > .header__49fc1,
+  .modal__7f8f5,
+  .inner-1ilYF7 > .modal__7f8f5 > .scrollerBase__99f8c {
     background: var(--background-secondary);
   }
 
   // Mention gradient
-  .unreadMentionsBar_fea3ef .text_edf32f {
+  .unreadMentionsBar_ef3116 .text__3b95d {
     display: none;
   }
 
   // Top
-  .unreadMentionsIndicatorTop_fea3ef {
+  .unreadMentionsIndicatorTop_ef3116 {
     width: 100%;
     height: 50px;
     top: -7px;
     padding: 0;
 
-    .unreadMentionsBar_fea3ef {
+    .unreadMentionsBar_ef3116 {
       border-radius: 0;
       background: linear-gradient(var(--mention-color), #0000);
       transition: 100ms;
@@ -198,14 +198,14 @@
   }
 
   // Bottom
-  .unreadMentionsIndicatorBottom_fea3ef {
+  .unreadMentionsIndicatorBottom_ef3116 {
     width: 100%;
     height: 15px;
     padding: 0;
 
     bottom: var(--buttons-height);
 
-    .unreadMentionsBar_fea3ef {
+    .unreadMentionsBar_ef3116 {
       border-radius: 0;
       background: linear-gradient(#0000, var(--mention-color));
 
@@ -216,7 +216,7 @@
   }
 
   // Mention pill
-  .lowerBadge_c5f96a {
+  .lowerBadge_cc5dd2 {
     top: 0;
     left: 0;
 

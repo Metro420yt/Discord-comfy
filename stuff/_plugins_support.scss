@@ -39,36 +39,36 @@
   }
 
   // BetterDiscord Server folder
-  .guilds_a4d4d9.content-Pph8t6
-    + .base_a4d4d9
-    .panels_a4d4d9
-    > .container_b2ca13
-    > .avatarWrapper_b2ca13 {
+  .guilds_c48ade.content-Pph8t6
+    + .base_c48ade
+    .panels_c48ade
+    > .container__37e49
+    > .avatarWrapper__37e49 {
     transition: margin-left 300ms linear;
   }
-  .guilds_a4d4d9.content-Pph8t6:not(.closed-j55_T-)
-    + .base_a4d4d9
-    .panels_a4d4d9
-    > .container_b2ca13
-    > .avatarWrapper_b2ca13 {
+  .guilds_c48ade.content-Pph8t6:not(.closed-j55_T-)
+    + .base_c48ade
+    .panels_c48ade
+    > .container__37e49
+    > .avatarWrapper__37e49 {
     margin-left: 72px;
   }
 
   // Vencord Sever folder
   .vc-bf-folder-sidebar
-    + .base_a4d4d9
-    .panels_a4d4d9
-    > .container_b2ca13
-    > .avatarWrapper_b2ca13 {
+    + .base_c48ade
+    .panels_c48ade
+    > .container__37e49
+    > .avatarWrapper__37e49 {
     transition: margin-left 300ms linear;
     margin-left: 72px;
   }
 
   // Hide Channels
-  .sidebar_a4d4d9 .avatarWrapper_b2ca13 {
+  .sidebar_c48ade .avatarWrapper__37e49 {
     transition: margin-left 400ms ease;
   }
-  .sidebar_a4d4d9.hideChannelElement .avatarWrapper_b2ca13 {
+  .sidebar_c48ade.hideChannelElement .avatarWrapper__37e49 {
     margin-left: -240px;
   }
 
