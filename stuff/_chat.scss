@@ -219,7 +219,7 @@
   }
 
   .navList__08434 {
-    & > *:not(#gif-picker-tab).navButton__08434::after {
+    & > .button__201d5:not(#gif-picker-tab).navButton__08434::after {
       position: absolute;
       content: "";
       width: 20px;

@@ -49,13 +49,18 @@ $activities: (
       border-radius: 8px;
     }
 
-    .header__39ec2 > * {
+    .headerText__39ec2 {
       top: 0;
       position: absolute;
 
       &.headerTags_ae1fa2 {
         right: 8px;
       }
+    }
+    .headerContextMenu__39ec2 {
+      position: absolute;
+      top: 0;
+      right: 0;
     }
 
     // Waves are back :D

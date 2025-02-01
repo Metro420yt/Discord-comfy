@@ -194,18 +194,16 @@
   // -- User popout --
   .outer_c0bea0.fullSize_c0bea0 {
     width: 700px;
-    .inner_c0bea0.fullSize_c0bea0 {
+    .inner_c0bea0 {
       overflow: hidden;
 
       &::before {
         border-radius: 8px;
       }
-    }
-
-    & > * > header {
-      position: absolute;
-      width: 100%;
-      z-index: 1;
+      & > header {
+        position: relative;
+        width: 100%;
+      }
     }
 
     .headerInner__24502 {
