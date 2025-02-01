@@ -507,23 +507,6 @@
     box-shadow: none;
   }
 
-  // No scrollbars
-  .layerContainer-2v_Sit {
-    *::-webkit-scrollbar {
-      display: none;
-    }
-
-    .scroller-3nFW5p {
-      padding-left: 0;
-
-      & > .content__99f8c,
-      .buttons__74017,
-      .messagesPopout__45690 {
-        padding-right: 10px !important;
-      }
-    }
-  }
-
   // Revert some Discord internal changes
   & {
     --brand-experiment: #7289da;

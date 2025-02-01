@@ -4,7 +4,7 @@ $activities: (
   // twitch
   '[src*="/previews-ttv/"]': var(--streaming, #6441a5),
   // playstation
-  '.platformIcon__39ec2[style*="/assets/8fca7fcefaac64787658.svg"]': #0070d1,
+  '[src*="image.api.playstation.com"]': #0070d1,
   // crunchyroll
   '.platformIcon__39ec2[style*="/assets/24ff5d6c720b110d2792.svg"]': #f37521,
   // xbox
