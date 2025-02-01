@@ -91,7 +91,6 @@
         white-space: nowrap;
         overflow: hidden;
         display: block;
-        pointer-events: none;
         background-color: #0000003f;
         border-radius: 8px;
         padding: 2px;
@@ -206,9 +205,14 @@
       }
     }
 
+    .friendRequestBannerOverlay__24502 {
+      z-index: 1;
+    }
+
     .headerInner__24502 {
       width: calc(100% - 8px);
       box-sizing: border-box;
+      z-index: 1;
     }
 
     .avatar__75742 {
@@ -217,9 +221,10 @@
   }
 
   .body__24502 {
-    position: relative;
+    position: fixed;
     top: 150px;
     height: calc(100% - 185px);
+    width: -webkit-fill-available;
 
     .container__63ed3 {
       position: relative;
