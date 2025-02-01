@@ -1,4 +1,5 @@
 :root {
+  // sidebar popout
   .biteSize_c0bea0.outer_c0bea0 {
     & {
       overflow: unset !important;
@@ -27,8 +28,6 @@
 
       // status
       [role="tooltip"] {
-        position: fixed;
-
         // only has emoji
         .statusEmoji_c8ce83:not(:has(+ .statusText_c8ce83)) {
           $size: 24px;
