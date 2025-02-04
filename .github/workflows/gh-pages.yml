@@ -2,6 +2,7 @@ name: Deploy GitHub Pages
 
 on:
   workflow_dispatch:
+  workflow_call:
   push:
     paths:
       - betterdiscord/**

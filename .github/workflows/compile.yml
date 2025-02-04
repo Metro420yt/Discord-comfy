@@ -23,3 +23,5 @@ jobs:
           default_author: github_actions
           message: "chore: build"
           fetch: true
+  build:
+    uses: ./.github/workflows/gh-pages.yml
