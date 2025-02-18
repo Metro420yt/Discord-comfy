@@ -6,7 +6,7 @@ replace the theme url with this url<br>
 `https://metro420yt.github.io/Discord-comfy/comfy.theme.css`<br><br>
 
 ### Installed Locally
-replace `https://metro420yt.github.io/Discord-comfy/main.css`<br>
+replace `https://comfy-themes.github.io/Discord/betterdiscord/main.css`<br>
 
 with `https://metro420yt.github.io/Discord-comfy/main.css`<br>
 </details>
