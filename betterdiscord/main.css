@@ -1,7 +1,7 @@
 :root .buttons__5126c {
   transition: opacity 150ms;
 }
-:root .panels_c48ade > .container__37e49 > .avatarWrapper__37e49 {
+:root .panels_c48ade > .container__37e49 .avatarWrapper__37e49 {
   position: fixed;
   bottom: 26.5px;
   left: 327.5px;
@@ -10,28 +10,28 @@
   padding: 0;
   min-width: unset;
 }
-:root .panels_c48ade > .container__37e49 > .avatarWrapper__37e49 > .avatar__37e49 {
+:root .panels_c48ade > .container__37e49 .avatarWrapper__37e49 > .avatar__37e49 {
   width: 40px !important;
   height: 40px !important;
 }
-:root .panels_c48ade > .container__37e49 > .avatarWrapper__37e49 > .avatar__37e49 > svg {
+:root .panels_c48ade > .container__37e49 .avatarWrapper__37e49 > .avatar__37e49 > svg {
   contain: unset;
 }
-:root .panels_c48ade > .container__37e49 > .avatarWrapper__37e49 > .avatar__37e49 foreignObject {
+:root .panels_c48ade > .container__37e49 .avatarWrapper__37e49 > .avatar__37e49 foreignObject {
   width: 100% !important;
   height: 100% !important;
 }
-:root .panels_c48ade > .container__37e49 > .avatarWrapper__37e49 > .avatar__37e49 .pointerEvents__44b0c {
+:root .panels_c48ade > .container__37e49 .avatarWrapper__37e49 > .avatar__37e49 .pointerEvents__44b0c {
   x: 31px;
   y: 31px;
   ry: var(--status-radius);
   width: 12px;
   height: 12px;
 }
-:root .panels_c48ade > .container__37e49 > .avatarWrapper__37e49 > .avatar__37e49:hover {
+:root .panels_c48ade > .container__37e49 .avatarWrapper__37e49 > .avatar__37e49:hover {
   opacity: 1;
 }
-:root .panels_c48ade > .container__37e49 > .avatarWrapper__37e49 > .avatar__37e49 + .nameTag__37e49 {
+:root .panels_c48ade > .container__37e49 .avatarWrapper__37e49 > .avatar__37e49 + .nameTag__37e49 {
   display: none;
 }
 :root .content_c48ade > :nth-child(2):not(.chat_f75fb0),
@@ -491,7 +491,7 @@
   --button-count: 3;
   --buttons-height: calc((34.5px * var(--button-count)) + 10px);
 }
-:root:has(.container__37e49 > .flex__7c0ba > button:nth-child(4)) {
+:root:has(.container__37e49 .flex__7c0ba > button:nth-child(4)) {
   --button-count: 4;
 }
 :root .guilds_c48ade .scroller_ef3116 {
@@ -597,7 +597,7 @@
   container-type: unset;
   height: 0;
 }
-:root .panels_c48ade > .container__37e49 > .flex__7c0ba {
+:root .panels_c48ade > .container__37e49 .flex__7c0ba {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -606,12 +606,12 @@
   flex-direction: column;
   background: linear-gradient(transparent, var(--background-tertiary) 15%);
 }
-:root .panels_c48ade > .container__37e49 > .flex__7c0ba .button__67645 {
+:root .panels_c48ade > .container__37e49 .flex__7c0ba .button__67645 {
   color: var(--user-buttons-color);
   margin: var(--user-buttons-spacing) auto 0 auto;
   width: 100%;
 }
-:root .panels_c48ade > .container__37e49 > .flex__7c0ba .button__67645[aria-checked=false] .lottieIcon__5eb9b, :root .panels_c48ade > .container__37e49 > .flex__7c0ba .button__67645:not([role=switch]) .lottieIcon__5eb9b {
+:root .panels_c48ade > .container__37e49 .flex__7c0ba .button__67645[aria-checked=false] .lottieIcon__5eb9b, :root .panels_c48ade > .container__37e49 .flex__7c0ba .button__67645:not([role=switch]) .lottieIcon__5eb9b {
   --__lottieIconColor: var(--user-buttons-color) !important;
 }
 :root .inner-1ilYF7 > .modal__7f8f5 > .header__49fc1,
@@ -2508,13 +2508,13 @@
 :root #MemberCount {
   background-color: var(--background-secondary) !important;
 }
-:root .guilds_c48ade.content-Pph8t6 + .base_c48ade .panels_c48ade > .container__37e49 > .avatarWrapper__37e49 {
+:root .guilds_c48ade.content-Pph8t6 + .base_c48ade .panels_c48ade > .container__37e49 .avatarWrapper__37e49 {
   transition: margin-left 300ms linear;
 }
-:root .guilds_c48ade.content-Pph8t6:not(.closed-j55_T-) + .base_c48ade .panels_c48ade > .container__37e49 > .avatarWrapper__37e49 {
+:root .guilds_c48ade.content-Pph8t6:not(.closed-j55_T-) + .base_c48ade .panels_c48ade > .container__37e49 .avatarWrapper__37e49 {
   margin-left: 72px;
 }
-:root .vc-bf-folder-sidebar + .base_c48ade .panels_c48ade > .container__37e49 > .avatarWrapper__37e49 {
+:root .vc-bf-folder-sidebar + .base_c48ade .panels_c48ade > .container__37e49 .avatarWrapper__37e49 {
   transition: margin-left 300ms linear;
   margin-left: 72px;
 }
