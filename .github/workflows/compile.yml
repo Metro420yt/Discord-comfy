@@ -9,6 +9,8 @@ on:
 jobs:
   compile:
     runs-on: ubuntu-latest
+    outputs:
+      commitSha: ${{steps.commit.outputs.commit_long_sha}}
 
     steps:
       - uses: actions/checkout@v4
@@ -19,9 +21,14 @@ jobs:
           destination: ./betterdiscord/main.css
           outputStyle: expanded
       - uses: EndBug/add-and-commit@v9
+        id: commit
         with:
           default_author: github_actions
           message: "chore: build"
           fetch: true
+
   build:
+    needs: compile
     uses: ./.github/workflows/gh-pages.yml
+    with:
+      sha: ${{needs.compile.outputs.commitSha}}
