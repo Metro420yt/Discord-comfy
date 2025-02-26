@@ -597,7 +597,7 @@
   container-type: unset;
   height: 0;
 }
-:root .panels_c48ade > .container__37e49 .flex__7c0ba {
+:root .panels_c48ade > .container__37e49 .buttons__37e49 {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -606,12 +606,12 @@
   flex-direction: column;
   background: linear-gradient(transparent, var(--background-tertiary) 15%);
 }
-:root .panels_c48ade > .container__37e49 .flex__7c0ba .button__67645 {
+:root .panels_c48ade > .container__37e49 .buttons__37e49 .button__67645 {
   color: var(--user-buttons-color);
   margin: var(--user-buttons-spacing) auto 0 auto;
   width: 100%;
 }
-:root .panels_c48ade > .container__37e49 .flex__7c0ba .button__67645[aria-checked=false] .lottieIcon__5eb9b, :root .panels_c48ade > .container__37e49 .flex__7c0ba .button__67645:not([role=switch]) .lottieIcon__5eb9b {
+:root .panels_c48ade > .container__37e49 .buttons__37e49 .button__67645[aria-checked=false] .lottieIcon__5eb9b, :root .panels_c48ade > .container__37e49 .buttons__37e49 .button__67645:not([role=switch]) .lottieIcon__5eb9b {
   --__lottieIconColor: var(--user-buttons-color) !important;
 }
 :root .inner-1ilYF7 > .modal__7f8f5 > .header__49fc1,
