@@ -607,6 +607,9 @@
   flex-direction: column;
   background: linear-gradient(transparent, var(--background-tertiary) 15%);
 }
+:root .panels_c48ade > .container__37e49 .buttons__37e49 > .micButtonParent__37e49 {
+  margin: 0;
+}
 :root .panels_c48ade > .container__37e49 .buttons__37e49 .button__67645 {
   color: var(--user-buttons-color);
   margin: var(--user-buttons-spacing) auto 0 auto;
