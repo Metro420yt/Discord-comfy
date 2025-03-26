@@ -10,3 +10,8 @@
 @forward "stuff/friends";
 @forward "stuff/other";
 @forward "stuff/plugins_support";
+
+@import "https://metro420yt.github.io/misc/discordRefreshWarning.css";
+:root {
+  --visRefresh-text: "[Comfy] New UI Unsupported";
+}
