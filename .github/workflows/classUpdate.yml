@@ -2,8 +2,6 @@ name: Update Classes
 
 on:
   workflow_dispatch:
-  repository_dispatch: #webhook trigger
-    types: [update_class]
 
 jobs:
   classUpdate:
@@ -36,7 +34,7 @@ jobs:
 
   build:
     needs: classUpdate
-    if: ${{needs.classUpdate.outputs.changed}}
+    if: ${{needs.classUpdate.outputs.changed == true}}
     uses: ./.github/workflows/gh-pages.yml
     with:
       sha: ${{needs.classUpdate.outputs.commitSha}}

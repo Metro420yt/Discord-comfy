@@ -6,9 +6,6 @@ on:
     inputs:
       sha:
         type: string
-  push:
-    paths:
-      - betterdiscord/**
 
 permissions:
   contents: read
