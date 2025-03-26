@@ -1,3 +1,4 @@
+@import "https://metro420yt.github.io/misc/discordRefreshWarning.css";
 :root .buttons__5126c {
   transition: opacity 150ms;
 }
@@ -2530,4 +2531,8 @@
 :root .root-8LYsGj .UserBackgrounds-banner-container .UserBackgrounds-banner-badge {
   top: 13px;
   right: 50px;
+}
+
+:root {
+  --visRefresh-text: "[Comfy] New UI Unsupported";
 }
