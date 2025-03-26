@@ -149,6 +149,10 @@
           var(--background-tertiary) 15%
         );
 
+        & > .micButtonParent__37e49 {
+          margin: 0;
+        }
+
         & .button__67645 {
           color: var(--user-buttons-color);
           margin: var(--user-buttons-spacing) auto 0 auto;
