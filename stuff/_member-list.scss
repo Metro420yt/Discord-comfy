@@ -85,15 +85,11 @@
         position: absolute;
         top: 20px;
         left: 115px;
-        z-index: 1;
         max-width: 180px;
         text-overflow: ellipsis;
         white-space: nowrap;
         overflow: hidden;
         display: block;
-        background-color: #0000003f;
-        border-radius: 8px;
-        padding: 2px;
 
         .usernameRow__63ed3 h1 {
           color: var(--header-primary);
