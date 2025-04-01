@@ -3,7 +3,7 @@
   //height*count + bottom padding
   --buttons-height: calc((34.5px * var(--button-count)) + 10px);
 
-  &:has(.container__37e49 .flex__7c0ba > button:nth-child(4)) {
+  &:has(.container__37e49 .buttons__37e49 button:nth-child(4)) {
     --button-count: 4;
   }
 
@@ -131,8 +131,6 @@
 
   // User buttons
   .panels_c48ade {
-    z-index: 2;
-
     & > .container__37e49 {
       container-type: unset;
       height: 0;
