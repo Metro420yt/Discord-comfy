@@ -35,6 +35,7 @@
 :root .panels_c48ade > .container__37e49 .avatarWrapper__37e49 > .avatar__37e49 + .nameTag__37e49 {
   display: none;
 }
+:root .content_c48ade > .container__133bf,
 :root .callContainer__722ff,
 :root .gatedContent__7184c,
 :root .chat_f75fb0 > .content_f75fb0 > .container_f369db > .list_f369db[data-list-id^=forum-channel-list],
