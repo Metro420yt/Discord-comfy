@@ -1,7 +1,34 @@
 @import "https://metro420yt.github.io/misc/discordRefreshWarning.css";
+:root {
+  --disable-animations: 2s channel-unread infinite;
+  --user-buttons-spacing: 8px;
+  --user-buttons-color: #096dc0;
+  --avatar-radius: 5px;
+  --status-radius: 3px;
+  --server-radius: 8px;
+  --colored-emoji: grayscale(0%);
+  --mention-color: #f04747;
+  --unread-color: #7289da;
+  --mention-color-bar: #c66262;
+  --mention-color-background: #c662621f;
+  --mention-color-hover: #c6626226;
+  --chat-buttons: #7289da;
+  --spotify-color: #1edc62 !important;
+  --online: #43b581;
+  --idle: #faa61a;
+  --dnd: #f04747;
+  --offline: #747f8d;
+  --streaming: #593695;
+  --playing: #7289da;
+  --listening: #1db653;
+  --role-circle: 5px;
+  --discord-logo: none;
+}
+
 :root .avatar__44b0c,
 :root .avatar_c19a55,
 :root .avatar__07f91,
+:root .avatar_f9d668,
 :root .overlay__75742:after,
 :root .voiceAvatar_f910d0,
 :root .border_f910d0,
@@ -338,11 +365,17 @@
 :root .box_f8c98c,
 :root .authedAppV2__50a54,
 :root .connectContainer_c7f964,
-:root .connection_c7f964 {
+:root .connection_c7f964,
+:root .inner_ab8609,
+:root .outer_ab8609 {
   background-color: var(--background-secondary);
 }
-:root .connectionHeader_c7f964 {
+:root .connectionHeader_c7f964,
+:root .headerV2__50a54 {
   background-color: var(--background-tertiary);
+}
+:root .lookFilled__201d5 {
+  background-color: var(--background-accent);
 }
 
 :root {
