@@ -15,7 +15,22 @@
   }
 
   // user area
-  .container__37e49 {
-    all: unset;
+  .panels_c48ade {
+    z-index: 1;
+    background: none;
+    border: none;
+    left: 0;
+    bottom: 0;
+    width: calc(100% - 72px);
+    margin-left: 72px;
+    background-color: var(--background-secondary);
+
+    .container__37e49 {
+      all: unset;
+
+      .nameTag__37e49 {
+        display: none;
+      }
+    }
   }
 }

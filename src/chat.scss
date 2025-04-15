@@ -50,29 +50,15 @@
     }
   }
 
-  // user area
-  .panels_c48ade {
+  // user area  pfp
+  .panels_c48ade .avatarWrapper__37e49 .avatar__37e49 {
+    display: none;
+    position: absolute;
+    left: calc(100% + 10px);
+    bottom: 25px;
     z-index: 1;
-    background: none;
-    border: none;
-    left: 0;
-    width: calc(100% - 72px);
-    margin-left: 72px;
-
-    .nameTag__37e49 {
-      display: none;
-    }
-
-    // pfp
-    .avatarWrapper__37e49 .avatar__37e49 {
-      display: none;
-      position: absolute;
-      left: calc(100% + 10px);
-      bottom: 25px;
-      z-index: 1;
-      margin: 0;
-      padding: 0;
-    }
+    margin: 0;
+    padding: 0;
   }
 
   // hide pfp unless text box

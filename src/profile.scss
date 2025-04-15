@@ -1,19 +1,4 @@
 :root {
-  .avatar__44b0c,
-  .avatar_c19a55,
-  .avatar__07f91,
-  .avatarSpeaking__44b0c {
-    border-radius: var(--avatar-radius);
-  }
-
-  .mask__44b0c {
-    overflow: visible;
-
-    & > foreignObject {
-      mask: unset;
-    }
-  }
-
   // behind pfp
   .mask__68edb > mask {
     display: none;
