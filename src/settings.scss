@@ -1,6 +1,6 @@
 :root {
   .contentRegionScroller__23e6b //main settings area
-   {
+  {
     background-color: var(--background-primary);
   }
 
@@ -10,13 +10,19 @@
   .box_f8c98c, //family centre
   .authedAppV2__50a54, //authorized apps
   .connectContainer_c7f964, //"connections" header
-  .connection_c7f964 //individual apps
+  .connection_c7f964, //individual apps
+  .inner_ab8609, //add status
+  .outer_ab8609 //add status bubbles
   {
     background-color: var(--background-secondary);
   }
 
-  .connectionHeader_c7f964 //connections header
-  {
+  .connectionHeader_c7f964, //connections header
+  .headerV2__50a54 {
     background-color: var(--background-tertiary);
+  }
+
+  .lookFilled__201d5 {
+    background-color: var(--background-accent);
   }
 }
