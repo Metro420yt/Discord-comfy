@@ -1,4 +1,18 @@
 @import "https://metro420yt.github.io/misc/discordRefreshWarning.css";
+:root .avatar__44b0c,
+:root .avatar_c19a55,
+:root .avatar__07f91,
+:root .overlay__75742:after,
+:root .voiceAvatar_f910d0,
+:root .border_f910d0,
+:root .avatarSpeaking__44b0c {
+  border-radius: var(--avatar-radius);
+}
+:root .mask__44b0c foreignObject,
+:root .callAvatarMask_f910d0 foreignObject {
+  mask: unset;
+}
+
 .theme-darker,
 .theme-dark,
 .visual-refresh .theme-darker,
@@ -52,8 +66,21 @@
 :root .sidebar_c48ade::after {
   all: unset;
 }
-:root .container__37e49 {
+:root .panels_c48ade {
+  z-index: 1;
+  background: none;
+  border: none;
+  left: 0;
+  bottom: 0;
+  width: calc(100% - 72px);
+  margin-left: 72px;
+  background-color: var(--background-secondary);
+}
+:root .panels_c48ade .container__37e49 {
   all: unset;
+}
+:root .panels_c48ade .container__37e49 .nameTag__37e49 {
+  display: none;
 }
 
 :root .chatContent_f75fb0 {
@@ -87,17 +114,6 @@
 }
 :root .container_f369db .card_f369db .container_faa96b {
   background-color: var(--background-secondary);
-}
-:root .panels_c48ade {
-  z-index: 1;
-  background: none;
-  border: none;
-  left: 0;
-  width: calc(100% - 72px);
-  margin-left: 72px;
-}
-:root .panels_c48ade .nameTag__37e49 {
-  display: none;
 }
 :root .panels_c48ade .avatarWrapper__37e49 .avatar__37e49 {
   display: none;
@@ -286,27 +302,12 @@
   background-color: var(--background-secondary);
 }
 
-:root .avatar__44b0c,
-:root .avatar_c19a55,
-:root .avatar__07f91,
-:root .avatarSpeaking__44b0c {
-  border-radius: var(--avatar-radius);
-}
-:root .mask__44b0c {
-  overflow: visible;
-}
-:root .mask__44b0c > foreignObject {
-  mask: unset;
-}
 :root .mask__68edb > mask {
   display: none;
 }
 
 :root .guilds_c48ade {
   background-color: var(--background-tertiary);
-}
-:root .guilds_c48ade .listItem__650eb .wrapper_cc5dd2 mask {
-  display: none;
 }
 :root .guilds_c48ade .listItem__650eb .icon__6e9f8,
 :root .guilds_c48ade .listItem__650eb .childWrapper__6e9f8 {
