@@ -328,6 +328,22 @@
   margin: 0;
 }
 
+:root .contentRegionScroller__23e6b {
+  background-color: var(--background-primary);
+}
+:root .sidebarRegionScroller__23e6b,
+:root .cardPrimary__73069,
+:root .vc-addon-card,
+:root .box_f8c98c,
+:root .authedAppV2__50a54,
+:root .connectContainer_c7f964,
+:root .connection_c7f964 {
+  background-color: var(--background-secondary);
+}
+:root .connectionHeader_c7f964 {
+  background-color: var(--background-tertiary);
+}
+
 :root {
   --visRefresh-text: "[Comfy] Work In Progress";
 }
