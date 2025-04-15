@@ -378,6 +378,12 @@
   background-color: var(--background-accent);
 }
 
+:root .horizontalReverse__7c0ba,
+:root .option__66e7e,
+:root .footer__6c12c {
+  background-color: var(--background-secondary);
+}
+
 :root {
   --visRefresh-text: "[Comfy] Work In Progress";
 }
