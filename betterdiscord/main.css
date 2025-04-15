@@ -1,6 +1,7 @@
 @import "https://metro420yt.github.io/misc/discordRefreshWarning.css";
 .theme-darker,
 .theme-dark,
+.visual-refresh .theme-darker,
 .visual-refresh.theme-darker,
 .visual-refresh.theme-dark {
   --background-primary: #23283d;
@@ -51,6 +52,9 @@
 :root .sidebar_c48ade::after {
   all: unset;
 }
+:root .container__37e49 {
+  all: unset;
+}
 
 :root .chatContent_f75fb0 {
   background-color: var(--background-primary);
@@ -75,22 +79,37 @@
 :root .title_f75fb0 {
   background-color: var(--background-secondary);
 }
+:root .container_f369db {
+  background-color: var(--background-primary);
+}
+:root .container_f369db .headerRow_f369db .header_f369db {
+  background-color: var(--background-secondary-alt);
+}
+:root .container_f369db .card_f369db .container_faa96b {
+  background-color: var(--background-secondary);
+}
 :root .panels_c48ade {
   z-index: 1;
   background: none;
   border: none;
-  left: 100%;
-  bottom: 31.53px;
+  left: 0;
+  width: calc(100% - 72px);
+  margin-left: 72px;
 }
 :root .panels_c48ade .nameTag__37e49 {
   display: none;
 }
 :root .panels_c48ade .avatarWrapper__37e49 .avatar__37e49 {
+  display: none;
   position: absolute;
-  left: 11px;
+  left: calc(100% + 10px);
+  bottom: 25px;
   z-index: 1;
   margin: 0;
   padding: 0;
+}
+:root :has(.form_f75fb0) .avatarWrapper__37e49 .avatar__37e49 {
+  display: block;
 }
 
 :root .connectionIcon_c7f964[alt="Battle.net"],
@@ -244,15 +263,33 @@
   background-color: rgba(10, 81, 154, 0.3294117647);
 }
 
-.members_c8ffbb {
+:root .tabBody__133bf {
+  background-color: var(--background-primary);
+}
+:root .container__7d20c {
   background-color: var(--background-secondary);
 }
-.members_c8ffbb .member__5d473:not(.wrapperPlated__91a9d) {
+:root .privateChannels__35e86 {
+  background-color: var(--background-secondary);
+}
+:root .scroller__99e7c {
+  background-color: inherit;
+}
+:root .container__9293f {
+  background-color: var(--background-secondary);
+}
+
+:root .members_c8ffbb {
+  background-color: var(--background-secondary);
+}
+:root .members_c8ffbb .member__5d473:not(.wrapperPlated__91a9d) {
   background-color: var(--background-secondary);
 }
 
 :root .avatar__44b0c,
-:root .avatar_c19a55 {
+:root .avatar_c19a55,
+:root .avatar__07f91,
+:root .avatarSpeaking__44b0c {
   border-radius: var(--avatar-radius);
 }
 :root .mask__44b0c {
