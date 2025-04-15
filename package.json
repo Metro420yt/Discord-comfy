@@ -7,7 +7,7 @@
     "pnpm": ">=8.0.0"
   },
   "scripts": {
-    "dev": "nodemon -w \"./stuff\" -w \"app.scss\" -e scss -x \"sass ./app.scss \"%appdata%/Vencord/themes/_tmp/main.css\" --no-source-map\"",
+    "dev": "nodemon -e scss -x \"sass ./app.scss \"%appdata%/Vencord/themes/_tmp/main.css\" --no-source-map\"",
     "build": "sass ./app.scss ./betterdiscord/main.css --no-source-map --style expanded",
     "lint": "prettier **/*.scss --check",
     "lint:fix": "prettier **/*.scss --write"

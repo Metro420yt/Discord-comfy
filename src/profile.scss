@@ -1,0 +1,21 @@
+@use "chat.scss" as chat;
+
+:root {
+  .avatar__44b0c,
+  .avatar_c19a55 {
+    border-radius: var(--avatar-radius);
+  }
+
+  .mask__44b0c {
+    overflow: visible;
+
+    & > foreignObject {
+      mask: unset;
+    }
+  }
+
+  // behind pfp
+  .mask__68edb > mask {
+    display: none;
+  }
+}

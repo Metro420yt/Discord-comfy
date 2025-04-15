@@ -15,7 +15,7 @@ jobs:
       - id: update
         uses: metro420yt/class-update@v1-rc
         with:
-          folder: stuff
+          folder: src
           ext: scss
 
       - uses: gha-utilities/sass-build@v0.6.0

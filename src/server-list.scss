@@ -1,0 +1,38 @@
+$serverListWidth: 72px;
+
+:root {
+  .guilds_c48ade {
+    background-color: var(--background-tertiary);
+
+    .listItem__650eb {
+      .wrapper_cc5dd2 mask {
+        display: none;
+      }
+
+      .icon__6e9f8,
+      .childWrapper__6e9f8 {
+        border-radius: var(--server-radius);
+      }
+    }
+  }
+
+  // user area buttons
+  .buttons__37e49 {
+    position: fixed;
+    width: $serverListWidth;
+    background: var(--background-tertiary);
+
+    display: flex;
+    flex-direction: column;
+
+    left: 0;
+    bottom: 0;
+    gap: var(--user-buttons-spacing);
+
+    & button {
+      width: 100%;
+      color: var(--user-buttons-color);
+      margin: 0;
+    }
+  }
+}

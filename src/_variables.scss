@@ -1,43 +1,17 @@
-@use "app.scss";
-
-@forward "stuff/custom/no-scrollbar";
-
-:root {
-  --disable-animations: 2s channel-unread infinite;
-  --user-buttons-spacing: 8px;
-  --user-buttons-color: #096dc0;
-  --avatar-radius: 5px;
-  --status-radius: 3px;
-  --server-radius: 8px;
-  --colored-emoji: grayscale(0%);
-  --mention-color: #f04747;
-  --unread-color: #7289da;
-  --mention-color-bar: #c66262;
-  --mention-color-background: #c662621f;
-  --mention-color-hover: #c6626226;
-  --chat-buttons: #7289da;
-  --spotify-color: #1edc62 !important;
-  --online: #43b581;
-  --idle: #faa61a;
-  --dnd: #f04747;
-  --offline: #747f8d;
-  --streaming: #593695;
-  --playing: #7289da;
-  --listening: #1db653;
-  --role-circle: 5px;
-  --discord-logo: none;
-}
-
-.theme-dark {
-  --modal-background: #23283d;
-  --background-tertiary: #101320;
+.theme-darker,
+.theme-dark,
+.visual-refresh.theme-darker,
+.visual-refresh.theme-dark {
+  --background-primary: #23283d;
   --background-secondary: #1e2233;
   --background-secondary-alt: #191f2e;
-  --background-primary: #23283d;
+  --background-tertiary: #101320;
+  --background-accent: #6e85d3;
+
+  --modal-background: #23283d;
   --background-mobile-primary: #23283d;
   --background-mobile-secondary: #1e2233;
   --channeltextarea-background: #191f2e;
-  --background-accent: #6e85d3;
   --background-message-hover: transparent;
   --background-modifier-hover: #00000010;
   --background-modifier-active: #0000001a;
@@ -57,12 +31,6 @@
 }
 
 .theme-light {
-  --modal-background: #23283d;
-  --background-tertiary: #101320;
-  --background-secondary: #1e2233;
-  --background-secondary-alt: #191f2e;
-  --background-primary: #23283d;
-  --background-accent: #6e85d3;
   --background-modifier-hover: #262b41;
   --background-modifier-active: #262b41;
   --header-primary: #fff;

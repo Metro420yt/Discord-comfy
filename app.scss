@@ -1,22 +1,13 @@
-@forward "stuff/chat";
-@forward "stuff/profile";
-@forward "stuff/connections";
-@forward "stuff/server-list";
-@forward "stuff/channel-list";
-@forward "stuff/channel-bar";
-@forward "stuff/member-list";
-@forward "stuff/activity";
-@forward "stuff/settings";
-@forward "stuff/friends";
-@forward "stuff/other";
-@forward "stuff/plugins_support";
+@forward "src/variables";
+@forward "src/channel-list.scss";
+@forward "src/chat.scss";
+@forward "src/connections.scss";
+@forward "src/member-list.scss";
+@forward "src/profile.scss";
+@forward "src/server-list.scss";
+@forward "src/settings.scss";
 
 @import "https://metro420yt.github.io/misc/discordRefreshWarning.css";
 :root {
-  --visRefresh-text: "[Comfy] New UI Unsupported";
-}
-
-//threads patch
-.threadSidebarOpen_f75fb0 {
-  padding-right: 240px;
+  --visRefresh-text: "[Comfy] Work In Progress";
 }

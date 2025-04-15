@@ -1,0 +1,14 @@
+:root {
+  .container__2637a {
+    background-color: var(--background-secondary);
+  }
+
+  .privateChannels__35e86,
+  .sidebar_c48ade {
+    overflow: visible;
+  }
+
+  .sidebar_c48ade::after {
+    all: unset;
+  }
+}
