@@ -1,6 +1,3 @@
-// $pfpBottom: 22px;
-// $pfpLeft: calc(100%);
-
 :root {
   // chat section
   .chatContent_f75fb0 {
@@ -27,15 +24,30 @@
       }
     }
 
-    //skeleton
+    // skeleton
     .wrapper_d852db,
     .wrapper_fc8177 {
       background-color: inherit;
     }
   }
-
+  // title bar
   .title_f75fb0 {
     background-color: var(--background-secondary);
+  }
+
+  // fourm
+  .container_f369db {
+    background-color: var(--background-primary);
+
+    // create post
+    .headerRow_f369db .header_f369db {
+      background-color: var(--background-secondary-alt);
+    }
+
+    // card
+    .card_f369db .container_faa96b {
+      background-color: var(--background-secondary);
+    }
   }
 
   // user area
