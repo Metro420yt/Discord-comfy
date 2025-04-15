@@ -55,19 +55,28 @@
     z-index: 1;
     background: none;
     border: none;
-    left: 100%;
-    bottom: 31.53px;
+    left: 0;
+    width: calc(100% - 72px);
+    margin-left: 72px;
 
     .nameTag__37e49 {
       display: none;
     }
+
     // pfp
     .avatarWrapper__37e49 .avatar__37e49 {
+      display: none;
       position: absolute;
-      left: 11px;
+      left: calc(100% + 10px);
+      bottom: 25px;
       z-index: 1;
       margin: 0;
       padding: 0;
     }
+  }
+
+  // hide pfp unless text box
+  :has(.form_f75fb0) .avatarWrapper__37e49 .avatar__37e49 {
+    display: block;
   }
 }
