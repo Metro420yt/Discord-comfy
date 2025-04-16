@@ -31,6 +31,9 @@
 :root #vc-spotify-player {
   background-color: var(--background-secondary-alt);
 }
+:root .vc-notification-root {
+  background-color: var(--background-secondary);
+}
 
 .theme-darker,
 .theme-dark,
@@ -119,14 +122,20 @@
 }
 :root .chatContent_f75fb0 .form_f75fb0 .channelTextArea_f75fb0,
 :root .chatContent_f75fb0 .form_f75fb0 .scrollableContainer__74017,
-:root .chatContent_f75fb0 .form_f75fb0 .stackedBars__74017 {
+:root .chatContent_f75fb0 .form_f75fb0 .stackedBars__74017,
+:root .chatContent_f75fb0 .form_f75fb0 .channelAttachmentArea_b77158 {
   background-color: var(--background-secondary-alt);
+}
+:root .chatContent_f75fb0 .form_f75fb0 .upload_aa605f,
+:root .chatContent_f75fb0 .form_f75fb0 .spoilerInnerContainer__54ab5 {
+  background-color: var(--background-primary);
 }
 :root .chatContent_f75fb0 .form_f75fb0 .buttons__74017 svg,
 :root .chatContent_f75fb0 .form_f75fb0 .attachButtonInner__0923f svg {
   color: var(--chat-buttons);
 }
-:root .chatContent_f75fb0 .autocompleteInner__13533, :root .chatContent_f75fb0 .wrapper_f7ecac {
+:root .chatContent_f75fb0 .autocompleteInner__13533,
+:root .chatContent_f75fb0 .wrapper_f7ecac {
   background-color: var(--background-secondary);
 }
 :root .chatContent_f75fb0 .wrapper_d852db,
