@@ -10,6 +10,7 @@
   border-radius: var(--avatar-radius);
 }
 :root .mask__44b0c foreignObject,
+:root .wrapper_cc5dd2 foreignObject,
 :root .callAvatarMask_f910d0 foreignObject {
   mask: unset;
 }
@@ -65,9 +66,9 @@
 :root .container__2637a {
   background-color: var(--background-secondary);
 }
-:root .privateChannels__35e86,
 :root .sidebar_c48ade {
   overflow: visible;
+  max-height: 100vh;
 }
 :root .sidebar_c48ade::after {
   all: unset;
@@ -323,8 +324,12 @@
   background-color: var(--background-tertiary);
 }
 :root .guilds_c48ade .listItem__650eb .icon__6e9f8,
+:root .guilds_c48ade .listItem__650eb .folderIconWrapper__48112,
 :root .guilds_c48ade .listItem__650eb .childWrapper__6e9f8 {
   border-radius: var(--server-radius);
+}
+:root .guilds_c48ade .listItem__650eb .closedFolderIconWrapper__48112 .icon_f34534 {
+  border-radius: var(--server-radius) !important;
 }
 :root .buttons__37e49 {
   position: fixed;
