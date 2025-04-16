@@ -19,11 +19,18 @@
 :root .footer__6c12c {
   background-color: var(--background-secondary);
 }
+:root .tooltip__382e7 {
+  background-color: var(--background-secondary-alt);
+}
+:root .title_c38106, :root .sidebar_c48ade {
+  background-color: var(--background-tertiary);
+}
 
 .theme-darker,
 .theme-dark,
 .visual-refresh .theme-darker,
 .visual-refresh.theme-darker,
+.visual-refresh .theme-dark,
 .visual-refresh.theme-dark {
   --background-primary: #23283d;
   --background-secondary: #1e2233;
@@ -92,6 +99,9 @@
 :root .wrapper__44df5 {
   background-color: var(--background-secondary);
 }
+:root .popout_8514, :root .popout__76f04 {
+  background-color: var(--background-secondary-alt);
+}
 
 :root .chatContent_f75fb0 {
   background-color: var(--background-primary);
@@ -102,12 +112,16 @@
   margin-left: auto;
 }
 :root .chatContent_f75fb0 .form_f75fb0 .channelTextArea_f75fb0,
-:root .chatContent_f75fb0 .form_f75fb0 .scrollableContainer__74017 {
+:root .chatContent_f75fb0 .form_f75fb0 .scrollableContainer__74017,
+:root .chatContent_f75fb0 .form_f75fb0 .stackedBars__74017 {
   background-color: var(--background-secondary-alt);
 }
 :root .chatContent_f75fb0 .form_f75fb0 .buttons__74017 svg,
 :root .chatContent_f75fb0 .form_f75fb0 .attachButtonInner__0923f svg {
   color: var(--chat-buttons);
+}
+:root .chatContent_f75fb0 .autocompleteInner__13533, :root .chatContent_f75fb0 .wrapper_f7ecac {
+  background-color: var(--background-secondary);
 }
 :root .chatContent_f75fb0 .wrapper_d852db,
 :root .chatContent_f75fb0 .wrapper_fc8177 {
@@ -125,6 +139,12 @@
 :root .container_f369db .card_f369db .container_faa96b {
   background-color: var(--background-secondary);
 }
+:root .container__34c2c {
+  background-color: var(--background-secondary);
+}
+:root .resizeHandle__01ae2 {
+  background-color: var(--background-secondary-alt);
+}
 :root .panels_c48ade .avatarWrapper__37e49 .avatar__37e49 {
   display: none;
   position: absolute;
@@ -134,8 +154,15 @@
   margin: 0;
   padding: 0;
 }
+:root .scrollableContainer__74017 {
+  background-color: var(--background-secondary);
+}
 :root :has(.form_f75fb0) .avatarWrapper__37e49 .avatar__37e49 {
   display: block;
+}
+:root .wrapper_d5f3cd,
+:root .grid__623de {
+  background-color: var(--background-secondary);
 }
 
 :root .connectionIcon_c7f964[alt="Battle.net"],
@@ -304,6 +331,9 @@
 :root .container__9293f {
   background-color: var(--background-secondary);
 }
+:root .itemCard__7e549 {
+  background-color: var(--background-secondary-alt);
+}
 
 :root .members_c8ffbb {
   background-color: var(--background-secondary);
@@ -314,6 +344,9 @@
 
 :root .mask__68edb > mask {
   display: none;
+}
+:root .inner_c0bea0 {
+  background-color: var(--background-primary);
 }
 :root .inner_ab8609,
 :root .outer_ab8609 {
@@ -362,6 +395,15 @@
 :root .connectionHeader_c7f964,
 :root .headerV2__50a54 {
   background-color: var(--background-secondary-alt);
+}
+
+:root .chat_f75fb0,
+:root .pageBody__41ed7 {
+  background-color: var(--background-primary) !important;
+}
+:root .prompt__5d7c9,
+:root .channelRow_e4503a {
+  background-color: var(--background-secondary);
 }
 
 :root {
