@@ -12,9 +12,15 @@
       // bar
       .channelTextArea_f75fb0, // weird background thing
       .scrollableContainer__74017,
-      .stackedBars__74017 {
+      .stackedBars__74017,
+      .channelAttachmentArea_b77158 {
         //reply bar
         background-color: var(--background-secondary-alt);
+      }
+
+      .upload_aa605f,
+      .spoilerInnerContainer__54ab5 {
+        background-color: var(--background-primary);
       }
 
       // chat buttons
@@ -27,7 +33,8 @@
     }
 
     // autocomplete + quick action buttons
-    .autocompleteInner__13533, .wrapper_f7ecac {
+    .autocompleteInner__13533,
+    .wrapper_f7ecac {
       background-color: var(--background-secondary);
     }
 
