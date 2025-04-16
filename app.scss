@@ -1,4 +1,3 @@
-@forward "user_vars.scss";
 @forward "src/";
 @forward "src/variables";
 @forward "src/channel-list.scss";
@@ -9,7 +8,6 @@
 @forward "src/profile.scss";
 @forward "src/server-list.scss";
 @forward "src/settings.scss";
-@forward "src/modal.scss";
 
 @import "https://metro420yt.github.io/misc/discordRefreshWarning.css";
 :root {

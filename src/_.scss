@@ -17,4 +17,12 @@
       mask: unset;
     }
   }
+
+  //modals
+  .horizontalReverse__7c0ba, //leave server bottom
+  .option__66e7e, //server feedback buttons
+  .footer__6c12c //feedback footer
+  {
+    background-color: var(--background-secondary);
+  }
 }

@@ -9,20 +9,14 @@
   .vc-addon-card, //vencord plugins
   .box_f8c98c, //family centre
   .authedAppV2__50a54, //authorized apps
-  .connectContainer_c7f964, //"connections" header
-  .connection_c7f964, //individual apps
-  .inner_ab8609, //add status
-  .outer_ab8609 //add status bubbles
+  .connectContainer_c7f964, // connections page header
+  .connection_c7f964 //individual apps
   {
     background-color: var(--background-secondary);
   }
 
   .connectionHeader_c7f964, //connections header
   .headerV2__50a54 {
-    background-color: var(--background-tertiary);
-  }
-
-  .lookFilled__201d5 {
-    background-color: var(--background-accent);
+    background-color: var(--background-secondary-alt);
   }
 }
