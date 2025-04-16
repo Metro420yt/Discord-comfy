@@ -167,6 +167,9 @@
 :root .menu_c1e9c4 {
   background-color: var(--background-secondary);
 }
+:root .buttonSection__1405b {
+  background-color: var(--background-primary);
+}
 
 :root .connectionIcon_c7f964[alt="Battle.net"],
 :root .accountBtnInner__750de[aria-label="Battle.net"],
@@ -354,6 +357,9 @@
 :root .inner_ab8609,
 :root .outer_ab8609 {
   background-color: var(--background-secondary);
+}
+:root .overlay_c0bea0 {
+  background-color: var(--background-secondary-alt);
 }
 
 :root .guilds_c48ade {
