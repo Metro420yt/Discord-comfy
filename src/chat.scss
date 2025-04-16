@@ -11,7 +11,9 @@
 
       // bar
       .channelTextArea_f75fb0, // weird background thing
-      .scrollableContainer__74017 {
+      .scrollableContainer__74017,
+      .stackedBars__74017 {
+        //reply bar
         background-color: var(--background-secondary-alt);
       }
 
@@ -22,6 +24,11 @@
           color: var(--chat-buttons);
         }
       }
+    }
+
+    // autocomplete + quick action buttons
+    .autocompleteInner__13533, .wrapper_f7ecac {
+      background-color: var(--background-secondary);
     }
 
     // skeleton
@@ -50,6 +57,16 @@
     }
   }
 
+  //Forum post response bar
+  .container__34c2c {
+    background-color: var(--background-secondary);
+  }
+
+  //Forum resize handle
+  .resizeHandle__01ae2 {
+    background-color: var(--background-secondary-alt);
+  }
+
   // user area  pfp
   .panels_c48ade .avatarWrapper__37e49 .avatar__37e49 {
     display: none;
@@ -61,8 +78,20 @@
     padding: 0;
   }
 
+  // edit message
+  .scrollableContainer__74017 {
+    background-color: var(--background-secondary);
+  }
+
   // hide pfp unless text box
   :has(.form_f75fb0) .avatarWrapper__37e49 .avatar__37e49 {
     display: block;
+  }
+
+  // Invite
+  .wrapper_d5f3cd,
+  .grid__623de {
+    // Embeds
+    background-color: var(--background-secondary);
   }
 }
