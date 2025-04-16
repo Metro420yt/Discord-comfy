@@ -22,8 +22,14 @@
 :root .tooltip__382e7 {
   background-color: var(--background-secondary-alt);
 }
-:root .title_c38106, :root .sidebar_c48ade {
+:root .title_c38106,
+:root .sidebar_c48ade {
   background-color: var(--background-tertiary);
+}
+:root .panel__5dec7,
+:root .wrapper_e131a9,
+:root #vc-spotify-player {
+  background-color: var(--background-secondary-alt);
 }
 
 .theme-darker,
