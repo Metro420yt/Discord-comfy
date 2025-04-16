@@ -2,6 +2,7 @@
 :root .avatar__44b0c,
 :root .avatar_c19a55,
 :root .avatar__07f91,
+:root .avatar_f9d668,
 :root .overlay__75742:after,
 :root .voiceAvatar_f910d0,
 :root .border_f910d0,
@@ -11,6 +12,11 @@
 :root .mask__44b0c foreignObject,
 :root .callAvatarMask_f910d0 foreignObject {
   mask: unset;
+}
+:root .horizontalReverse__7c0ba,
+:root .option__66e7e,
+:root .footer__6c12c {
+  background-color: var(--background-secondary);
 }
 
 .theme-darker,
@@ -81,6 +87,9 @@
 }
 :root .panels_c48ade .container__37e49 .nameTag__37e49 {
   display: none;
+}
+:root .wrapper__44df5 {
+  background-color: var(--background-secondary);
 }
 
 :root .chatContent_f75fb0 {
@@ -305,6 +314,10 @@
 :root .mask__68edb > mask {
   display: none;
 }
+:root .inner_ab8609,
+:root .outer_ab8609 {
+  background-color: var(--background-secondary);
+}
 
 :root .guilds_c48ade {
   background-color: var(--background-tertiary);
@@ -327,6 +340,23 @@
   width: 100%;
   color: var(--user-buttons-color);
   margin: 0;
+}
+
+:root .contentRegionScroller__23e6b {
+  background-color: var(--background-primary);
+}
+:root .sidebarRegionScroller__23e6b,
+:root .cardPrimary__73069,
+:root .vc-addon-card,
+:root .box_f8c98c,
+:root .authedAppV2__50a54,
+:root .connectContainer_c7f964,
+:root .connection_c7f964 {
+  background-color: var(--background-secondary);
+}
+:root .connectionHeader_c7f964,
+:root .headerV2__50a54 {
+  background-color: var(--background-secondary-alt);
 }
 
 :root {

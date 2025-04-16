@@ -3,4 +3,10 @@
   .mask__68edb > mask {
     display: none;
   }
+
+  .inner_ab8609, //add status
+  .outer_ab8609 //add status bubbles
+  {
+    background-color: var(--background-secondary);
+  }
 }

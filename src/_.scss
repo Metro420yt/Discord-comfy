@@ -2,6 +2,7 @@
   .avatar__44b0c, // dm/chatbar/member
   .avatar_c19a55, // chat
   .avatar__07f91, // [ ]?
+  .avatar_f9d668, //settings
   .overlay__75742:after, //hover overlay
   .voiceAvatar_f910d0, // call
   .border_f910d0, // call
@@ -15,5 +16,13 @@
     foreignObject {
       mask: unset;
     }
+  }
+
+  //modals
+  .horizontalReverse__7c0ba, //leave server bottom
+  .option__66e7e, //server feedback buttons
+  .footer__6c12c //feedback footer
+  {
+    background-color: var(--background-secondary);
   }
 }
