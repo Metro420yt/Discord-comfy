@@ -176,6 +176,12 @@
 :root .buttonSection__1405b {
   background-color: var(--background-primary);
 }
+:root .popoutContainer__0f481 {
+  background-color: var(--background-secondary-alt);
+}
+:root .card_dc2e44.card__73069 {
+  background-color: var(--background-secondary);
+}
 
 :root .connectionIcon_c7f964[alt="Battle.net"],
 :root .accountBtnInner__750de[aria-label="Battle.net"],
