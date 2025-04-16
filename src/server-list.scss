@@ -5,9 +5,15 @@ $serverListWidth: 72px;
     background-color: var(--background-tertiary);
 
     .listItem__650eb {
-      .icon__6e9f8,
-      .childWrapper__6e9f8 {
+      .icon__6e9f8, // server icon
+      .folderIconWrapper__48112, // folders
+      .childWrapper__6e9f8 // home button
+      {
         border-radius: var(--server-radius);
+      }
+
+      .closedFolderIconWrapper__48112 .icon_f34534 {
+        border-radius: var(--server-radius) !important;
       }
     }
   }

@@ -1,17 +1,18 @@
 :root {
   .avatar__44b0c, // dm/chatbar/member
-  .avatar_c19a55, // chat
-  .avatar__07f91, // [ ]?
+  .avatar_c19a55, // messages
+  .avatar__07f91, // channel list vc
   .avatar_f9d668, //settings
   .overlay__75742:after, //hover overlay
   .voiceAvatar_f910d0, // call
-  .border_f910d0, // call
-  .avatarSpeaking__44b0c // chatbar pfp
+  .border_f910d0, // call (speaking)
+  .avatarSpeaking__44b0c // chatbar pfp (speaking)
   {
     border-radius: var(--avatar-radius);
   }
 
   .mask__44b0c,
+  .wrapper_cc5dd2, // dm call
   .callAvatarMask_f910d0 {
     foreignObject {
       mask: unset;
