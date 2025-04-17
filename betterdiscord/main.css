@@ -427,8 +427,10 @@
   background-color: var(--background-secondary-alt);
 }
 
-:root .chat_f75fb0,
-:root .pageBody__41ed7 {
+:root .chat_f75fb0 {
+  background-color: var(--background-primary) !important;
+}
+:root .chat_f75fb0 .pageBody__41ed7 {
   background-color: var(--background-primary) !important;
 }
 :root .prompt__5d7c9,
