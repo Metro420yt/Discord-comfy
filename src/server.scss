@@ -1,0 +1,18 @@
+:root {
+  // community
+  .chat_f75fb0 //main pages
+  {
+    background-color: var(--background-primary) !important;
+
+    //Channels & Roles / Server Guide
+    .pageBody__41ed7 {
+      background-color: var(--background-primary) !important;
+    }
+  }
+
+  .prompt__5d7c9, //Customize prompts
+  .channelRow_e4503a //Channels in browse channels
+  {
+    background-color: var(--background-secondary);
+  }
+}
