@@ -26,4 +26,27 @@
   {
     background-color: var(--background-secondary);
   }
+
+  //Tooltips
+  .tooltip__382e7 {
+    background-color: var(--background-secondary-alt);
+  }
+
+  //Topbar + weird corner of main area
+  .title_c38106,
+  .sidebar_c48ade {
+    background-color: var(--background-tertiary);
+  }
+
+  // Streaming bar + vc status + spotify player
+  .panel__5dec7,
+  .wrapper_e131a9,
+  #vc-spotify-player {
+    background-color: var(--background-secondary-alt);
+  }
+
+  // Vencord update notice
+  .vc-notification-root {
+    background-color: var(--background-secondary);
+  }
 }

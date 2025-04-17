@@ -11,8 +11,16 @@
 
       // bar
       .channelTextArea_f75fb0, // weird background thing
-      .scrollableContainer__74017 {
+      .scrollableContainer__74017,
+      .stackedBars__74017,
+      .channelAttachmentArea_b77158 {
+        //reply bar
         background-color: var(--background-secondary-alt);
+      }
+
+      .upload_aa605f,
+      .spoilerInnerContainer__54ab5 {
+        background-color: var(--background-primary);
       }
 
       // chat buttons
@@ -22,6 +30,12 @@
           color: var(--chat-buttons);
         }
       }
+    }
+
+    // autocomplete + quick action buttons
+    .autocompleteInner__13533,
+    .wrapper_f7ecac {
+      background-color: var(--background-secondary);
     }
 
     // skeleton
@@ -50,6 +64,16 @@
     }
   }
 
+  //Forum post response bar
+  .container__34c2c {
+    background-color: var(--background-secondary);
+  }
+
+  //Forum resize handle
+  .resizeHandle__01ae2 {
+    background-color: var(--background-secondary-alt);
+  }
+
   // user area  pfp
   .panels_c48ade .avatarWrapper__37e49 .avatar__37e49 {
     display: none;
@@ -61,8 +85,40 @@
     padding: 0;
   }
 
+  // edit message
+  .scrollableContainer__74017 {
+    background-color: var(--background-secondary);
+  }
+
   // hide pfp unless text box
   :has(.form_f75fb0) .avatarWrapper__37e49 .avatar__37e49 {
     display: block;
+  }
+
+  // Invite
+  .wrapper_d5f3cd,
+  .grid__623de {
+    // Embeds
+    background-color: var(--background-secondary);
+  }
+
+  //Right click menu
+  .menu_c1e9c4 {
+    background-color: var(--background-secondary);
+  }
+
+  //vc buttons
+  .buttonSection__1405b {
+    background-color: var(--background-primary);
+  }
+
+  //emoji info
+  .popoutContainer__0f481 {
+    background-color: var(--background-secondary-alt);
+  }
+
+  //integrations
+  .card_dc2e44.card__73069 {
+    background-color: var(--background-secondary);
   }
 }
