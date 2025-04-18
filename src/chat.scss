@@ -121,4 +121,56 @@
   .card_dc2e44.card__73069 {
     background-color: var(--background-secondary);
   }
+
+  // Pinned messages
+  .messagesPopoutWrap__45690 {
+    background-color: var(--background-secondary);
+
+    .header__45690 {
+      background-color: var(--background-secondary-alt);
+    }
+
+    .footer__45690 {
+      background-color: var(--background-secondary);
+    }
+  }
+
+  // Threads
+  .container_d9c882 {
+    background-color: var(--background-secondary);
+
+    .header_d9c882 {
+      background-color: var(--background-secondary-alt);
+    }
+
+    // Thread
+    .container__6764b {
+      background-color: var(--background-primary);
+    }
+  }
+
+  // React to post
+  #emoji-picker-tab-panel {
+    background-color: var(--background-primary);
+
+    .header_c0e32c {
+      background-color: var(--background-secondary-alt);
+    }
+
+    .emojiPicker_c0e32c {
+      background-color: var(--background-primary);
+
+      .header_c656ac {
+        background-color: var(--background-secondary);
+      }
+
+      .inspector_c0e32c {
+        background-color: var(--background-secondary-alt);
+      }
+    }
+
+    .categoryList_c0e32c {
+      background-color: var(--background-secondary-alt);
+    }
+  }
 }
