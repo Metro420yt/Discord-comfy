@@ -191,6 +191,42 @@
 :root .card_dc2e44.card__73069 {
   background-color: var(--background-secondary);
 }
+:root .messagesPopoutWrap__45690 {
+  background-color: var(--background-secondary);
+}
+:root .messagesPopoutWrap__45690 .header__45690 {
+  background-color: var(--background-secondary-alt);
+}
+:root .messagesPopoutWrap__45690 .footer__45690 {
+  background-color: var(--background-secondary);
+}
+:root .container_d9c882 {
+  background-color: var(--background-secondary);
+}
+:root .container_d9c882 .header_d9c882 {
+  background-color: var(--background-secondary-alt);
+}
+:root .container_d9c882 .container__6764b {
+  background-color: var(--background-primary);
+}
+:root #emoji-picker-tab-panel {
+  background-color: var(--background-primary);
+}
+:root #emoji-picker-tab-panel .header_c0e32c {
+  background-color: var(--background-secondary-alt);
+}
+:root #emoji-picker-tab-panel .emojiPicker_c0e32c {
+  background-color: var(--background-primary);
+}
+:root #emoji-picker-tab-panel .emojiPicker_c0e32c .header_c656ac {
+  background-color: var(--background-secondary);
+}
+:root #emoji-picker-tab-panel .emojiPicker_c0e32c .inspector_c0e32c {
+  background-color: var(--background-secondary-alt);
+}
+:root #emoji-picker-tab-panel .categoryList_c0e32c {
+  background-color: var(--background-secondary-alt);
+}
 
 :root .connectionIcon_c7f964[alt="Battle.net"],
 :root .accountBtnInner__750de[aria-label="Battle.net"],
@@ -368,6 +404,9 @@
 :root .members_c8ffbb .member__5d473:not(.wrapperPlated__91a9d) {
   background-color: var(--background-secondary);
 }
+:root .members_c8ffbb .container__0f2e8 {
+  background-color: var(--background-secondary-alt);
+}
 
 :root .mask__68edb > mask {
   display: none;
@@ -430,11 +469,20 @@
 :root .chat_f75fb0 {
   background-color: var(--background-primary) !important;
 }
+:root .chat_f75fb0 .content_f75fb0,
 :root .chat_f75fb0 .pageBody__41ed7 {
   background-color: var(--background-primary) !important;
 }
+:root .chat_f75fb0 .content_f75fb0 .mainTableContainer__09a38,
+:root .chat_f75fb0 .pageBody__41ed7 .mainTableContainer__09a38 {
+  background-color: var(--background-secondary) !important;
+}
+:root .chat_f75fb0 .header__0b563 {
+  background-color: var(--background-secondary) !important;
+}
 :root .prompt__5d7c9,
-:root .channelRow_e4503a {
+:root .channelRow_e4503a,
+:root .row_d13feb {
   background-color: var(--background-secondary);
 }
 
