@@ -111,6 +111,9 @@
 :root .popout_8514, :root .popout__76f04 {
   background-color: var(--background-secondary-alt);
 }
+:root .bar__7aaec {
+  background-color: var(--background-secondary);
+}
 
 :root .chatContent_f75fb0 {
   background-color: var(--background-primary);
@@ -225,6 +228,9 @@
   background-color: var(--background-secondary-alt);
 }
 :root #emoji-picker-tab-panel .categoryList_c0e32c {
+  background-color: var(--background-secondary-alt);
+}
+:root .jumpToPresentBar__0f481 {
   background-color: var(--background-secondary-alt);
 }
 
@@ -396,6 +402,9 @@
 }
 :root .itemCard__7e549 {
   background-color: var(--background-secondary-alt);
+}
+:root .itemCard__7e549 .section__00943 {
+  background-color: var(--background-primary);
 }
 
 :root .members_c8ffbb {
