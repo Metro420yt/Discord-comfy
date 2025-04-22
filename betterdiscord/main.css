@@ -1,4 +1,48 @@
 @import "https://metro420yt.github.io/misc/discordRefreshWarning.css";
+.theme-darker,
+.theme-dark,
+.visual-refresh .theme-darker,
+.visual-refresh.theme-darker,
+.visual-refresh .theme-dark,
+.visual-refresh.theme-dark {
+  --background-primary: var(--comfy-primary, #23283d);
+  --background-secondary: var(--comfy-secondary, #1e2233);
+  --background-secondary-alt: var(--comfy-secondary-alt, #191f2e);
+  --background-tertiary: var(--comfy-tertiary, #101320);
+  --background-accent: var(--comfy-accent, #6e85d3);
+  --modal-background: var(--background-primary);
+  --background-mobile-primary: var(--background-primary);
+  --background-mobile-secondary: var(--background-secondary);
+  --channeltextarea-background: var(--background-secondary-alt);
+  --background-message-hover: transparent;
+  --background-modifier-hover: #00000010;
+  --background-modifier-active: #0000001a;
+  --background-modifier-selected: #0000001f;
+  --deprecated-card-bg: #12141f63;
+  --background-floating: var(--background-tertiary);
+  --deprecated-quickswitcher-input-background: var(--background-tertiary);
+  --elevation-low: none;
+  --scrollbar-auto-thumb: #121722;
+  --scrollbar-auto-track: var(--background-secondary-alt);
+  --scrollbar-thin-thumb: #141925;
+  --toast-background: var(--background-secondary) !important;
+  --toast-header: var(--background-tertiary) !important;
+  --toast-contents: var(--background-primary) !important;
+  --activity-card-background: var(--background-tertiary);
+  --input-background: var(--background-secondary);
+}
+
+.theme-light {
+  --background-modifier-hover: #262b41;
+  --background-modifier-active: #262b41;
+  --header-primary: #fff;
+  --header-secondary: #b1b5b9;
+  --text-normal: #8e9297;
+  --interactive-active: #fff;
+  --interactive-hover: #b1b5b9;
+  --input-background: var(--background-secondary-alt);
+}
+
 :root .avatar__44b0c,
 :root .avatar_c19a55,
 :root .avatar__07f91,
@@ -34,49 +78,11 @@
 :root .vc-notification-root {
   background-color: var(--background-secondary);
 }
-
-.theme-darker,
-.theme-dark,
-.visual-refresh .theme-darker,
-.visual-refresh.theme-darker,
-.visual-refresh .theme-dark,
-.visual-refresh.theme-dark {
-  --background-primary: #23283d;
-  --background-secondary: #1e2233;
-  --background-secondary-alt: #191f2e;
-  --background-tertiary: #101320;
-  --background-accent: #6e85d3;
-  --modal-background: #23283d;
-  --background-mobile-primary: #23283d;
-  --background-mobile-secondary: #1e2233;
-  --channeltextarea-background: #191f2e;
-  --background-message-hover: transparent;
-  --background-modifier-hover: #00000010;
-  --background-modifier-active: #0000001a;
-  --background-modifier-selected: #0000001f;
-  --deprecated-card-bg: #12141f63;
-  --background-floating: #101320;
-  --deprecated-quickswitcher-input-background: #101320;
-  --elevation-low: none;
-  --scrollbar-auto-thumb: #121722;
-  --scrollbar-auto-track: #191f2e;
-  --scrollbar-thin-thumb: #141925;
-  --toast-background: #1e2233 !important;
-  --toast-header: #101320 !important;
-  --toast-contents: #23283d !important;
-  --activity-card-background: #101320;
-  --input-background: #1e2233;
+:root .numberBadge__2b1f5 {
+  background-color: var(--mention-color) !important;
 }
-
-.theme-light {
-  --background-modifier-hover: #262b41;
-  --background-modifier-active: #262b41;
-  --header-primary: #fff;
-  --header-secondary: #b1b5b9;
-  --text-normal: #8e9297;
-  --interactive-active: #fff;
-  --interactive-hover: #b1b5b9;
-  --input-background: var(--background-secondary-alt);
+:root .barText__7aaec {
+  color: white !important;
 }
 
 :root .container__2637a {
@@ -84,7 +90,6 @@
 }
 :root .sidebar_c48ade {
   overflow: visible;
-  max-height: 100vh;
 }
 :root .sidebar_c48ade::after {
   all: unset;
@@ -108,13 +113,20 @@
 :root .wrapper__44df5 {
   background-color: var(--background-secondary);
 }
-:root .popout_8514, :root .popout__76f04 {
+:root .popout_8514,
+:root .popout__76f04 {
   background-color: var(--background-secondary-alt);
 }
 :root .bar__7aaec {
-  background-color: var(--background-secondary);
+  background-color: var(--unread-color);
+}
+:root .mentionsBar__7aaec {
+  background-color: var(--mention-color);
 }
 
+:root .title_f75fb0 {
+  background-color: var(--background-secondary);
+}
 :root .chatContent_f75fb0 {
   background-color: var(--background-primary);
 }
@@ -137,16 +149,22 @@
 :root .chatContent_f75fb0 .form_f75fb0 .attachButtonInner__0923f svg {
   color: var(--chat-buttons);
 }
-:root .chatContent_f75fb0 .autocompleteInner__13533,
 :root .chatContent_f75fb0 .wrapper_f7ecac {
+  background-color: var(--background-secondary);
+}
+:root .chatContent_f75fb0 .categoryHeader_d1405b,
+:root .chatContent_f75fb0 .autocompleteInner__13533 {
   background-color: var(--background-secondary);
 }
 :root .chatContent_f75fb0 .wrapper_d852db,
 :root .chatContent_f75fb0 .wrapper_fc8177 {
   background-color: inherit;
 }
-:root .title_f75fb0 {
-  background-color: var(--background-secondary);
+:root .newMessagesBar__0f481 {
+  background-color: var(--unread-color);
+}
+:root #---new-messages-bar {
+  --divider-color: var(--unread-divider-color, var(--unread-color));
 }
 :root .container_f369db {
   background-color: var(--background-primary);
@@ -185,8 +203,11 @@
 :root .menu_c1e9c4 {
   background-color: var(--background-secondary);
 }
-:root .buttonSection__1405b {
-  background-color: var(--background-primary);
+:root .callContainer_cb9592 .buttonSection__1405b {
+  background-color: var(--background-tertiary);
+}
+:root .callContainer_cb9592 .regionSelectPopout__5621e {
+  background-color: var(--background-secondary);
 }
 :root .popoutContainer__0f481 {
   background-color: var(--background-secondary-alt);
@@ -202,6 +223,15 @@
 }
 :root .messagesPopoutWrap__45690 .footer__45690 {
   background-color: var(--background-secondary-alt);
+}
+:root .messagesPopoutWrap__45690 .messageGroupWrapper__45690 {
+  background-color: var(--background-primary);
+}
+:root .popoutContainer__4ad69 {
+  background-color: var(--background-secondary);
+}
+:root .popoutContainer__4ad69 .header__45690 {
+  background-color: var(--background-tertiary);
 }
 :root .container_d9c882 {
   background-color: var(--background-secondary);
@@ -232,6 +262,54 @@
 }
 :root .jumpToPresentBar__0f481 {
   background-color: var(--background-secondary-alt);
+}
+:root .mentioned__5126c {
+  background-color: color-mix(in srgb, var(--mention-color), var(--background-primary) 90%);
+}
+:root .mentioned__5126c:hover {
+  background-color: color-mix(in srgb, var(--mention-color), var(--background-primary) 95%);
+}
+:root .mentioned__5126c::before {
+  background-color: var(--mention-color);
+}
+:root .contentWrapper__9c62c {
+  background-color: var(--background-secondary);
+}
+:root .contentWrapper__9c62c .container_cb32c7 {
+  background-color: var(--background-secondary-alt);
+}
+:root .search__49676 {
+  order: 1;
+  margin-left: 4px;
+}
+:root .search__49676 .searchBar__97492 {
+  border: none;
+}
+:root .search__49676 .searchAnswer_bd8186,
+:root .search__49676 .searchFilter_bd8186 {
+  background-color: var(--background-primary);
+}
+:root .search__49676 .search__97492:not(.open__97492) .searchBar__97492 {
+  width: 27px;
+  transition: 250ms;
+  background-color: transparent;
+}
+:root .search__49676 .search__97492:not(.open__97492) .searchBar__97492 .iconContainer_fea832 {
+  transform: scale(1.3);
+  transition: 250ms;
+}
+:root .search__49676 .search__97492:not(.open__97492) .searchBar__97492 .iconContainer_fea832 .icon_fea832 {
+  color: var(--interactive-normal);
+}
+:root .search__49676 .search__97492:not(.open__97492):hover .searchBar__97492 {
+  width: 220px;
+  background-color: var(--background-tertiary);
+}
+:root .search__49676 .search__97492:not(.open__97492):hover .searchBar__97492 .iconContainer_fea832 {
+  transform: scale(1);
+}
+:root .search__49676 .search__97492:not(.open__97492):hover .searchBar__97492 .iconContainer_fea832 .icon_fea832 {
+  color: var(--text-muted);
 }
 
 :root .connectionIcon_c7f964[alt="Battle.net"],
@@ -397,9 +475,6 @@
 :root .scroller__99e7c {
   background-color: inherit;
 }
-:root .container__9293f {
-  background-color: var(--background-secondary);
-}
 :root .itemCard__7e549 {
   background-color: var(--background-secondary-alt);
 }
@@ -457,6 +532,17 @@
   color: var(--user-buttons-color);
   margin: 0;
 }
+:root .lowerBadge_cc5dd2 {
+  z-index: 1;
+}
+:root .unreadMentionsIndicatorBottom_ef3116 {
+  width: 72px;
+  padding: 0;
+}
+:root .unreadMentionsIndicatorBottom_ef3116 .bar__3b95d {
+  width: inherit;
+  background-color: var(--mention-color);
+}
 
 :root .contentRegionScroller__23e6b {
   background-color: var(--background-primary);
@@ -493,6 +579,28 @@
 :root .channelRow_e4503a,
 :root .row_d13feb {
   background-color: var(--background-secondary);
+}
+
+:root .container_a2f514 {
+  background-color: var(--background-primary);
+}
+:root .container_a2f514 .content_a2f514 {
+  position: relative;
+}
+:root .container_a2f514 .content_a2f514 .ready_a2f514 {
+  display: none;
+}
+:root .container_a2f514 .content_a2f514 .ready_a2f514 + .text_a2f514 {
+  top: 82px;
+}
+:root .container_a2f514 .content_a2f514::before {
+  content: "";
+  position: absolute;
+  bottom: 20px;
+  left: calc(50% - 100px);
+  width: 200px;
+  height: 200px;
+  background: url("https://comfy-themes.github.io/Discord/assets/bonfire.gif") center/80% no-repeat;
 }
 
 :root {
