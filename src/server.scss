@@ -4,14 +4,25 @@
   {
     background-color: var(--background-primary) !important;
 
-    //Channels & Roles / Server Guide
+    //Channels & Roles / Server Guide + Browse Channels
+    .content_f75fb0,
     .pageBody__41ed7 {
       background-color: var(--background-primary) !important;
+
+      .mainTableContainer__09a38 {
+        background-color: var(--background-secondary) !important;
+      }
+    }
+
+    // Header of Channels & Roles
+    .header__0b563 {
+      background-color: var(--background-secondary) !important;
     }
   }
 
   .prompt__5d7c9, //Customize prompts
-  .channelRow_e4503a //Channels in browse channels
+  .channelRow_e4503a, //Channels in browse channels
+  .row_d13feb // Resources
   {
     background-color: var(--background-secondary);
   }
