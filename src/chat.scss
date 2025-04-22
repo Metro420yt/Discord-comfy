@@ -23,7 +23,7 @@
         background-color: var(--background-primary);
       }
 
-      // chat buttons
+      // chatbar buttons
       .buttons__74017,
       .attachButtonInner__0923f {
         svg {
@@ -47,6 +47,14 @@
   // title bar
   .title_f75fb0 {
     background-color: var(--background-secondary);
+  }
+
+  // unread
+  .newMessagesBar__0f481 {
+    background-color: var(--unread-color);
+  }
+  #---new-messages-bar {
+    --divider-color: var(--unread-divider-color, var(--unread-color));
   }
 
   // fourm

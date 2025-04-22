@@ -37,4 +37,19 @@ $serverListWidth: 72px;
       margin: 0;
     }
   }
+
+  // unread pill
+  .lowerBadge_cc5dd2 {
+    z-index: 1;
+  }
+  // unread
+  .unreadMentionsIndicatorBottom_ef3116 {
+    width: $serverListWidth;
+    padding: 0;
+
+    .bar__3b95d {
+      width: inherit;
+      background-color: var(--mention-color);
+    }
+  }
 }
