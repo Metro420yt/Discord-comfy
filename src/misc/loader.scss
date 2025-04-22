@@ -1,0 +1,28 @@
+:root {
+  .container_a2f514 {
+    background-color: var(--background-primary);
+
+    .content_a2f514 {
+      position: relative;
+
+      .ready_a2f514 {
+        display: none;
+
+        & + .text_a2f514 {
+          top: 82px;
+        }
+      }
+
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: 20px;
+        left: calc(50% - 100px);
+        width: 200px;
+        height: 200px;
+        background: url("https://comfy-themes.github.io/Discord/assets/bonfire.gif")
+          center/80% no-repeat;
+      }
+    }
+  }
+}

@@ -1,5 +1,5 @@
-@forward "src/";
 @forward "src/variables";
+@forward "src/";
 @forward "src/channel-list.scss";
 @forward "src/chat.scss";
 @forward "src/connections.scss";
@@ -9,6 +9,8 @@
 @forward "src/server-list.scss";
 @forward "src/settings.scss";
 @forward "src/server.scss";
+
+@forward "src/misc/loader.scss";
 
 @import "https://metro420yt.github.io/misc/discordRefreshWarning.css";
 :root {
