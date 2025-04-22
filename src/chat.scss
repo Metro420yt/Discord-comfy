@@ -1,4 +1,9 @@
 :root {
+  // title bar
+  .title_f75fb0 {
+    background-color: var(--background-secondary);
+  }
+
   // chat section
   .chatContent_f75fb0 {
     background-color: var(--background-primary);
@@ -31,10 +36,14 @@
         }
       }
     }
-
-    // autocomplete + quick action buttons
-    .autocompleteInner__13533,
+    // quick action buttons
     .wrapper_f7ecac {
+      background-color: var(--background-secondary);
+    }
+
+    // autocomplete
+    .categoryHeader_d1405b,
+    .autocompleteInner__13533 {
       background-color: var(--background-secondary);
     }
 
@@ -44,15 +53,13 @@
       background-color: inherit;
     }
   }
-  // title bar
-  .title_f75fb0 {
-    background-color: var(--background-secondary);
-  }
 
   // unread
   .newMessagesBar__0f481 {
     background-color: var(--unread-color);
   }
+
+  // in chat message divider
   #---new-messages-bar {
     --divider-color: var(--unread-divider-color, var(--unread-color));
   }
@@ -115,9 +122,14 @@
     background-color: var(--background-secondary);
   }
 
-  //vc buttons
-  .buttonSection__1405b {
-    background-color: var(--background-primary);
+  //vc
+  .callContainer_cb9592 {
+    .buttonSection__1405b {
+      background-color: var(--background-tertiary);
+    }
+    .regionSelectPopout__5621e {
+      background-color: var(--background-secondary);
+    }
   }
 
   //emoji info
@@ -213,6 +225,51 @@
 
     .container_cb32c7 {
       background-color: var(--background-secondary-alt);
+    }
+  }
+
+  // TODO: check classes
+  // Search bar
+  .search__49676 {
+    order: 1;
+    margin-left: 4px;
+    .searchBar__97492 {
+      border: none;
+    }
+
+    .searchAnswer_bd8186, // [ ] verify classes
+    .searchFilter_bd8186 {
+      background-color: var(--background-primary);
+    }
+
+    .search__97492:not(.open__97492) {
+      .searchBar__97492 {
+        width: 27px;
+        transition: 250ms;
+        background-color: transparent;
+
+        .iconContainer_fea832 {
+          transform: scale(1.3);
+          transition: 250ms;
+
+          .icon_fea832 {
+            color: var(--interactive-normal);
+          }
+        }
+      }
+
+      &:hover .searchBar__97492 {
+        width: 220px;
+        background-color: var(--background-tertiary);
+
+        .iconContainer_fea832 {
+          transform: scale(1);
+
+          .icon_fea832 {
+            color: var(--text-muted);
+          }
+        }
+      }
     }
   }
 }
