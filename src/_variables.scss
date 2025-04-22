@@ -4,32 +4,32 @@
 .visual-refresh.theme-darker,
 .visual-refresh .theme-dark,
 .visual-refresh.theme-dark {
-  --background-primary: #23283d;
-  --background-secondary: #1e2233;
-  --background-secondary-alt: #191f2e;
-  --background-tertiary: #101320;
-  --background-accent: #6e85d3;
+  --background-primary: var(--comfy-primary, #23283d);
+  --background-secondary: var(--comfy-secondary, #1e2233);
+  --background-secondary-alt: var(--comfy-secondary-alt, #191f2e);
+  --background-tertiary: var(--comfy-tertiary, #101320);
+  --background-accent: var(--comfy-accent, #6e85d3);
 
-  --modal-background: #23283d;
-  --background-mobile-primary: #23283d;
-  --background-mobile-secondary: #1e2233;
-  --channeltextarea-background: #191f2e;
+  --modal-background: var(--background-primary);
+  --background-mobile-primary: var(--background-primary);
+  --background-mobile-secondary: var(--background-secondary);
+  --channeltextarea-background: var(--background-secondary-alt);
   --background-message-hover: transparent;
   --background-modifier-hover: #00000010;
   --background-modifier-active: #0000001a;
   --background-modifier-selected: #0000001f;
   --deprecated-card-bg: #12141f63;
-  --background-floating: #101320;
-  --deprecated-quickswitcher-input-background: #101320;
+  --background-floating: var(--background-tertiary);
+  --deprecated-quickswitcher-input-background: var(--background-tertiary);
   --elevation-low: none;
   --scrollbar-auto-thumb: #121722;
-  --scrollbar-auto-track: #191f2e;
+  --scrollbar-auto-track: var(--background-secondary-alt);
   --scrollbar-thin-thumb: #141925;
-  --toast-background: #1e2233 !important;
-  --toast-header: #101320 !important;
-  --toast-contents: #23283d !important;
-  --activity-card-background: #101320;
-  --input-background: #1e2233;
+  --toast-background: var(--background-secondary) !important;
+  --toast-header: var(--background-tertiary) !important;
+  --toast-contents: var(--background-primary) !important;
+  --activity-card-background: var(--background-tertiary);
+  --input-background: var(--background-secondary);
 }
 
 .theme-light {

@@ -2,7 +2,7 @@
 * @name Comfy Fork
 * @author Nyria#3863, metro420yt
 * @description Stay comfy while talking to your friends
-* @version 2.4.2
+* @version 2.5.0
 * @invite rtBQX5D3bD
 * @website https://github.com/Metro420yt/Discord-comfy
 */
@@ -10,11 +10,10 @@
 @import "https://metro420yt.github.io/Discord-comfy/main.css";
 
 /* ═══════『 ⚠️・Important tips 』═══════
+*   ➥ To comment or uncomment a line you need to put those "/" and "*" characters at the beginning and ending of comments.
+*      See more here : https://developer.mozilla.org/en-US/docs/Web/CSS/Comments
 *
-*   ➥ To comment or uncomment a line you need to put those "/" and "*" characters as you can see at the beginning and ending of my comments.
-*      (You don't need to put a * at each line like I do, it's just for readability). See more here : https://developer.mozilla.org/en-US/docs/Web/CSS/Comments
-*
-*   ➥ You can play with the values and see how it goes, don't delete "px" after the value if you don't have knowledge of CSS.
+*   ➥ play with the values and see how it goes, don't delete "px" after the value if you don't have knowledge of CSS.
 *
 *   ➥ To change the colors, replace the HEX code with the one you picked here : https://htmlcolorcodes.com
 */
@@ -29,104 +28,52 @@
 @import "https://metro420yt.github.io/Discord-comfy/vencord-spotify.css";
 
 :root {
-  /* ═══════『 💨 ・ Animations 』- If you don't want a high CPU usage, comment the line below */
-  --disable-animations: 2s channel-unread infinite;
+  /* Main Theme Colors */
+  --comfy-primary: #23283d;
+  --comfy-secondary: #1e2233;
+  --comfy-secondary-alt: #191f2e;
+  --comfy-tertiary: #101320;
+  --comfy-accent: #6e85d3;
 
-  /* ═══════『 ⚙️ / 🎤 / 🎧 ・ User button 』═══════
-*
-*   ➥ A higher value means more space between the icons and a lower ...
-*
-*    ℹ️ : If you want to revert those to the old area, join the support server and check #css-snippets
-*
-*/
 
-  /* Spacing - Default value : 8px */
+  /* ⚠ cpu intensive */
+  --disable-animations: 2s pulse infinite;
+
+  /* ⚙️ / 🎤 / 🎧 buttons*/
   --user-buttons-spacing: 8px;
-
-  /* Color - Default value : #096DC0 */
   --user-buttons-color: #096dc0;
 
-  /* ═══════『 ⭕ Roundness settings 』═══════
-*
-*    ➥ A higher value means more rounded corners and a lower ...
-*       0 ➜ Square
-*       25 ➜ Circle
-*/
-
-  /* Avatars - Default value : 5px */
+  /* Roundness (higher = more rounded corners)
+  *   0 = Square
+  *   25 = Circle
+  */
   --avatar-radius: 5px;
-
-  /* Status - Default value : 3px */
   --status-radius: 3px;
-
-  /* Servers - Default value : 8px */
   --server-radius: 8px;
+  --role-radius: 5px;
 
-  /* ═══════『 😃 Colored emoji picker 』═══════
-*   Change the value to "100%" if you want the default one */
-
-  --colored-emoji: grayscale(0%);
-
-  /* ═══════『 📜 Server/channel list 』═══════ */
-
-  /* Mention - Default value : #F04747 */
+  /* chat colors */
   --mention-color: #f04747;
-
-  /* Unread - Default value : #7289DA */
   --unread-color: #7289da;
 
-  /*  『 🔴 Mention colors in chat 』 */
-
-  /* Bar on the right - Default value : #C66262 */
-  --mention-color-bar: #c66262;
-
-  /* Background - Default value : #C662621F */
-  --mention-color-background: #c662621f;
-
-  /* On hover - Default value : #C6626226 */
-  --mention-color-hover: #c6626226;
-
-  /* ═══════『 💬 Chat buttons 』═══════ */
-
-  /* Default value : #7289DA */
+  /* chatbar */
   --chat-buttons: #7289da;
+  --colored-emoji: grayscale(0%);
 
-  /* ═══════『 💬 SpotifyControls seek bar 』═══════
-*   ℹ️ : If you don't have the plugin : https://betterdiscord.app/plugin/SpotifyControls */
-
-  /* Default value : #1EDC62 */
-  --spotify-color: #1edc62;
-
-  /* ═══════『 🟢 Status 』═══════ */
-
-  /* Online - Default value : #43B581 */
+  /* status colors */
   --online: #43b581;
-
-  /* Idle - Default value : #FAA61A */
   --idle: #faa61a;
-
-  /* Do Not Disturb - Default value : #F04747 */
   --dnd: #f04747;
-
-  /* Offline - Default value : #747F8D */
   --offline: #747f8d;
-
-  /* Streaming - Default value : #593695 */
   --streaming: #593695;
 
-  /* ═══════『 🔰 User popout 』═══════ */
-
-  /* Playing wave color */
+  /* activity colors */
   --playing: #7289da;
-
-  /* Listening wave color */
   --listening: #1db653;
 
-  /* Role circle - Default value : 5px */
-  --role-circle: 5px;
-
-  /* ═══════『 🗑️ Discord logo 』═══════
-*   Set it to "block" if you still want it */
-
+  /* Discord logo
+  *  block = logo visible
+  *  none = logo hidden
+   */
   --discord-logo: none;
 }
