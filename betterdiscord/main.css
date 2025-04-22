@@ -198,16 +198,16 @@
   background-color: var(--background-secondary);
 }
 :root .messagesPopoutWrap__45690 .header__45690 {
-  background-color: var(--background-secondary-alt);
+  background-color: var(--background-tertiary);
 }
 :root .messagesPopoutWrap__45690 .footer__45690 {
-  background-color: var(--background-secondary);
+  background-color: var(--background-secondary-alt);
 }
 :root .container_d9c882 {
   background-color: var(--background-secondary);
 }
 :root .container_d9c882 .header_d9c882 {
-  background-color: var(--background-secondary-alt);
+  background-color: var(--background-tertiary);
 }
 :root .container_d9c882 .container__6764b {
   background-color: var(--background-primary);
@@ -222,7 +222,7 @@
   background-color: var(--background-primary);
 }
 :root #emoji-picker-tab-panel .emojiPicker_c0e32c .header_c656ac {
-  background-color: var(--background-secondary);
+  background-color: var(--background-primary);
 }
 :root #emoji-picker-tab-panel .emojiPicker_c0e32c .inspector_c0e32c {
   background-color: var(--background-secondary-alt);
