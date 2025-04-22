@@ -74,7 +74,7 @@
     background-color: var(--background-secondary-alt);
   }
 
-  // user area  pfp
+  // user area pfp
   .panels_c48ade .avatarWrapper__37e49 .avatar__37e49 {
     display: none;
     position: absolute;
@@ -176,5 +176,35 @@
 
   .jumpToPresentBar__0f481 {
     background-color: var(--background-secondary-alt);
+  }
+
+  // mention message
+  .mentioned__5126c {
+    background-color: color-mix(
+      in srgb,
+      var(--mention-color),
+      var(--background-primary) 90%
+    );
+
+    &:hover {
+      background-color: color-mix(
+        in srgb,
+        var(--mention-color),
+        var(--background-primary) 95%
+      );
+    }
+
+    &::before {
+      background-color: var(--mention-color);
+    }
+  }
+
+  // application launcher
+  .contentWrapper__9c62c {
+    background-color: var(--background-secondary);
+
+    .container_cb32c7 {
+      background-color: var(--background-secondary-alt);
+    }
   }
 }
