@@ -19,6 +19,8 @@
     }
   }
 
+  //TODO status icons
+
   //modals
   .horizontalReverse__7c0ba, //leave server bottom
   .option__66e7e, //server feedback buttons
@@ -59,5 +61,10 @@
   // text
   .barText__7aaec {
     color: white !important;
+  }
+
+  // select menu
+  .searchableSelect__3f413 {
+    background-color: var(--background-secondary);
   }
 }

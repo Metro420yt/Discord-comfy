@@ -9,6 +9,7 @@ on:
 
 jobs:
   compile:
+    if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     outputs:
       commitSha: ${{steps.commit.outputs.commit_long_sha}}

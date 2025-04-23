@@ -21,6 +21,10 @@
   .itemCard__7e549 {
     background-color: var(--background-secondary-alt);
 
+    &:hover {
+      background-color: var(--background-tertiary) !important;
+    }
+
     // Inner container
     .section__00943 {
       background-color: var(--background-primary);
