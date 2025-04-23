@@ -1,12 +1,24 @@
 :root {
   // title bar
-  .title_f75fb0 {
+  .title_f75fb0,
+  .header_c791b2,
+  .container__9293f {
     background-color: var(--background-secondary);
+
+    .children__9293f::after {
+      content: none;
+    }
   }
 
   // chat section
   .chatContent_f75fb0 {
     background-color: var(--background-primary);
+
+    // skeleton
+    .wrapper_d852db,
+    .wrapper_fc8177 {
+      background-color: inherit;
+    }
 
     // message area
     .form_f75fb0 {
@@ -47,10 +59,13 @@
       background-color: var(--background-secondary);
     }
 
-    // skeleton
-    .wrapper_d852db,
-    .wrapper_fc8177 {
-      background-color: inherit;
+    // role chips
+    .role_b4b2c3 {
+      background-color: color-mix(
+        in srgb,
+        var(--custom-role-label-color),
+        var(--background-primary) 90%
+      );
     }
   }
 
@@ -213,22 +228,20 @@
 
   // mention message
   .mentioned__5126c {
-    background-color: color-mix(
-      in srgb,
-      var(--mention-color),
-      var(--background-primary) 90%
+    background-color: var(
+      --mention-color-background,
+      color-mix(in srgb, var(--mention-color), var(--background-primary) 90%)
     );
 
     &:hover {
-      background-color: color-mix(
-        in srgb,
-        var(--mention-color),
-        var(--background-primary) 95%
+      background-color: var(
+        --mention-color-hover,
+        color-mix(in srgb, var(--mention-color), var(--background-primary) 95%)
       );
     }
 
     &::before {
-      background-color: var(--mention-color);
+      background-color: var(--mention-color-bar, var(--mention-color));
     }
   }
 
