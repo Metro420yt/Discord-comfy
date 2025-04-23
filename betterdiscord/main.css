@@ -84,6 +84,9 @@
 :root .barText__7aaec {
   color: white !important;
 }
+:root .searchableSelect__3f413 {
+  background-color: var(--background-secondary);
+}
 
 :root .container__2637a {
   background-color: var(--background-secondary);
@@ -124,11 +127,22 @@
   background-color: var(--mention-color);
 }
 
-:root .title_f75fb0 {
+:root .title_f75fb0,
+:root .header_c791b2,
+:root .container__9293f {
   background-color: var(--background-secondary);
+}
+:root .title_f75fb0 .children__9293f::after,
+:root .header_c791b2 .children__9293f::after,
+:root .container__9293f .children__9293f::after {
+  content: none;
 }
 :root .chatContent_f75fb0 {
   background-color: var(--background-primary);
+}
+:root .chatContent_f75fb0 .wrapper_d852db,
+:root .chatContent_f75fb0 .wrapper_fc8177 {
+  background-color: inherit;
 }
 :root .chatContent_f75fb0 .form_f75fb0 {
   z-index: 2;
@@ -156,9 +170,8 @@
 :root .chatContent_f75fb0 .autocompleteInner__13533 {
   background-color: var(--background-secondary);
 }
-:root .chatContent_f75fb0 .wrapper_d852db,
-:root .chatContent_f75fb0 .wrapper_fc8177 {
-  background-color: inherit;
+:root .chatContent_f75fb0 .role_b4b2c3 {
+  background-color: color-mix(in srgb, var(--custom-role-label-color), var(--background-primary) 90%);
 }
 :root .newMessagesBar__0f481 {
   background-color: var(--unread-color);
@@ -264,13 +277,13 @@
   background-color: var(--background-secondary-alt);
 }
 :root .mentioned__5126c {
-  background-color: color-mix(in srgb, var(--mention-color), var(--background-primary) 90%);
+  background-color: var(--mention-color-background, color-mix(in srgb, var(--mention-color), var(--background-primary) 90%));
 }
 :root .mentioned__5126c:hover {
-  background-color: color-mix(in srgb, var(--mention-color), var(--background-primary) 95%);
+  background-color: var(--mention-color-hover, color-mix(in srgb, var(--mention-color), var(--background-primary) 95%));
 }
 :root .mentioned__5126c::before {
-  background-color: var(--mention-color);
+  background-color: var(--mention-color-bar, var(--mention-color));
 }
 :root .contentWrapper__9c62c {
   background-color: var(--background-secondary);
@@ -477,6 +490,9 @@
 }
 :root .itemCard__7e549 {
   background-color: var(--background-secondary-alt);
+}
+:root .itemCard__7e549:hover {
+  background-color: var(--background-tertiary) !important;
 }
 :root .itemCard__7e549 .section__00943 {
   background-color: var(--background-primary);
