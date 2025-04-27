@@ -28,7 +28,7 @@ with `https://metro420yt.github.io/Discord-comfy/main.css`<br>
 
   <br/>
 
-  <a href="https://gibbu.github.io/ThemePreview/?file=https://cdn.jsdelivr.net/gh/Comfy-Themes/Discord/betterdiscord/comfy.theme.css"><strong>» Theme Preview</strong></a>
+  <a href="https://gibbu.github.io/ThemePreview/?file=https://metro420yt.github.io/Discord-comfy/comfy.theme.css"><strong>» Theme Preview</strong></a>
   ・
   <a href="https://github.com/Comfy-Themes/Discord/issues">Report an issue</a>
   ・
