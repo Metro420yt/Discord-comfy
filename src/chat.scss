@@ -315,9 +315,7 @@
 
   // Search options popout
   .layerContainer_da8173 > .clickTrapContainer_da8173 {
-    //Two different popouts for search (depending on if results are open or not)
-    #popout_4157,
-    #popout_5092 {
+    .layer_da8173 {
       .container__55c99 {
         background-color: var(--background-primary);
 
