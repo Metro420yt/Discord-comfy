@@ -619,6 +619,12 @@
 :root .row_d13feb {
   background-color: var(--background-secondary);
 }
+:root .container__3a5a1 {
+  background-color: var(--background-primary);
+}
+:root .container__3a5a1 .innerContainer__3a5a1 .inviteContainer__23437 {
+  background-color: var(--background-secondary-alt);
+}
 
 :root .container_a2f514 {
   background-color: var(--background-primary);
