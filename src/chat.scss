@@ -263,11 +263,6 @@
       border: none;
     }
 
-    .searchAnswer_bd8186, // [ ] verify classes
-    .searchFilter_bd8186 {
-      background-color: var(--background-primary);
-    }
-
     .search__97492:not(.open__97492) {
       .searchBar__97492 {
         width: 27px;
@@ -297,5 +292,44 @@
         }
       }
     }
+  }
+
+  // Search results
+  .searchResultsWrap_a9e706 {
+    order: 1;
+    margin-left: 4px;
+
+    .searchHeader_f3b986 {
+      background-color: var(--background-secondary-alt);
+    }
+
+    #search-results,
+    .scroller_a9e706 {
+      background-color: var(--background-primary);
+
+      .searchResult__02a39 {
+        background-color: var(--background-secondary);
+      }
+    }
+  }
+
+  // Search options popout
+  .layerContainer_da8173 > .clickTrapContainer_da8173 {
+    //Two different popouts for search (depending on if results are open or not)
+    #popout_4157,
+    #popout_5092 {
+      .container__55c99 {
+        background-color: var(--background-primary);
+
+        .focused__55c99 {
+          background-color: var(--background-secondary);
+        }
+      }
+    }
+  }
+
+  // Chat messages Divider (Dates etc)
+  .content__908e2 {
+    background-color: var(--background-primary);
   }
 }
