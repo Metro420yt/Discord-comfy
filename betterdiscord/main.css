@@ -335,12 +335,10 @@
 :root .searchResultsWrap_a9e706 .scroller_a9e706 .searchResult__02a39 {
   background-color: var(--background-secondary);
 }
-:root .layerContainer_da8173 > .clickTrapContainer_da8173 #popout_4157 .container__55c99,
-:root .layerContainer_da8173 > .clickTrapContainer_da8173 #popout_5092 .container__55c99 {
+:root .layerContainer_da8173 > .clickTrapContainer_da8173 .layer_da8173 .container__55c99 {
   background-color: var(--background-primary);
 }
-:root .layerContainer_da8173 > .clickTrapContainer_da8173 #popout_4157 .container__55c99 .focused__55c99,
-:root .layerContainer_da8173 > .clickTrapContainer_da8173 #popout_5092 .container__55c99 .focused__55c99 {
+:root .layerContainer_da8173 > .clickTrapContainer_da8173 .layer_da8173 .container__55c99 .focused__55c99 {
   background-color: var(--background-secondary);
 }
 :root .content__908e2 {
@@ -620,6 +618,12 @@
 :root .channelRow_e4503a,
 :root .row_d13feb {
   background-color: var(--background-secondary);
+}
+:root .container__3a5a1 {
+  background-color: var(--background-primary);
+}
+:root .container__3a5a1 .innerContainer__3a5a1 .inviteContainer__23437 {
+  background-color: var(--background-secondary-alt);
 }
 
 :root .container_a2f514 {
