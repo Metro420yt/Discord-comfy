@@ -30,6 +30,7 @@
   --toast-contents: var(--background-primary) !important;
   --activity-card-background: var(--background-tertiary);
   --input-background: var(--background-secondary);
+  --background-surface-higher: var(--background-secondary) !important;
 }
 
 .theme-light {
@@ -83,9 +84,6 @@
 }
 :root .barText__7aaec {
   color: white !important;
-}
-:root .searchableSelect__3f413 {
-  background-color: var(--background-secondary);
 }
 
 :root .container__2637a {
@@ -209,9 +207,12 @@
 :root :has(.form_f75fb0) .avatarWrapper__37e49 .avatar__37e49 {
   display: block;
 }
-:root .wrapper_d5f3cd,
-:root .grid__623de {
+:root .wrapper_d5f3cd {
   background-color: var(--background-secondary);
+}
+:root .embed__623de {
+  background-color: var(--background-secondary);
+  border-left-color: var(--background-secondary-alt);
 }
 :root .menu_c1e9c4 {
   background-color: var(--background-secondary);
@@ -288,7 +289,8 @@
 :root .contentWrapper__9c62c {
   background-color: var(--background-secondary);
 }
-:root .contentWrapper__9c62c .container_cb32c7 {
+:root .contentWrapper__9c62c .container_cb32c7,
+:root .contentWrapper__9c62c .clickable__761e5 {
   background-color: var(--background-secondary-alt);
 }
 :root .search__49676 {
@@ -321,25 +323,10 @@
   color: var(--text-muted);
 }
 :root .searchResultsWrap_a9e706 {
-  order: 1;
-  margin-left: 4px;
-}
-:root .searchResultsWrap_a9e706 .searchHeader_f3b986 {
-  background-color: var(--background-secondary-alt);
-}
-:root .searchResultsWrap_a9e706 #search-results,
-:root .searchResultsWrap_a9e706 .scroller_a9e706 {
-  background-color: var(--background-primary);
-}
-:root .searchResultsWrap_a9e706 #search-results .searchResult__02a39,
-:root .searchResultsWrap_a9e706 .scroller_a9e706 .searchResult__02a39 {
   background-color: var(--background-secondary);
 }
-:root .layerContainer_da8173 > .clickTrapContainer_da8173 .layer_da8173 .container__55c99 {
+:root .searchResultsWrap_a9e706 .searchResult__02a39 {
   background-color: var(--background-primary);
-}
-:root .layerContainer_da8173 > .clickTrapContainer_da8173 .layer_da8173 .container__55c99 .focused__55c99 {
-  background-color: var(--background-secondary);
 }
 :root .content__908e2 {
   background-color: var(--background-primary);
@@ -528,7 +515,7 @@
   background-color: var(--background-secondary-alt);
 }
 :root .members_c8ffbb .clanTag__5d473 {
-  background-color: var(--background-tertiary);
+  background-color: color-mix(in srgb, var(--background-primary), #ffffff 10%);
 }
 
 :root .mask__68edb > mask {
