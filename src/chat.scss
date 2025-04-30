@@ -126,10 +126,14 @@
   }
 
   // Invite
-  .wrapper_d5f3cd,
-  .grid__623de {
-    // Embeds
+  .wrapper_d5f3cd {
     background-color: var(--background-secondary);
+  }
+
+  // Embeds
+  .embed__623de {
+    background-color: var(--background-secondary);
+    border-left-color: var(--background-secondary-alt);
   }
 
   //Right click menu
@@ -249,7 +253,8 @@
   .contentWrapper__9c62c {
     background-color: var(--background-secondary);
 
-    .container_cb32c7 {
+    .container_cb32c7,
+    .clickable__761e5 {
       background-color: var(--background-secondary-alt);
     }
   }
@@ -296,33 +301,10 @@
 
   // Search results
   .searchResultsWrap_a9e706 {
-    order: 1;
-    margin-left: 4px;
+    background-color: var(--background-secondary);
 
-    .searchHeader_f3b986 {
-      background-color: var(--background-secondary-alt);
-    }
-
-    #search-results,
-    .scroller_a9e706 {
+    .searchResult__02a39 {
       background-color: var(--background-primary);
-
-      .searchResult__02a39 {
-        background-color: var(--background-secondary);
-      }
-    }
-  }
-
-  // Search options popout
-  .layerContainer_da8173 > .clickTrapContainer_da8173 {
-    .layer_da8173 {
-      .container__55c99 {
-        background-color: var(--background-primary);
-
-        .focused__55c99 {
-          background-color: var(--background-secondary);
-        }
-      }
     }
   }
 
