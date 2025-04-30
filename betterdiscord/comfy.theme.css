@@ -36,7 +36,9 @@
   --comfy-accent: #6e85d3;
 
 
-  /* ⚠ cpu intensive */
+  /* ⚠ cpu intensive
+  * delete or comment to disable
+  */
   --disable-animations: 2s pulse infinite;
 
   /* ⚙️ / 🎤 / 🎧 buttons*/
