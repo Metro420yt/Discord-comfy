@@ -6,13 +6,13 @@ $serverListWidth: 72px;
 
     .listItem__650eb {
       .icon__6e9f8, // server icon
-      .folderIconWrapper__48112, // folders
+      .folderPreviewWrapper__48112, // folders
       .childWrapper__6e9f8 // home button
       {
         border-radius: var(--server-radius);
       }
 
-      .closedFolderIconWrapper__48112 .icon_f34534 {
+      .folderPreview__48112 .icon_f34534 {
         border-radius: var(--server-radius) !important;
       }
     }

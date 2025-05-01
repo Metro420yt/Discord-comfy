@@ -536,11 +536,11 @@
   background-color: var(--background-tertiary);
 }
 :root .guilds_c48ade .listItem__650eb .icon__6e9f8,
-:root .guilds_c48ade .listItem__650eb .folderIconWrapper__48112,
+:root .guilds_c48ade .listItem__650eb .folderPreviewWrapper__48112,
 :root .guilds_c48ade .listItem__650eb .childWrapper__6e9f8 {
   border-radius: var(--server-radius);
 }
-:root .guilds_c48ade .listItem__650eb .closedFolderIconWrapper__48112 .icon_f34534 {
+:root .guilds_c48ade .listItem__650eb .folderPreview__48112 .icon_f34534 {
   border-radius: var(--server-radius) !important;
 }
 :root .buttons__37e49 {
