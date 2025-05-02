@@ -30,7 +30,12 @@
   --toast-contents: var(--background-primary) !important;
   --activity-card-background: var(--background-tertiary);
   --input-background: var(--background-secondary);
+
+  // Footer of files etc
+  --background-surface-high: var(--background-secondary-alt);
   --background-surface-higher: var(--background-secondary) !important;
+
+  --button-secondary-background: var(--background-primary);
 }
 
 .theme-light {
