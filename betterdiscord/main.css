@@ -32,7 +32,6 @@
   --input-background: var(--background-secondary);
   --background-surface-high: var(--background-secondary-alt);
   --background-surface-higher: var(--background-secondary) !important;
-  --button-secondary-background: var(--background-primary);
 }
 
 .theme-light {
@@ -139,6 +138,21 @@
 }
 :root .interactive__972a0:hover {
   background-color: color-mix(in srgb, var(--background-secondary) 10%, var(--background-primary));
+}
+:root .searchBar__35e86 .button__201d5 {
+  background-color: var(--background-primary);
+}
+:root .channelInfo_c69b6d .wrapper__260e1 {
+  background-color: var(--background-primary);
+}
+:root .channelInfo_c69b6d .wrapper__260e1 .users__260e1 {
+  background-color: var(--background-secondary-alt);
+}
+:root .channelInfo_c69b6d .wrapper__260e1 .total__260e1 {
+  background-color: var(--background-primary);
+}
+:root .channelInfo_c69b6d .wrapper__260e1 .total__260e1:after {
+  border-right-color: var(--background-primary);
 }
 
 :root .title_f75fb0,
