@@ -30,7 +30,9 @@
   --toast-contents: var(--background-primary) !important;
   --activity-card-background: var(--background-tertiary);
   --input-background: var(--background-secondary);
+  --background-surface-high: var(--background-secondary-alt);
   --background-surface-higher: var(--background-secondary) !important;
+  --button-secondary-background: var(--background-primary);
 }
 
 .theme-light {
@@ -123,6 +125,20 @@
 }
 :root .mentionsBar__7aaec {
   background-color: var(--mention-color);
+}
+:root .interactiveSelected__972a0 {
+  background: none;
+  background-color: var(--background-secondary-alt);
+}
+:root .interactiveSelected__972a0 {
+  background: none;
+  background-color: var(--background-secondary-alt);
+}
+:root .interactiveSelected__972a0:hover {
+  background-color: color-mix(in srgb, var(--background-secondary-alt) 10%, var(--background-secondary));
+}
+:root .interactive__972a0:hover {
+  background-color: color-mix(in srgb, var(--background-secondary) 10%, var(--background-primary));
 }
 
 :root .title_f75fb0,
@@ -586,6 +602,15 @@
 :root .headerV2__50a54 {
   background-color: var(--background-secondary-alt);
 }
+:root .container__87bf1:not(.checked__87bf1) {
+  background-color: var(--background-secondary) !important;
+}
+:root #connections-tab .container__87bf1:not(.checked__87bf1), :root #authorized-apps-tab .container__87bf1:not(.checked__87bf1) {
+  background-color: var(--background-primary) !important;
+}
+:root .container__87bf1.checked__87bf1 {
+  background-color: var(--background-accent) !important;
+}
 
 :root .chat_f75fb0 {
   background-color: var(--background-primary) !important;
@@ -597,6 +622,14 @@
 :root .chat_f75fb0 .content_f75fb0 .mainTableContainer__09a38,
 :root .chat_f75fb0 .pageBody__41ed7 .mainTableContainer__09a38 {
   background-color: var(--background-secondary) !important;
+}
+:root .chat_f75fb0 .content_f75fb0 .container_bc0d35,
+:root .chat_f75fb0 .pageBody__41ed7 .container_bc0d35 {
+  background-color: var(--background-secondary);
+}
+:root .chat_f75fb0 .content_f75fb0 .container_bc0d35 .image_bc0d35,
+:root .chat_f75fb0 .pageBody__41ed7 .container_bc0d35 .image_bc0d35 {
+  content: url(https://code002lover.github.io/Discord-comfy/channel_picker.svg);
 }
 :root .chat_f75fb0 .header__0b563 {
   background-color: var(--background-secondary) !important;
