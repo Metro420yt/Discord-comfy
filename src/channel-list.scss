@@ -78,4 +78,21 @@
       var(--background-primary)
     );
   }
+
+  // VC user limits info
+  .channelInfo_c69b6d .wrapper__260e1 {
+    background-color: var(--background-primary);
+
+    .users__260e1 {
+      background-color: var(--background-secondary-alt);
+    }
+
+    .total__260e1 {
+      background-color: var(--background-primary);
+    }
+
+    .total__260e1:after {
+      border-right-color: var(--background-primary);
+    }
+  }
 }
