@@ -21,17 +21,15 @@
   }
 
   // Toggles
-  .container__87bf1:not(.checked__87bf1) {
-    background-color: var(--background-secondary) !important;
-  }
+  .container__87bf1 {
+    background-color: color-mix(
+      in srgb,
+      var(--background-primary),
+      white 10%
+    ) !important;
 
-  #connections-tab,#authorized-apps-tab {
-    .container__87bf1:not(.checked__87bf1) {
-      background-color: var(--background-primary) !important;
+    &.checked__87bf1 {
+      background-color: var(--background-accent) !important;
     }
-  }
-
-  .container__87bf1.checked__87bf1 {
-    background-color: var(--background-accent) !important;
   }
 }
