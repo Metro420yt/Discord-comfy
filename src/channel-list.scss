@@ -52,31 +52,28 @@
     background-color: var(--mention-color);
   }
 
-  // DMs
-  .interactiveSelected__972a0 {
-    background: none;
-    background-color: var(--background-secondary-alt);
-  }
+  // home page selectors
+  .interactive__972a0 {
+    &:hover {
+      background-color: color-mix(
+        in srgb,
+        var(--background-secondary),
+        white 5%
+      );
+    }
 
-  .interactiveSelected__972a0 {
-    background: none;
-    background-color: var(--background-secondary-alt);
-  }
+    &.interactiveSelected__972a0 {
+      background: none;
+      background-color: var(--background-tertiary);
 
-  .interactiveSelected__972a0:hover {
-    background-color: color-mix(
-      in srgb,
-      var(--background-secondary-alt) 10%,
-      var(--background-secondary)
-    );
-  }
-
-  .interactive__972a0:hover {
-    background-color: color-mix(
-      in srgb,
-      var(--background-secondary) 10%,
-      var(--background-primary)
-    );
+      &:hover {
+        background-color: color-mix(
+          in srgb,
+          var(--background-tertiary),
+          white 10%
+        );
+      }
+    }
   }
 
   // DM search bar
