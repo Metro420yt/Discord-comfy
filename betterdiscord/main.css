@@ -547,12 +547,25 @@
 :root .mask__68edb > mask {
   display: none;
 }
-:root .inner_c0bea0 {
+:root .outer_c0bea0 {
+  overflow: visible;
+}
+:root .outer_c0bea0 .inner_c0bea0 {
   background-color: var(--background-primary);
 }
-:root .inner_ab8609,
-:root .outer_ab8609 {
+:root .outer_c0bea0 .inner_ab8609,
+:root .outer_c0bea0 .outer_ab8609 {
   background-color: var(--background-secondary);
+}
+:root .outer_c0bea0 .wrapper_da5890 {
+  top: -16px;
+  margin: 1px 6px;
+  transform: scale(0.9);
+  right: 6px;
+}
+:root .outer_c0bea0 .wrapper_da5890 button {
+  background-color: var(--profile-gradient-primary-color);
+  border-radius: 8px;
 }
 :root .overlay_c0bea0 {
   background-color: var(--background-secondary-alt);
