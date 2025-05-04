@@ -19,4 +19,17 @@
   .headerV2__50a54 {
     background-color: var(--background-secondary-alt);
   }
+
+  // Toggles
+  .container__87bf1 {
+    background-color: color-mix(
+      in srgb,
+      var(--background-primary),
+      white 10%
+    ) !important;
+
+    &.checked__87bf1 {
+      background-color: var(--background-accent) !important;
+    }
+  }
 }

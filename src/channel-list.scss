@@ -51,4 +51,53 @@
   .mentionsBar__7aaec {
     background-color: var(--mention-color);
   }
+
+  // home page selectors
+  .interactive__972a0 {
+    &:hover {
+      background-color: color-mix(
+        in srgb,
+        var(--background-secondary),
+        white 5%
+      );
+    }
+
+    &.interactiveSelected__972a0 {
+      background: none;
+      background-color: var(--background-tertiary);
+
+      &:hover {
+        background-color: color-mix(
+          in srgb,
+          var(--background-tertiary),
+          white 10%
+        );
+      }
+    }
+  }
+
+  // DM list search bar
+  .searchBar__35e86 .button__201d5 {
+    background-color: var(--background-primary);
+  }
+
+  // channel
+  .containerDefault_c69b6d {
+    // VC user limits
+    .wrapper__260e1 {
+      background-color: var(--background-primary);
+
+      .users__260e1 {
+        background-color: var(--background-secondary-alt);
+      }
+
+      .total__260e1 {
+        background-color: var(--background-primary);
+      }
+
+      .total__260e1:after {
+        border-right-color: var(--background-primary);
+      }
+    }
+  }
 }
