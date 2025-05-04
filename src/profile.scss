@@ -4,17 +4,35 @@
     display: none;
   }
 
-  .inner_c0bea0 {
-    background-color: var(--background-primary);
-  }
+  // profile
+  .outer_c0bea0 {
+    overflow: visible;
 
-  .inner_ab8609, //add status
+    .inner_c0bea0 {
+      background-color: var(--background-primary);
+    }
+
+    .inner_ab8609, //add status
   .outer_ab8609 //add status bubbles
-  {
-    background-color: var(--background-secondary);
+    {
+      background-color: var(--background-secondary);
+    }
+
+    // actions
+    .wrapper_da5890 {
+      top: -16px;
+      margin: 1px 6px;
+      transform: scale(0.9);
+      right: 6px;
+
+      button {
+        background-color: var(--profile-gradient-primary-color);
+        border-radius: 8px;
+      }
+    }
   }
 
-  // activity
+  // sections
   .overlay_c0bea0 {
     background-color: var(--background-secondary-alt);
   }
