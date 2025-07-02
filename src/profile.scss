@@ -13,7 +13,7 @@
     }
 
     .inner_ab8609, //add status
-  .outer_ab8609 //add status bubbles
+    .outer_ab8609 //add status bubbles
     {
       background-color: var(--background-secondary);
     }
@@ -28,6 +28,35 @@
       button {
         background-color: var(--profile-gradient-primary-color);
         border-radius: 8px;
+      }
+    }
+
+    .body__5be3e, //member body
+    .body__24502 // full body
+    {
+      background-color: var(--background-tertiary);
+      margin: 0 6px;
+      border-radius: 14px;
+      overflow: visible !important; //BUG cant scroll
+      position: static;
+
+      // username, badges, etc
+      .container__63ed3 {
+        position: absolute;
+        top: 20px;
+        left: 115px;
+        max-width: 180px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        display: block;
+
+        .usernameRow__63ed3 h1 {
+          color: var(--header-primary);
+        }
+      }
+      .container_d1d9f3 {
+        overflow: auto;
       }
     }
   }

@@ -1,0 +1,29 @@
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1.75);
+    opacity: 0;
+  }
+}
+
+@keyframes activity-wave-foreground {
+  0% {
+    -webkit-mask-position-x: 0;
+  }
+  100% {
+    -webkit-mask-position-x: 284px;
+  }
+}
+
+@keyframes activity-wave-background {
+  0% {
+    -webkit-mask-position-x: 284px;
+  }
+  100% {
+    -webkit-mask-position-x: 0;
+  }
+}
