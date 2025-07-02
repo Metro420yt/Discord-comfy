@@ -1,13 +1,27 @@
 $serverListWidth: 72px;
 
 :root {
+  --button-count: 3;
+  //height*count + bottom padding
+  --buttons-height: calc(
+    (32px * var(--button-count)) +
+      (var(--user-buttons-spacing) * var(--button-count))
+  );
+
+  &:has(.container__37e49 .buttons__37e49 button:nth-child(4)) {
+    --button-count: 4;
+  }
+
   .guilds_c48ade {
     background-color: var(--background-tertiary);
+    // user-buttons-spacing * button-count
+    margin-bottom: var(--buttons-height);
 
     .listItem__650eb {
       .icon__6e9f8, // server icon
       .folderPreviewWrapper__48112, // folders
-      .childWrapper__6e9f8 // home button
+      .childWrapper__6e9f8, // home button
+      .circleIconButton__5bc7e  // discover & add server
       {
         border-radius: var(--server-radius);
       }
@@ -20,9 +34,12 @@ $serverListWidth: 72px;
 
   // user area buttons
   .buttons__37e49 {
+    z-index: 2;
     position: fixed;
+    background: linear-gradient(transparent, var(--background-tertiary) 15%);
+    padding: 20px 0 10px 0;
+
     width: $serverListWidth;
-    background: var(--background-tertiary);
 
     display: flex;
     flex-direction: column;
