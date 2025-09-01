@@ -1,4 +1,3 @@
-@import "https://metro420yt.github.io/misc/discordRefreshWarning.css";
 .theme-darker,
 .theme-dark,
 .visual-refresh .theme-darker,
@@ -571,21 +570,35 @@
   background-color: var(--background-secondary-alt);
 }
 
+:root {
+  --button-count: 3;
+  --buttons-height: calc(
+    (32px * var(--button-count)) +
+      (var(--user-buttons-spacing) * var(--button-count))
+  );
+}
+:root:has(.container__37e49 .buttons__37e49 button:nth-child(4)) {
+  --button-count: 4;
+}
 :root .guilds_c48ade {
   background-color: var(--background-tertiary);
+  margin-bottom: var(--buttons-height);
 }
 :root .guilds_c48ade .listItem__650eb .icon__6e9f8,
 :root .guilds_c48ade .listItem__650eb .folderPreviewWrapper__48112,
-:root .guilds_c48ade .listItem__650eb .childWrapper__6e9f8 {
+:root .guilds_c48ade .listItem__650eb .childWrapper__6e9f8,
+:root .guilds_c48ade .listItem__650eb .circleIconButton__5bc7e {
   border-radius: var(--server-radius);
 }
 :root .guilds_c48ade .listItem__650eb .folderPreview__48112 .icon_f34534 {
   border-radius: var(--server-radius) !important;
 }
 :root .buttons__37e49 {
+  z-index: 2;
   position: fixed;
+  background: linear-gradient(transparent, var(--background-tertiary) 15%);
+  padding: 20px 0 10px 0;
   width: 72px;
-  background: var(--background-tertiary);
   display: flex;
   flex-direction: column;
   left: 0;
@@ -682,8 +695,4 @@
   width: 200px;
   height: 200px;
   background: url("https://comfy-themes.github.io/Discord/assets/bonfire.gif") center/80% no-repeat;
-}
-
-:root {
-  --visRefresh-text: "[Comfy] Work In Progress";
 }
