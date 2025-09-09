@@ -638,10 +638,10 @@
 :root .headerV2__50a54 {
   background-color: var(--background-secondary-alt);
 }
-:root .container__87bf1 {
+:root .container__6f89e {
   background-color: color-mix(in srgb, var(--background-primary), white 10%) !important;
 }
-:root .container__87bf1.checked__87bf1 {
+:root .container__6f89e.checked__6f89e {
   background-color: var(--background-accent) !important;
 }
 
