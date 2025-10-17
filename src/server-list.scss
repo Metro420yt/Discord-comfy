@@ -48,10 +48,21 @@ $serverListWidth: 72px;
     bottom: 0;
     gap: var(--user-buttons-spacing);
 
-    & button {
+    button:not(.buttonChevron__37e49) {
       width: 100%;
       color: var(--user-buttons-color);
       margin: 0;
+    }
+
+    button.buttonChevron__37e49 {
+      color: var(--user-buttons-color);
+      position: absolute;
+      right: 0;
+
+      &:hover {
+        background-color: var(--button-secondary-background-hover);
+        color: var(--interactive-hover);
+      }
     }
   }
 

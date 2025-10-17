@@ -1,6 +1,7 @@
 :root {
-  .contentRegionScroller__23e6b //main settings area
-  {
+  //main settings area
+  .contentRegion__23e6b,
+  .contentRegionScroller__23e6b {
     background-color: var(--background-primary);
   }
 
