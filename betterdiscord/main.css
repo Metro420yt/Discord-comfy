@@ -605,10 +605,19 @@
   bottom: 0;
   gap: var(--user-buttons-spacing);
 }
-:root .buttons__37e49 button {
+:root .buttons__37e49 button:not(.buttonChevron__37e49) {
   width: 100%;
   color: var(--user-buttons-color);
   margin: 0;
+}
+:root .buttons__37e49 button.buttonChevron__37e49 {
+  color: var(--user-buttons-color);
+  position: absolute;
+  right: 0;
+}
+:root .buttons__37e49 button.buttonChevron__37e49:hover {
+  background-color: var(--button-secondary-background-hover);
+  color: var(--interactive-hover);
 }
 :root .lowerBadge_cc5dd2 {
   z-index: 1;
@@ -622,6 +631,7 @@
   background-color: var(--mention-color);
 }
 
+:root .contentRegion__23e6b,
 :root .contentRegionScroller__23e6b {
   background-color: var(--background-primary);
 }
