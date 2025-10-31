@@ -15,7 +15,7 @@
     background-color: var(--background-primary);
 
     // skeleton
-    .wrapper_d852db,
+    .wrapper__6c798,
     .wrapper_fc8177 {
       background-color: inherit;
     }
@@ -105,7 +105,7 @@
   }
 
   // user area pfp
-  .panels_c48ade .avatarWrapper__37e49 .avatar__37e49 {
+  .panels__5e434 .avatarWrapper__37e49 .avatar__37e49 {
     display: none;
     position: absolute;
     left: calc(100% + 10px);
@@ -146,7 +146,7 @@
     .buttonSection__1405b {
       background-color: var(--background-tertiary);
     }
-    .regionSelectPopout__5621e {
+    .regionSelectPopout__8de63 {
       background-color: var(--background-secondary);
     }
   }
@@ -162,18 +162,18 @@
   }
 
   // Pinned messages
-  .messagesPopoutWrap__45690 {
+  .messagesPopoutWrap_e8b59c {
     background-color: var(--background-secondary);
 
-    .header__45690 {
+    .header_e8b59c {
       background-color: var(--background-tertiary);
     }
 
-    .footer__45690 {
+    .footer_e8b59c {
       background-color: var(--background-secondary-alt);
     }
 
-    .messageGroupWrapper__45690 {
+    .messageGroupWrapper_e8b59c {
       background-color: var(--background-primary);
     }
   }
@@ -182,7 +182,7 @@
   .popoutContainer__4ad69 {
     background-color: var(--background-secondary);
 
-    .header__45690 {
+    .header_e8b59c {
       background-color: var(--background-tertiary);
     }
   }

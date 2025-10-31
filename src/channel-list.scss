@@ -4,17 +4,17 @@
     background-color: var(--background-secondary);
   }
 
-  .sidebar_c48ade {
+  .sidebar__5e434 {
     overflow: visible; // show pfp
   }
 
   //weird bar
-  .sidebar_c48ade::after {
+  .sidebar__5e434::after {
     all: unset;
   }
 
   // user area
-  .panels_c48ade {
+  .panels__5e434 {
     z-index: 1;
     background: none;
     border: none;
@@ -77,7 +77,7 @@
   }
 
   // DM list search bar
-  .searchBar__35e86 .button__201d5 {
+  .searchBar_e6b769 .button__201d5 {
     background-color: var(--background-primary);
   }
 
