@@ -7,13 +7,13 @@ jobs:
   classUpdate:
     runs-on: ubuntu-latest
     outputs:
-      changed: ${{steps.update.outputs.totalChanges > 0}}
+      changed: ${{steps.update.outputs.changed}}
       commitSha: ${{steps.commit.outputs.commit_long_sha}}
 
     steps:
       - uses: actions/checkout@v4
       - id: update
-        uses: metro420yt/class-update@v1-rc
+        uses: metro420yt/class-update@v1
         with:
           folder: src
           ext: scss
@@ -34,7 +34,7 @@ jobs:
 
   build:
     needs: classUpdate
-    if: ${{needs.classUpdate.outputs.changed == true}}
+    if: needs.classUpdate.outputs.changed
     uses: ./.github/workflows/gh-pages.yml
     with:
       sha: ${{needs.classUpdate.outputs.commitSha}}
