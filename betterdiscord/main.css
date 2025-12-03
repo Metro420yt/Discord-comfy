@@ -163,7 +163,7 @@
 :root .chatContent_f75fb0 {
   background-color: var(--background-primary);
 }
-:root .chatContent_f75fb0 .wrapper__0d1ef,
+:root .chatContent_f75fb0 .wrapper__6c798,
 :root .chatContent_f75fb0 .wrapper_fc8177 {
   background-color: inherit;
 }
@@ -556,13 +556,13 @@
 :root .outer_c0bea0 .outer_ab8609 {
   background-color: var(--background-secondary);
 }
-:root .outer_c0bea0 .wrapper__0d1ef {
+:root .outer_c0bea0 .wrapper__6c798 {
   top: -16px;
   margin: 1px 6px;
   transform: scale(0.9);
   right: 6px;
 }
-:root .outer_c0bea0 .wrapper__0d1ef button {
+:root .outer_c0bea0 .wrapper__6c798 button {
   background-color: var(--profile-gradient-primary-color);
   border-radius: 8px;
 }
