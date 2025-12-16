@@ -1,45 +1,45 @@
 :root {
   // community
-  .chat_f75fb0 //main pages
+  .f75fb00fb7356cbe-chat //main pages
   {
     background-color: var(--background-primary) !important;
 
     //Channels & Roles / Server Guide + Browse Channels
-    .content_f75fb0,
-    .pageBody__41ed7 {
+    .f75fb00fb7356cbe-content,
+    ._41ed70e52483df6d-pageBody {
       background-color: var(--background-primary) !important;
 
-      .mainTableContainer__09a38 {
+      ._09a38002c6c2466d-mainTableContainer {
         background-color: var(--background-secondary) !important;
       }
 
       // Choose Your Channels
-      .container_bc0d35 {
+      .bc0d3515e6cb489a-container {
         background-color: var(--background-secondary);
       }
     }
 
     // Header of Channels & Roles
-    .header__0b563 {
+    ._0b56311ebc6682e2-header {
       background-color: var(--background-secondary) !important;
     }
   }
 
-  .prompt__5d7c9, //Customize prompts
-  .channelRow_e4503a, //Channels in browse channels
-  .row_d13feb // Resources
+  ._5d7c9a81ac5dd074-prompt, //Customize prompts
+  .e4503acec53c64dd-channelRow, //Channels in browse channels
+  .d13feb942bc5e7c6-row // Resources
   {
     background-color: var(--background-secondary);
   }
 
   // Mod view
 
-  .container__3a5a1 {
+  ._3a5a1cbdfaf1e8ec-container {
     background-color: var(--background-primary);
 
-    .innerContainer__3a5a1 {
+    ._3a5a1cbdfaf1e8ec-innerContainer {
       // Join Method invite code
-      .inviteContainer__23437 {
+      ._234375a3f05ff5ba-inviteContainer {
         background-color: var(--background-secondary-alt);
       }
     }

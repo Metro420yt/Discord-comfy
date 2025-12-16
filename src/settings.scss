@@ -1,35 +1,35 @@
 :root {
   //main settings area
-  .contentRegion__23e6b,
-  .contentRegionScroller__23e6b {
+  ._23e6b439306f125a-contentRegion,
+  ._23e6b439306f125a-contentRegionScroller {
     background-color: var(--background-primary);
   }
 
-  .sidebarRegionScroller__23e6b, //sidebar
-  .cardPrimary__73069, //Account standing
+  ._23e6b439306f125a-sidebarRegionScroller, //sidebar
+  ._730694f5672c9601-cardPrimary, //Account standing
   .vc-addon-card, //vencord plugins
-  .box_f8c98c, //family centre
-  .authedAppV2__50a54, //authorized apps
+  .f8c98cc3d7c1bc42-box, //family centre
+  ._50a5493e9d9cc496-authedAppV2, //authorized apps
   .connectContainer_c7f964, // connections page header
-  .connection_c7f964 //individual apps
+  .c7f964e7e0fc8b47-connection //individual apps
   {
     background-color: var(--background-secondary);
   }
 
-  .connectionHeader_c7f964, //connections header
-  .headerV2__50a54 {
+  .c7f964e7e0fc8b47-connectionHeader, //connections header
+  ._50a5493e9d9cc496-headerV2 {
     background-color: var(--background-secondary-alt);
   }
 
   // Toggles
-  .container__3f21e {
+  ._3f21e80f8677ec40-container {
     background-color: color-mix(
       in srgb,
       var(--background-primary),
       white 10%
     ) !important;
 
-    &.checked__3f21e {
+    &._3f21e80f8677ec40-checked {
       background-color: var(--background-accent) !important;
     }
   }

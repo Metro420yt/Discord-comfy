@@ -1,19 +1,19 @@
 :root {
-  .avatar__44b0c, // dm/chatbar/member
-  .avatar_c19a55, // messages
-  .avatar__07f91, // channel list vc
-  .avatar_d28e10, //settings
-  .overlay__75742:after, //hover overlay
-  .voiceAvatar_f910d0, // call
-  .border_f910d0, // call (speaking)
+  ._44b0c28be7879b7b-avatar, // dm/chatbar/member
+  .c19a557985eb7793-avatar, // messages
+  ._07f9193042954787-avatar, // channel list vc
+  .d28e107656edce18-avatar, //settings
+  ._75742e4cc9019aeb-overlay:after, //hover overlay
+  .f910d08f42c82225-voiceAvatar, // call
+  .f910d08f42c82225-border, // call (speaking)
   .avatarSpeaking__44b0c // chatbar pfp (speaking)
   {
     border-radius: var(--avatar-radius);
   }
 
-  .mask__44b0c,
-  .wrapper_cc5dd2, // dm call
-  .callAvatarMask_f910d0 {
+  ._44b0c28be7879b7b-mask,
+  .cc5dd25190031396-wrapper, // dm call
+  .f910d08f42c82225-callAvatarMask {
     foreignObject {
       mask: unset;
     }
@@ -22,27 +22,27 @@
   //TODO status icons
 
   //modals
-  .horizontalReverse__7c0ba, //leave server bottom
-  .option__66e7e, //server feedback buttons
-  .footer__6c12c //feedback footer
+  ._7c0bae9243151ddd-horizontalReverse, //leave server bottom
+  ._66e7e7f9b4da60b0-option, //server feedback buttons
+  ._6c12c295172334d8-footer //feedback footer
   {
     background-color: var(--background-secondary);
   }
 
   //Tooltips
-  .tooltip_c36707 {
+  .c36707910f687430-tooltip {
     background-color: var(--background-secondary-alt);
   }
 
   //Topbar + weird corner of main area
-  .title_c38106,
-  .sidebar__5e434 {
+  .c38106a3f0c3ca76-title,
+  ._5e434347c823b592-sidebar {
     background-color: var(--background-tertiary);
   }
 
   // Streaming bar + vc status + spotify player
-  .panel__5dec7,
-  .wrapper_e131a9,
+  ._5dec784a68542d60-panel,
+  .e131a99484292a19-wrapper,
   #vc-spotify-player {
     background-color: var(--background-secondary-alt);
   }
@@ -53,13 +53,13 @@
   }
 
   // mentions badge
-  .numberBadge__2b1f5 {
+  ._2b1f52e43a8f1c02-numberBadge {
     background-color: var(--mention-color) !important;
     // animation: var(--disable-animations);
   }
 
   // text
-  .barText__7aaec {
+  ._7aaec78b97ff00f7-barText {
     color: white !important;
   }
 }

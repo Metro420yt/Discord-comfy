@@ -1,20 +1,20 @@
 :root {
   // main list
-  .container__2637a {
+  ._2637a2609f343032-container {
     background-color: var(--background-secondary);
   }
 
-  .sidebar__5e434 {
+  ._5e434347c823b592-sidebar {
     overflow: visible; // show pfp
   }
 
   //weird bar
-  .sidebar__5e434::after {
+  ._5e434347c823b592-sidebar::after {
     all: unset;
   }
 
   // user area
-  .panels__5e434 {
+  ._5e434347c823b592-panels {
     z-index: 1;
     background: none;
     border: none;
@@ -24,36 +24,36 @@
     margin-left: 72px;
     background-color: var(--background-secondary);
 
-    .container__37e49 {
+    ._37e49614b9f110a9-container {
       all: unset;
 
-      .nameTag__37e49 {
+      ._37e49614b9f110a9-nameTag {
         display: none;
       }
     }
   }
 
   //announcement channel "follow this channel"
-  .wrapper__44df5 {
+  ._44df51b030bd5ece-wrapper {
     background-color: var(--background-secondary);
   }
 
   // forum hover
   .popout_8514,
-  .popout__76f04 {
+  ._76f047ded9fef6d4-popout {
     background-color: var(--background-secondary-alt);
   }
 
   // New unreads
-  .bar__7aaec {
+  ._7aaec78b97ff00f7-bar {
     background-color: var(--unread-color);
   }
-  .mentionsBar__7aaec {
+  ._7aaec78b97ff00f7-mentionsBar {
     background-color: var(--mention-color);
   }
 
   // home page selectors
-  .interactive__972a0 {
+  ._972a0d22c8afa7f0-interactive {
     &:hover {
       background-color: color-mix(
         in srgb,
@@ -62,7 +62,7 @@
       );
     }
 
-    &.interactiveSelected__972a0 {
+    &._972a0d22c8afa7f0-interactiveSelected {
       background: none;
       background-color: var(--background-tertiary);
 
@@ -77,25 +77,25 @@
   }
 
   // DM list search bar
-  .searchBar_e6b769 .button__201d5 {
+  .e6b7699ce8339e1c-searchBar ._201d5e8a3c09670a-button {
     background-color: var(--background-primary);
   }
 
   // channel
-  .containerDefault_c69b6d {
+  .c69b6db0641110f6-containerDefault {
     // VC user limits
-    .wrapper__260e1 {
+    ._260e1982cd52c5c3-wrapper {
       background-color: var(--background-primary);
 
-      .users__260e1 {
+      ._260e1982cd52c5c3-users {
         background-color: var(--background-secondary-alt);
       }
 
-      .total__260e1 {
+      ._260e1982cd52c5c3-total {
         background-color: var(--background-primary);
       }
 
-      .total__260e1:after {
+      ._260e1982cd52c5c3-total:after {
         border-right-color: var(--background-primary);
       }
     }

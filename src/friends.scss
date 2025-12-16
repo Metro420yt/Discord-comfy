@@ -1,24 +1,24 @@
 :root {
   // main section
-  .tabBody__133bf {
+  ._133bf5eea8e33a34-tabBody {
     background-color: var(--background-primary);
   }
 
   // active (left) section
-  .container__7d20c {
+  ._7d20cf18f8a2784c-container {
     background-color: var(--background-secondary);
   }
 
   // dms
-  .privateChannels_e6b769 {
+  .e6b7699ce8339e1c-privateChannels {
     background-color: var(--background-secondary);
   }
-  .scroller__99e7c {
+  ._99e7cad8d4c55236-scroller {
     background-color: inherit;
   }
 
   // active now (right) section
-  .itemCard__7e549 {
+  ._7e549558f336cddb-itemCard {
     background-color: var(--background-secondary-alt);
 
     &:hover {
@@ -26,7 +26,7 @@
     }
 
     // Inner container
-    .section__00943 {
+    ._00943886e1cf89d1-section {
       background-color: var(--background-primary);
     }
   }

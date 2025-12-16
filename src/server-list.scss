@@ -8,32 +8,32 @@ $serverListWidth: 72px;
       (var(--user-buttons-spacing) * var(--button-count))
   );
 
-  &:has(.container__37e49 .buttons__37e49 button:nth-child(4)) {
+  &:has(._37e49614b9f110a9-container ._37e49614b9f110a9-buttons button:nth-child(4)) {
     --button-count: 4;
   }
 
-  .guilds__5e434 {
+  ._5e434347c823b592-guilds {
     background-color: var(--background-tertiary);
     // user-buttons-spacing * button-count
     margin-bottom: var(--buttons-height);
 
-    .listItem__650eb {
-      .icon__6e9f8, // server icon
-      .folderPreviewWrapper__48112, // folders
-      .childWrapper__6e9f8, // home button
-      .circleIconButton__5bc7e  // discover & add server
+    ._650eb104245d257b-listItem {
+      ._6e9f8dce4cc18de3-icon, // server icon
+      ._48112cbe77dc5022-folderPreviewWrapper, // folders
+      ._6e9f8dce4cc18de3-childWrapper, // home button
+      ._5bc7ed9d4097f6b5-circleIconButton  // discover & add server
       {
         border-radius: var(--server-radius);
       }
 
-      .folderPreview__48112 .icon_f34534 {
+      ._48112cbe77dc5022-folderPreview .f34534e8a5d3ca64-icon {
         border-radius: var(--server-radius) !important;
       }
     }
   }
 
   // user area buttons
-  .buttons__37e49 {
+  ._37e49614b9f110a9-buttons {
     z-index: 2;
     position: fixed;
     background: linear-gradient(transparent, var(--background-tertiary) 15%);
@@ -48,13 +48,13 @@ $serverListWidth: 72px;
     bottom: 0;
     gap: var(--user-buttons-spacing);
 
-    button:not(.buttonChevron__37e49) {
+    button:not(._37e49614b9f110a9-buttonChevron) {
       width: 100%;
       color: var(--user-buttons-color);
       margin: 0;
     }
 
-    button.buttonChevron__37e49 {
+    button._37e49614b9f110a9-buttonChevron {
       color: var(--user-buttons-color);
       position: absolute;
       right: 0;
@@ -67,15 +67,15 @@ $serverListWidth: 72px;
   }
 
   // unread pill
-  .lowerBadge_cc5dd2 {
+  .cc5dd25190031396-lowerBadge {
     z-index: 1;
   }
   // unread
-  .unreadMentionsIndicatorBottom_ef3116 {
+  .ef3116c2da186559-unreadMentionsIndicatorBottom {
     width: $serverListWidth;
     padding: 0;
 
-    .bar__3b95d {
+    ._3b95d7d910416e54-bar {
       width: inherit;
       background-color: var(--mention-color);
     }

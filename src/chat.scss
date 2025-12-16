@@ -1,66 +1,66 @@
 :root {
   // title bar
-  .title_f75fb0,
-  .header_c791b2,
-  .container__9293f {
+  .f75fb00fb7356cbe-title,
+  .c791b281f2fedc32-header,
+  ._9293f6b2fc12398a-container {
     background-color: var(--background-secondary);
 
-    .children__9293f::after {
+    ._9293f6b2fc12398a-children::after {
       content: none;
     }
   }
 
   // chat section
-  .chatContent_f75fb0 {
+  .f75fb00fb7356cbe-chatContent {
     background-color: var(--background-primary);
 
     // skeleton
-    .wrapper__4106a,
-    .wrapper_fc8177 {
+    ._0d1eff984b8fd277-wrapper,
+    .fc817765600a960a-wrapper {
       background-color: inherit;
     }
 
     // message area
-    .form_f75fb0 {
+    .f75fb00fb7356cbe-form {
       z-index: 2;
       width: calc(100% - 66px);
       margin-left: auto;
 
       // bar
-      .channelTextArea_f75fb0, // weird background thing
-      .scrollableContainer__74017,
-      .stackedBars__74017,
-      .channelAttachmentArea_b77158 {
+      .f75fb00fb7356cbe-channelTextArea, // weird background thing
+      ._740174f3d6a2c8fe-scrollableContainer,
+      ._740174f3d6a2c8fe-stackedBars,
+      .b77158512e0ab116-channelAttachmentArea {
         //reply bar
         background-color: var(--background-secondary-alt);
       }
 
-      .upload_aa605f,
-      .spoilerInnerContainer__299eb {
+      .aa605f19898fe32e-upload,
+      ._299eb87491f4b6d1-spoilerInnerContainer {
         background-color: var(--background-primary);
       }
 
       // chatbar buttons
-      .buttons__74017,
-      .attachButtonInner__0923f {
+      ._740174f3d6a2c8fe-buttons,
+      ._0923f156a0410684-attachButtonInner {
         svg {
           color: var(--chat-buttons);
         }
       }
     }
     // quick action buttons
-    .wrapper_f7ecac {
+    .f7ecaca5c80dbf3a-wrapper {
       background-color: var(--background-secondary);
     }
 
     // autocomplete
-    .categoryHeader_d1405b,
-    .autocompleteInner__13533 {
+    .d1405bf11dcfb07a-categoryHeader,
+    ._13533e3c5791980f-autocompleteInner {
       background-color: var(--background-secondary);
     }
 
     // role chips
-    .role_b4b2c3 {
+    .b4b2c318c99fc487-role {
       background-color: color-mix(
         in srgb,
         var(--custom-role-label-color),
@@ -70,7 +70,7 @@
   }
 
   // unread
-  .newMessagesBar__0f481 {
+  ._0f481cbbd7530492-newMessagesBar {
     background-color: var(--unread-color);
   }
 
@@ -80,32 +80,32 @@
   }
 
   // fourm
-  .container_f369db {
+  .f369dba7416c67f0-container {
     background-color: var(--background-primary);
 
     // create post
-    .headerRow_f369db .header_f369db {
+    .f369dba7416c67f0-headerRow .f369dba7416c67f0-header {
       background-color: var(--background-secondary-alt);
     }
 
     // card
-    .card_f369db .container_faa96b {
+    .f369dba7416c67f0-card .faa96b2163f6a142-container {
       background-color: var(--background-secondary);
     }
   }
 
   //Forum post response bar
-  .container__34c2c {
+  ._34c2c51cfce1632e-container {
     background-color: var(--background-secondary);
   }
 
   //Forum resize handle
-  .resizeHandle__01ae2 {
+  ._01ae244280823725-resizeHandle {
     background-color: var(--background-secondary-alt);
   }
 
   // user area pfp
-  .panels__5e434 .avatarWrapper__37e49 .avatar__37e49 {
+  ._5e434347c823b592-panels ._37e49614b9f110a9-avatarWrapper ._37e49614b9f110a9-avatar {
     display: none;
     position: absolute;
     left: calc(100% + 10px);
@@ -116,34 +116,34 @@
   }
 
   // edit message
-  .scrollableContainer__74017 {
+  ._740174f3d6a2c8fe-scrollableContainer {
     background-color: var(--background-secondary);
   }
 
   // hide pfp unless text box
-  :has(.form_f75fb0) .avatarWrapper__37e49 .avatar__37e49 {
+  :has(.f75fb00fb7356cbe-form) ._37e49614b9f110a9-avatarWrapper ._37e49614b9f110a9-avatar {
     display: block;
   }
 
   // Invite
-  .wrapper_d5f3cd {
+  .d5f3cd116f175f35-wrapper {
     background-color: var(--background-secondary);
   }
 
   // Embeds
-  .embed__623de {
+  ._623de82e76ad7f82-embed {
     background-color: var(--background-secondary);
     border-left-color: var(--background-secondary-alt);
   }
 
   //Right click menu
-  .menu_c1e9c4 {
+  .c1e9c47c23f12ca3-menu {
     background-color: var(--background-secondary);
   }
 
   //vc
-  .callContainer_cb9592 {
-    .buttonSection__1405b {
+  .cb9592ad77576717-callContainer {
+    ._1405b3b8e8eb5fd0-buttonSection {
       background-color: var(--background-tertiary);
     }
     .regionSelectPopout__8de63 {
@@ -152,51 +152,51 @@
   }
 
   //emoji info
-  .popoutContainer__0f481 {
+  ._0f481cbbd7530492-popoutContainer {
     background-color: var(--background-secondary-alt);
   }
 
   //integrations
-  .card_dc2e44.card__73069 {
+  .dc2e447a66129ac2-card._730694f5672c9601-card {
     background-color: var(--background-secondary);
   }
 
   // Pinned messages
-  .messagesPopoutWrap_e8b59c {
+  .e8b59c4b335dd2fc-messagesPopoutWrap {
     background-color: var(--background-secondary);
 
-    .header_e8b59c {
+    .e8b59c4b335dd2fc-header {
       background-color: var(--background-tertiary);
     }
 
-    .footer_e8b59c {
+    .e8b59c4b335dd2fc-footer {
       background-color: var(--background-secondary-alt);
     }
 
-    .messageGroupWrapper_e8b59c {
+    .e8b59c4b335dd2fc-messageGroupWrapper {
       background-color: var(--background-primary);
     }
   }
 
   // bookmarks
-  .popoutContainer__4ad69 {
+  ._4ad6936dd30096b3-popoutContainer {
     background-color: var(--background-secondary);
 
-    .header_e8b59c {
+    .e8b59c4b335dd2fc-header {
       background-color: var(--background-tertiary);
     }
   }
 
   // Threads
-  .container_d9c882 {
+  .d9c8822889d1d4a1-container {
     background-color: var(--background-secondary);
 
-    .header_d9c882 {
+    .d9c8822889d1d4a1-header {
       background-color: var(--background-tertiary);
     }
 
     // Thread
-    .container__6764b {
+    ._6764bd76e0340219-container {
       background-color: var(--background-primary);
     }
   }
@@ -205,33 +205,33 @@
   #emoji-picker-tab-panel {
     background-color: var(--background-primary);
 
-    .header_c0e32c {
+    .c0e32c5cffed3d9f-header {
       background-color: var(--background-secondary-alt);
     }
 
-    .emojiPicker_c0e32c {
+    .c0e32c5cffed3d9f-emojiPicker {
       background-color: var(--background-primary);
 
-      .header_c656ac {
+      .c656aca9a3db31a9-header {
         background-color: var(--background-primary);
       }
 
-      .inspector_c0e32c {
+      .c0e32c5cffed3d9f-inspector {
         background-color: var(--background-secondary-alt);
       }
     }
 
-    .categoryList_c0e32c {
+    .c0e32c5cffed3d9f-categoryList {
       background-color: var(--background-secondary-alt);
     }
   }
 
-  .jumpToPresentBar__0f481 {
+  ._0f481cbbd7530492-jumpToPresentBar {
     background-color: var(--background-secondary-alt);
   }
 
   // mention message
-  .mentioned__5126c {
+  ._5126c0cd07f243a0-mentioned {
     background-color: var(
       --mention-color-background,
       color-mix(in srgb, var(--mention-color), var(--background-primary) 90%)
@@ -250,26 +250,26 @@
   }
 
   // application launcher
-  .contentWrapper__9c62c {
+  ._9c62c6ed231468c4-contentWrapper {
     background-color: var(--background-secondary);
 
-    .container_cb32c7,
-    .clickable__761e5 {
+    .cb32c78a53f54371-container,
+    ._761e57435cf1c50a-clickable {
       background-color: var(--background-secondary-alt);
     }
   }
 
   // TODO: check classes
   // Search bar
-  .search__49676 {
+  ._496769951eb140fe-search {
     order: 1;
     margin-left: 4px;
-    .searchBar__97492 {
+    ._974928fe84ca9647-searchBar {
       border: none;
     }
 
-    .search__97492:not(.open__97492) {
-      .searchBar__97492 {
+    ._974928fe84ca9647-search:not(._974928fe84ca9647-open) {
+      ._974928fe84ca9647-searchBar {
         width: 27px;
         transition: 250ms;
         background-color: transparent;
@@ -284,7 +284,7 @@
         }
       }
 
-      &:hover .searchBar__97492 {
+      &:hover ._974928fe84ca9647-searchBar {
         width: 220px;
         background-color: var(--background-tertiary);
 
@@ -300,16 +300,16 @@
   }
 
   // Search results
-  .searchResultsWrap_a9e706 {
+  .a9e7064fdee8e9b0-searchResultsWrap {
     background-color: var(--background-secondary);
 
-    .searchResult__02a39 {
+    ._02a39cb2980ceaaf-searchResult {
       background-color: var(--background-primary);
     }
   }
 
   // Chat messages Divider (Dates etc)
-  .content__908e2 {
+  ._908e20001ad67812-content {
     background-color: var(--background-primary);
   }
 }
