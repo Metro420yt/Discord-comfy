@@ -322,35 +322,35 @@
   order: 1;
   margin-left: 4px;
 }
-:root ._496769951eb140fe-search ._974928fe84ca9647-searchBar {
+:root ._496769951eb140fe-search .c322aadb96ff59c9-searchBar {
   border: none;
 }
-:root ._496769951eb140fe-search ._974928fe84ca9647-search:not(._974928fe84ca9647-open) ._974928fe84ca9647-searchBar {
+:root ._496769951eb140fe-search .c322aadb96ff59c9-search:not(.c322aadb96ff59c9-open) .c322aadb96ff59c9-searchBar {
   width: 27px;
   transition: 250ms;
   background-color: transparent;
 }
-:root ._496769951eb140fe-search ._974928fe84ca9647-search:not(._974928fe84ca9647-open) ._974928fe84ca9647-searchBar .iconContainer_fea832 {
+:root ._496769951eb140fe-search .c322aadb96ff59c9-search:not(.c322aadb96ff59c9-open) .c322aadb96ff59c9-searchBar .iconContainer_fea832 {
   transform: scale(1.3);
   transition: 250ms;
 }
-:root ._496769951eb140fe-search ._974928fe84ca9647-search:not(._974928fe84ca9647-open) ._974928fe84ca9647-searchBar .iconContainer_fea832 .icon_fea832 {
+:root ._496769951eb140fe-search .c322aadb96ff59c9-search:not(.c322aadb96ff59c9-open) .c322aadb96ff59c9-searchBar .iconContainer_fea832 .icon_fea832 {
   color: var(--interactive-normal);
 }
-:root ._496769951eb140fe-search ._974928fe84ca9647-search:not(._974928fe84ca9647-open):hover ._974928fe84ca9647-searchBar {
+:root ._496769951eb140fe-search .c322aadb96ff59c9-search:not(.c322aadb96ff59c9-open):hover .c322aadb96ff59c9-searchBar {
   width: 220px;
   background-color: var(--background-tertiary);
 }
-:root ._496769951eb140fe-search ._974928fe84ca9647-search:not(._974928fe84ca9647-open):hover ._974928fe84ca9647-searchBar .iconContainer_fea832 {
+:root ._496769951eb140fe-search .c322aadb96ff59c9-search:not(.c322aadb96ff59c9-open):hover .c322aadb96ff59c9-searchBar .iconContainer_fea832 {
   transform: scale(1);
 }
-:root ._496769951eb140fe-search ._974928fe84ca9647-search:not(._974928fe84ca9647-open):hover ._974928fe84ca9647-searchBar .iconContainer_fea832 .icon_fea832 {
+:root ._496769951eb140fe-search .c322aadb96ff59c9-search:not(.c322aadb96ff59c9-open):hover .c322aadb96ff59c9-searchBar .iconContainer_fea832 .icon_fea832 {
   color: var(--text-muted);
 }
-:root .a9e7064fdee8e9b0-searchResultsWrap {
+:root .a98f3b020416ad54-searchResultsWrap {
   background-color: var(--background-secondary);
 }
-:root .a9e7064fdee8e9b0-searchResultsWrap ._02a39cb2980ceaaf-searchResult {
+:root .a98f3b020416ad54-searchResultsWrap ._80bf8435713f6adb-searchResult {
   background-color: var(--background-primary);
 }
 :root ._908e20001ad67812-content {
