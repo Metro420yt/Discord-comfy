@@ -79,7 +79,7 @@
 :root .vc-notification-root {
   background-color: var(--background-secondary);
 }
-:root .numberBadge__2b1f5 {
+:root .numberBadge__463b7 {
   background-color: var(--mention-color) !important;
 }
 :root .barText__7aaec {
@@ -251,7 +251,7 @@
 :root .popoutContainer__0f481 {
   background-color: var(--background-secondary-alt);
 }
-:root .card_dc2e44.card__73069 {
+:root .card_dc2e44.card_b5dd01 {
   background-color: var(--background-secondary);
 }
 :root .messagesPopoutWrap_e8b59c {
@@ -636,7 +636,7 @@
   background-color: var(--background-primary);
 }
 :root .sidebarRegionScroller__23e6b,
-:root .cardPrimary__73069,
+:root .cardPrimary_b5dd01,
 :root .vc-addon-card,
 :root .box_f8c98c,
 :root .authedAppV2__92059,
